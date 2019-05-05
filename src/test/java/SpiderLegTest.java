@@ -3,6 +3,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import junitparams.Parameters;
 
+import java.util.LinkedList;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -13,6 +15,12 @@ public class SpiderLegTest {
     //TODO SpiderLeg constructor
     //1.Instantiate a new linked list
     //2.Set variable for the user agent
+
+    @Test
+    public void assertIfTheTypeInstancedIsLinkedList(){
+        SpiderLeg leg = new SpiderLeg();
+        assertTrue( leg.urls instanceof LinkedList<String>);
+    }
 
     //TODO searchForWord() method:
     //1.Accept a word parameter as String
