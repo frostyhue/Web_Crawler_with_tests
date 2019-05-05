@@ -38,4 +38,14 @@ public class SpiderLegTest {
     //4.If document is empty return false
     //5.Retrieve all of the links on the webpage
     //6.Add each link to a list
+    @Test
+    public void testCrawlMethod()
+    {
+        //arrange
+        SpiderLeg leg = new SpiderLeg();
+        //act
+        String url = "https://www.google.com";
+        //assert
+        assertEquals(true, leg.crawl(url));
+    }
 }
