@@ -12,5 +12,26 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // This dependency is found on compile classpath of this component and consumers.
+    implementation 'com.google.guava:guava:26.0-jre'
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+
+    compile 'org.hamcrest:hamcrest-core:2.1-rc3'
+
+
+    // https://mvnrepository.com/artifact/org.jsoup/jsoup
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
+
+    // https://mvnrepository.com/artifact/org.mockito/mockito-all
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '2.0.2-beta'
+
+    testCompile 'pl.pragmatists:JUnitParams:1.1.1'
+
+
+    testCompile 'pl.pragmatists:JUnitParams:1.1.1'
+
+    // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
 }
