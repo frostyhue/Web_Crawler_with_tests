@@ -19,7 +19,7 @@ public class SpiderLegTest {
     @Test
     public void assertIfTheTypeInstancedIsLinkedList(){
         SpiderLeg leg = new SpiderLeg();
-        assertTrue( leg.urls instanceof LinkedList<String>);
+        assertTrue( leg.urls.isEmpty());
     }
 
     //TODO searchForWord() method:
