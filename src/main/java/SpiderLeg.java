@@ -1,9 +1,13 @@
 import java.util.LinkedList;
 
 public class SpiderLeg {
-    public LinkedList<String> urls;
+    private LinkedList<String> urls;
 
     SpiderLeg(){
         urls = new LinkedList<String>();
+    }
+
+    public LinkedList<String> getUrls() {
+        return urls;
     }
 }

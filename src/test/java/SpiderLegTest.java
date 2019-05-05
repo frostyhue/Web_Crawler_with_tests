@@ -13,13 +13,13 @@ The test class for the SpiderLeg class that checks if the methods are behaving p
  */
 public class SpiderLegTest {
     //TODO SpiderLeg constructor
-    //1.Instantiate a new linked list
+    //1.Instantiate a new linked list (DONE)
     //2.Set variable for the user agent
 
     @Test
     public void assertIfTheTypeInstancedIsLinkedList(){
         SpiderLeg leg = new SpiderLeg();
-        assertTrue( leg.urls.isEmpty());
+        assertTrue( leg.getUrls().isEmpty());
     }
 
     //TODO searchForWord() method:
