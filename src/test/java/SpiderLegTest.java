@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
-The test class for the SpiderLeg class that checks if the methods are behaving properly.
+ * The test class for the SpiderLeg class that checks if the methods are behaving properly.
  */
 public class SpiderLegTest {
     //TODO SpiderLeg constructor
@@ -17,9 +17,9 @@ public class SpiderLegTest {
     //2.Set variable for the user agent
 
     @Test
-    public void assertIfTheTypeInstancedIsLinkedList(){
+    public void assertIfTheTypeInstancedIsLinkedList() {
         SpiderLeg leg = new SpiderLeg();
-        assertTrue( leg.getUrls().isEmpty());
+        assertTrue(leg.getUrls().isEmpty());
     }
 
     //TODO searchForWord() method:
@@ -39,8 +39,7 @@ public class SpiderLegTest {
     //5.Retrieve all of the links on the webpage
     //6.Add each link to a list
     @Test
-    public void testCrawlMethod()
-    {
+    public void testCrawlMethod() {
         //arrange
         SpiderLeg leg = new SpiderLeg();
         //act
