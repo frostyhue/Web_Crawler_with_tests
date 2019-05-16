@@ -48,16 +48,29 @@ public class SpiderLegTest {
                 $(amazon, "PrIme")
         );
     }
+    private static final Object[] getUrlWordFalse(){
+        String google = "https://www.google.com";
+        String w3school = "https://www.w3schools.com/";
+        String amazon = "https://www.amazon.de/";
+        return $(
+                $(google, "<html"),
+                $(google, "<style"),
+                $(google, "<script"),
+                $(w3school, "cars"),
+                $(w3school, "Fontys"),
+                $(w3school, "hard drive"),
+                $(amazon, "<html"),
+                $(amazon, "<style"),
+                $(amazon, "<script")
+        );
+    }
 
     @Test
-    public void assertSearchForWordReturnsFalseWhenWordNotFound(){
+    @Parameters(method = "getUrlWordFalse")
+    public void assertSearchForWordReturnsFalseWhenWordNotFound(String url, String word){
 
         SpiderLeg leg = new SpiderLeg();
-
-        String url = "https://www.google.com/";
         leg.crawl(url);
-        String word = "Lord of The Rings";
-
         assertFalse(leg.searchForWord(word));
     }
 
