@@ -58,6 +58,9 @@ public class SpiderLeg {
     }
 
     public boolean searchForWord(String word){
+        if(this.doc == null){
+            return false;
+        }
         String html = doc.body().text().toLowerCase();
         return html.contains(word.toLowerCase());
     }

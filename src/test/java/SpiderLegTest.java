@@ -25,7 +25,7 @@ public class SpiderLegTest {
     //1.Accept a word parameter as String (DONE)
     //2.Return the body of the HTML doc where the word was found (DONE)
     // - As lower case (DONE)
-    //3.Check if the body is empty
+    //3.Check if the body is empty (DONE)
 
     @Test
     public void assertSearchForWordReturnsFalseWhenWordNotFound(){

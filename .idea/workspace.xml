@@ -8,9 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/SpiderLeg.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/SpiderLeg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpiderLeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpiderLeg.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -61,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+            <state relative-caret-position="256">
+              <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -70,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="176">
+              <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +100,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
       </list>
     </option>
   </component>
@@ -276,7 +275,7 @@
       <workItem from="1557175269246" duration="4087000" />
       <workItem from="1557322427831" duration="1947000" />
       <workItem from="1557344373449" duration="1196000" />
-      <workItem from="1558010382538" duration="2005000" />
+      <workItem from="1558010382538" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -327,13 +326,24 @@
       <option name="project" value="LOCAL" />
       <updated>1558012406487</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="REFACTOR added .toLower() to html body for more accurate results">
+      <created>1558012551311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558012551311</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ADD searchForWord() testing if there is a check for empty doc, test fails">
+      <created>1558012712315</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558012712315</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="___and_1_more - 2019.05.05 at 21h 21m 26s.xml">
-      <configuration name=".* and 1 more" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpiderLegTest_assertIfTheTypeInstancedIsLinkedList - 2019.05.05 at 21h 23m 47s.xml">
       <configuration name="SpiderLegTest.assertIfTheTypeInstancedIsLinkedList" configurationId="JUnit" />
     </history-entry>
@@ -361,9 +371,12 @@
     <history-entry file="SpiderLegTest - 2019.05.16 at 15h 11m 54s.xml">
       <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 17m 44s.xml">
+      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19834000" />
+    <option name="totallyTimeSpent" value="20114000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -426,7 +439,9 @@
     <MESSAGE value="REFACTOR changed urls to public and added a getter, changed test to match the change" />
     <MESSAGE value="ADD test checking if the searchForWord() method is returning false when the word is not found, test fails" />
     <MESSAGE value="ADD functionality to searchForWord(), url fixed by adding https:// in front of it, test passes" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD functionality to searchForWord(), url fixed by adding https:// in front of it, test passes" />
+    <MESSAGE value="REFACTOR added .toLower() to html body for more accurate results" />
+    <MESSAGE value="ADD searchForWord() testing if there is a check for empty doc, test fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD searchForWord() testing if there is a check for empty doc, test fails" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -465,8 +480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -475,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        <state relative-caret-position="256">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
         </state>
       </provider>
     </entry>
