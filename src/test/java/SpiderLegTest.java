@@ -39,6 +39,13 @@ public class SpiderLegTest {
         assertFalse(leg.searchForWord(word));
     }
 
+    @Test
+    public void assertSearchForWordIfChecksForEmptyDoc(){
+        SpiderLeg leg = new SpiderLeg();
+        String word = "any word";
+        assertFalse(leg.searchForWord(word));
+    }
+
     //TODO getLinks() method:
     // - Returns the lists found by the searchForWord() method.
 
