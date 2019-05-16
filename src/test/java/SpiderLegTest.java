@@ -5,8 +5,7 @@ import junitparams.Parameters;
 
 import java.util.LinkedList;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 /**
  * The test class for the SpiderLeg class that checks if the methods are behaving properly.
@@ -14,7 +13,7 @@ import static org.junit.Assert.assertTrue;
 public class SpiderLegTest {
     //TODO SpiderLeg constructor
     //1.Instantiate a new linked list (DONE)
-    //2.Set variable for the user agent
+    //2.Set variable for the user agent (DONE)
 
     @Test
     public void assertIfTheTypeInstancedIsLinkedList() {
@@ -27,6 +26,18 @@ public class SpiderLegTest {
     //2.Return the body of the HTML doc where the word was found
     // - As lower case
     //3.Check if the body is empty
+
+    @Test
+    public void assertSearchForWordReturnsFalseWhenWordNotFound(){
+
+        SpiderLeg leg = new SpiderLeg();
+
+        String url = "www.google.com";
+        leg.crawl(url);
+        String word = "Lord of The Rings";
+
+        assertFalse(leg.searchForWord(word));
+    }
 
     //TODO getLinks() method:
     // - Returns the lists found by the searchForWord() method.
