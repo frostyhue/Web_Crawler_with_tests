@@ -32,7 +32,7 @@ public class SpiderLegTest {
 
         SpiderLeg leg = new SpiderLeg();
 
-        String url = "www.google.com";
+        String url = "https://www.google.com/";
         leg.crawl(url);
         String word = "Lord of The Rings";
 

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -63,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="323">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,7 +109,17 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web-crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Crawler_with_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,7 +266,7 @@
       <workItem from="1557175269246" duration="4087000" />
       <workItem from="1557322427831" duration="1947000" />
       <workItem from="1557344373449" duration="1196000" />
-      <workItem from="1558010382538" duration="1391000" />
+      <workItem from="1558010382538" duration="1691000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -296,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557083533518</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ADD test checking if the searchForWord() method is returning false when the word is not found, test fails">
+      <created>1558012068095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558012068095</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -324,9 +338,12 @@
     <history-entry file="SpiderLegTest - 2019.05.16 at 14h 44m 20s.xml">
       <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 05m 04s.xml">
+      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19220000" />
+    <option name="totallyTimeSpent" value="19520000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -341,7 +358,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -352,7 +369,7 @@
       <window_info anchor="bottom" id="Build" order="0" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" order="3" weight="0.32907802" />
+      <window_info anchor="bottom" id="Problems" order="3" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="6" weight="0.32907802" />
@@ -361,7 +378,7 @@
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32907802" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -387,7 +404,8 @@
     <MESSAGE value="ADD SpiderLegTest method checking for urls instance type, test fails" />
     <MESSAGE value="ADD SpiderLeg constructor that instantiates urls as a new LinkedList&lt;String&gt;, changed test to check if the list is empty, test successful" />
     <MESSAGE value="REFACTOR changed urls to public and added a getter, changed test to match the change" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR changed urls to public and added a getter, changed test to match the change" />
+    <MESSAGE value="ADD test checking if the searchForWord() method is returning false when the word is not found, test fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD test checking if the searchForWord() method is returning false when the word is not found, test fails" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -433,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="323">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
