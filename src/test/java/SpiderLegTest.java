@@ -5,11 +5,14 @@ import junitparams.Parameters;
 
 import java.util.LinkedList;
 
+import static junitparams.JUnitParamsRunner.$;
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
 
 /**
  * The test class for the SpiderLeg class that checks if the methods are behaving properly.
  */
+@RunWith(JUnitParamsRunner.class)
 public class SpiderLegTest {
     //TODO SpiderLeg constructor
     //1.Instantiate a new linked list (DONE)
@@ -27,6 +30,25 @@ public class SpiderLegTest {
     // - As lower case (DONE)
     //3.Check if the body is empty (DONE)
 
+    private static final Object[] getUrlWordTrue(){
+        String google = "https://www.google.com";
+        String w3school = "https://www.w3schools.com/";
+        String amazon = "https://www.amazon.de/";
+        return $(
+                $(google, "google"),
+                $(google, "GoOgLe"),
+                $(google, "gOogle"),
+                $(w3school, "html and css"),
+                $(w3school, "HTML and CSS"),
+                $(w3school, "Learn SQL"),
+                $(w3school, "Learn SQL"),
+                $(w3school, "LeArN SqL"),
+                $(amazon, "amazon"),
+                $(amazon, "prime"),
+                $(amazon, "PrIme")
+        );
+    }
+
     @Test
     public void assertSearchForWordReturnsFalseWhenWordNotFound(){
 
@@ -37,6 +59,14 @@ public class SpiderLegTest {
         String word = "Lord of The Rings";
 
         assertFalse(leg.searchForWord(word));
+    }
+
+    @Test
+    @Parameters(method = "getUrlWordTrue")
+    public void assertSearchForWordReturnsTrueWhenWordFound(String url, String word){
+        SpiderLeg leg = new SpiderLeg();
+        leg.crawl(url);
+        assertTrue(leg.searchForWord(word));
     }
 
     @Test
