@@ -18,6 +18,9 @@ public class SpiderLegTest {
     //1.Instantiate a new linked list (DONE)
     //2.Set variable for the user agent (DONE)
 
+    /**
+     * Test method that checks after a SpiderLeg object is created, if the parameter urls isEmpty returns true.
+     */
     @Test
     public void assertIfTheTypeInstancedIsLinkedList() {
         SpiderLeg leg = new SpiderLeg();
@@ -30,6 +33,9 @@ public class SpiderLegTest {
     // - As lower case (DONE)
     //3.Check if the body is empty (DONE)
 
+    /**
+     * Method that creates a set of parameters used to test if in the certain url, the given word is found.
+     */
     private static final Object[] getUrlWordTrue(){
         String google = "https://www.google.com";
         String w3school = "https://www.w3schools.com/";
@@ -48,6 +54,23 @@ public class SpiderLegTest {
                 $(amazon, "PrIme")
         );
     }
+    /**
+     * Parametrised test method that uses getUrlWordFalse() as a method parameter to test the sets of urls and word.
+     * @param url String containing the URL of the web-page that will be crawled.
+     * @param word String that contains the word of sequence of words that need to be found.
+     */
+    @Test
+    @Parameters(method = "getUrlWordFalse")
+    public void assertSearchForWordReturnsFalseWhenWordNotFound(String url, String word){
+
+        SpiderLeg leg = new SpiderLeg();
+        leg.crawl(url);
+        assertFalse(leg.searchForWord(word));
+    }
+
+    /**
+     * Method that creates a set of parameters used to test if in the certain url, the given word is not found.
+     */
     private static final Object[] getUrlWordFalse(){
         String google = "https://www.google.com";
         String w3school = "https://www.w3schools.com/";
@@ -65,15 +88,11 @@ public class SpiderLegTest {
         );
     }
 
-    @Test
-    @Parameters(method = "getUrlWordFalse")
-    public void assertSearchForWordReturnsFalseWhenWordNotFound(String url, String word){
-
-        SpiderLeg leg = new SpiderLeg();
-        leg.crawl(url);
-        assertFalse(leg.searchForWord(word));
-    }
-
+    /**
+     * Parametrised test method that uses getUrlWordTrue() as a method parameter to test the sets of urls and word.
+     * @param url String containing the URL of the web-page that will be crawled.
+     * @param word String that contains the word of sequence of words that need to be found.
+     */
     @Test
     @Parameters(method = "getUrlWordTrue")
     public void assertSearchForWordReturnsTrueWhenWordFound(String url, String word){
@@ -82,6 +101,9 @@ public class SpiderLegTest {
         assertTrue(leg.searchForWord(word));
     }
 
+    /**
+     * Test method that checks if the method searchForWord() has a block that checks for empty doc.
+     */
     @Test
     public void assertSearchForWordIfChecksForEmptyDoc(){
         SpiderLeg leg = new SpiderLeg();
