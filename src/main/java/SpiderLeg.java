@@ -8,9 +8,6 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * The class that contains the main methods for crawling and finding a given word.
- */
 public class SpiderLeg {
     private static final String USER_AGENT =
             "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Safari/535.1";
@@ -19,21 +16,28 @@ public class SpiderLeg {
     private String url;
     private LinkedList<String> urls;
 
-    /**
-     * Constructor for SpiderLeg class.
-     */
     SpiderLeg(){
         urls = new LinkedList<String>();
     }
 
     /**
-     * Getter method returning the urls found by the crawl session.
-     * @return urls parameter.
+     * Returns a list of urls.
+     * @return list of urls
      */
+
     public LinkedList<String> getUrls() {
         return urls;
     }
 
+
+    /**
+     *  Takes the url provided and goes through the whole site
+     *  checking for any links. If none are found a false
+     *  statement is returned. On the contrary if any are found
+     *  true is returned.
+     * @param url The url needed for the method to crawl through.
+     * @return True or false depending on whether the method has found any links.
+     */
     public boolean crawl(String url)
     {
         try{
@@ -67,11 +71,6 @@ public class SpiderLeg {
         }
     }
 
-    /**
-     * Method that checks if the given word is found in the doc's body text.
-     * @param word The String that is sought.
-     * @return True or false if the word parameter is found or not, respectively.
-     */
     public boolean searchForWord(String word){
         if(this.doc == null){
             return false;
