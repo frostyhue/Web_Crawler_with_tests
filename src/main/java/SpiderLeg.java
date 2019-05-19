@@ -20,10 +20,24 @@ public class SpiderLeg {
         urls = new LinkedList<String>();
     }
 
+    /**
+     * Returns a list of urls.
+     * @return list of urls
+     */
+
     public LinkedList<String> getUrls() {
         return urls;
     }
 
+
+    /**
+     *  Takes the url provided and goes through the whole site
+     *  checking for any links. If none are found a false
+     *  statement is returned. On the contrary if any are found
+     *  true is returned.
+     * @param url The url needed for the method to crawl through.
+     * @return True or false depending on whether the method has found any links.
+     */
     public boolean crawl(String url)
     {
         try{

@@ -38,6 +38,12 @@ public class SpiderLegTest {
     //4.If document is empty return false
     //5.Retrieve all of the links on the webpage
     //6.Add each link to a list
+
+    /**
+     * This test method checks the crawl method.
+     * It asserts that the method returns true
+     * when the url is provided to it.
+     */
     @Test
     public void testCrawlMethod() {
         //arrange
