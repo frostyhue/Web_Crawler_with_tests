@@ -157,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SpiderLegTest">
+  <component name="RunManager" selected="JUnit.SpiderLegTest">
     <configuration name="SpiderLegTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -216,24 +216,14 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Web_Crawler_with_tests [tasks]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="tasks" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="SpiderLegTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiderLegTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpiderLegTest.assertIfTheTypeInstancedIsLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
@@ -246,19 +236,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.Web_Crawler_with_tests [tasks]" />
       <item itemvalue="Gradle.Web_Crawler_with_tests [dependencies]" />
       <item itemvalue="Gradle.Web_Crawler_with_tests [compileTestJava]" />
-      <item itemvalue="JUnit.SpiderLegTest.assertIfTheTypeInstancedIsLinkedList" />
       <item itemvalue="Gradle.SpiderLegTest" />
+      <item itemvalue="JUnit.SpiderLegTest.assertIfTheTypeInstancedIsLinkedList" />
+      <item itemvalue="JUnit.SpiderLegTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiderLegTest" />
         <item itemvalue="Gradle.SpiderLegTest" />
         <item itemvalue="JUnit.SpiderLegTest.assertIfTheTypeInstancedIsLinkedList" />
         <item itemvalue="Gradle.Web_Crawler_with_tests [compileTestJava]" />
         <item itemvalue="Gradle.Web_Crawler_with_tests [dependencies]" />
-        <item itemvalue="Gradle.Web_Crawler_with_tests [tasks]" />
       </list>
     </recent_temporary>
   </component>
