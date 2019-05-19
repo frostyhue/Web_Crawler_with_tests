@@ -27,9 +27,10 @@ public class SpiderLeg {
     }
 
     /**
-     * Getter method returning the urls found by the crawl session.
-     * @return urls parameter.
+     * Returns a list of urls.
+     * @return list of urls
      */
+
     public LinkedList<String> getUrls() {
         return urls;
     }
