@@ -24,6 +24,7 @@ public class Spider {
         this.pagesVisited = new HashSet<>();
         this.pagesToVisit = new LinkedList<>();
         this.urlFound = "";
+        this.leg = new SpiderLeg();
     }
 
     public String getUrlFound() {
