@@ -17,10 +17,11 @@ public class Spider {
     private Set<String> pagesVisited;
     private List<String> pagesToVisit;
     private String urlFound;
+    private SpiderLeg leg;
 
     public Spider(){
         this.Max_Number_Of_Pages = 20;
-        this.pagesVisited = new HashSet<String>();
+        this.pagesVisited = new HashSet<>();
         this.pagesToVisit = new LinkedList<>();
     }
 
