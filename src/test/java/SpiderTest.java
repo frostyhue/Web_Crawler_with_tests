@@ -4,6 +4,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.HashSet;
+import java.util.LinkedList;
 
 import static org.junit.Assert.*;
 
@@ -23,7 +24,7 @@ public class SpiderTest {
 
     //TODO constructor functionality tests
     //1.Initialize max-number-of-pages to a reasonable number, e.g. 20. (DONE)
-    //2.Instantiate pagesVisited as a HashSet<String>.
+    //2.Instantiate pagesVisited as a HashSet<String>. (DONE)
     //3.Instantiate pagesToVisit as a LinkedList<String>.
     //4.Initialize urlFound as an empty string.
     //5.Instantiate leg as SpiderLeg object.
@@ -36,6 +37,11 @@ public class SpiderTest {
     @Test
     public void assertIfpagesVisitedIsHashSet(){
         assertTrue(spider.getPagesVisited() instanceof HashSet);
+    }
+
+    @Test
+    public void assertIfpagesToVisitIsLinkedList(){
+        assertTrue(spider.getPagesToVisit() instanceof LinkedList);
     }
 
     //TODO search() method functionality tests

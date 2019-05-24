@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state relative-caret-position="375">
+              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#340#341#0" expanded="true" />
@@ -64,6 +64,8 @@
                 <element signature="e#835#836#0" expanded="true" />
                 <element signature="e#1062#1063#0" expanded="true" />
                 <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,12 +74,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="222">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
                 <element signature="e#873#874#0" expanded="true" />
                 <element signature="e#904#905#0" expanded="true" />
                 <element signature="e#949#950#0" expanded="true" />
@@ -204,26 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiderTest.assertIdpagesVisitedIsHashSet">
-    <configuration name="SpiderLegTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderLegTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpiderLegTest.assertIfTheTypeInstancedIsLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderLegTest" />
-      <option name="METHOD_NAME" value="assertIfTheTypeInstancedIsLinkedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpiderTest.assertIfpagesToVisitIsLinkedList">
     <configuration name="SpiderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -253,20 +234,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiderTest.assertIfpagesToVisitIsLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
+      <option name="METHOD_NAME" value="assertIfpagesToVisitIsLinkedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderTest.assertIfpagesVisitedIsHashSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
+      <option name="METHOD_NAME" value="assertIfpagesVisitedIsHashSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.SpiderLegTest.assertIfTheTypeInstancedIsLinkedList" />
-      <item itemvalue="JUnit.SpiderLegTest" />
       <item itemvalue="JUnit.SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" />
       <item itemvalue="JUnit.SpiderTest" />
       <item itemvalue="JUnit.SpiderTest.assertIdpagesVisitedIsHashSet" />
+      <item itemvalue="JUnit.SpiderTest.assertIfpagesVisitedIsHashSet" />
+      <item itemvalue="JUnit.SpiderTest.assertIfpagesToVisitIsLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiderTest.assertIfpagesToVisitIsLinkedList" />
+        <item itemvalue="JUnit.SpiderTest.assertIfpagesVisitedIsHashSet" />
         <item itemvalue="JUnit.SpiderTest.assertIdpagesVisitedIsHashSet" />
         <item itemvalue="JUnit.SpiderTest" />
         <item itemvalue="JUnit.SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" />
-        <item itemvalue="JUnit.SpiderLegTest" />
-        <item itemvalue="JUnit.SpiderLegTest.assertIfTheTypeInstancedIsLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +288,7 @@
       <workItem from="1558010382538" duration="3825000" />
       <workItem from="1558297133319" duration="848000" />
       <workItem from="1558308996340" duration="1601000" />
-      <workItem from="1558718077542" duration="6057000" />
+      <workItem from="1558718077542" duration="6303000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -408,19 +409,24 @@
       <option name="project" value="LOCAL" />
       <updated>1558734496390</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ADD test to SpiderTest class checking if pagesVisited is HashSet, test fails">
+      <created>1558734848897</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558734848897</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ADD functionality to Spider class constructor instancing pagesVisited as a HashSet, test succeeds">
+      <created>1558734969188</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1558734969188</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 42m 25s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 43m 31s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpiderLegTest - 2019.05.19 at 22h 19m 06s.xml">
-      <configuration name="SpiderLegTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpiderTest_assertIfMaxNumberOfPagesIsSetTo20 - 2019.05.24 at 23h 40m 19s.xml">
       <configuration name="SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" configurationId="JUnit" />
     </history-entry>
@@ -442,9 +448,18 @@
     <history-entry file="SpiderTest_assertIdpagesVisitedIsHashSet - 2019.05.24 at 23h 52m 25s.xml">
       <configuration name="SpiderTest.assertIdpagesVisitedIsHashSet" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpiderTest_assertIdpagesVisitedIsHashSet - 2019.05.24 at 23h 53m 01s.xml">
+      <configuration name="SpiderTest.assertIdpagesVisitedIsHashSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_assertIfpagesVisitedIsHashSet - 2019.05.24 at 23h 55m 02s.xml">
+      <configuration name="SpiderTest.assertIfpagesVisitedIsHashSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_assertIfpagesToVisitIsLinkedList - 2019.05.24 at 23h 57m 02s.xml">
+      <configuration name="SpiderTest.assertIfpagesToVisitIsLinkedList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30927000" />
+    <option name="totallyTimeSpent" value="31173000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -517,7 +532,9 @@
     <MESSAGE value="ADD test to SpiderTest checking if Max_Number_Of_Pages is equal to 20 after object instantiated, test fails" />
     <MESSAGE value="ADD functionality to Spider constructor making Max_Number_Of_Pages integer equal to 20, test succeeds" />
     <MESSAGE value="REFACTOR added setup for simplification in future tests, all tests succeed" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR added setup for simplification in future tests, all tests succeed" />
+    <MESSAGE value="ADD test to SpiderTest class checking if pagesVisited is HashSet, test fails" />
+    <MESSAGE value="ADD functionality to Spider class constructor instancing pagesVisited as a HashSet, test succeeds" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD functionality to Spider class constructor instancing pagesVisited as a HashSet, test succeeds" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -568,12 +585,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="222">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
             <element signature="e#873#874#0" expanded="true" />
             <element signature="e#904#905#0" expanded="true" />
             <element signature="e#949#950#0" expanded="true" />
@@ -588,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        <state relative-caret-position="375">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
@@ -598,6 +613,8 @@
             <element signature="e#835#836#0" expanded="true" />
             <element signature="e#1062#1063#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
           </folding>
         </state>
       </provider>
