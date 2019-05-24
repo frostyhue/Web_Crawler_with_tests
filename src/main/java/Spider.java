@@ -1,3 +1,4 @@
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -18,6 +19,7 @@ public class Spider {
 
     public Spider(){
         this.Max_Number_Of_Pages = 20;
+        this.pagesVisited = new HashSet<String>();
     }
 
     public String getUrlFound() {
