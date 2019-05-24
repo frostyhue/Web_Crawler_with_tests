@@ -16,6 +16,10 @@ public class Spider {
     private List<String> pagesToVisit;
     private String urlFound;
 
+    public Spider(){
+        this.Max_Number_Of_Pages = 20;
+    }
+
     public String getUrlFound() {
         return urlFound;
     }
