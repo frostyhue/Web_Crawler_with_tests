@@ -26,7 +26,7 @@ public class SpiderTest {
     //1.Initialize max-number-of-pages to a reasonable number, e.g. 20. (DONE)
     //2.Instantiate pagesVisited as a HashSet<String>. (DONE)
     //3.Instantiate pagesToVisit as a LinkedList<String>. (DONE)
-    //4.Initialize urlFound as an empty string.
+    //4.Initialize urlFound as an empty string. (DONE)
     //5.Instantiate leg as SpiderLeg object.
 
     @Test
@@ -47,6 +47,11 @@ public class SpiderTest {
     @Test
     public void assertIfurlFoundIsEmptyString(){
         assertEquals("", spider.getUrlFound());
+    }
+
+    @Test
+    public void assertIfLegIsNotNull(){
+        assertNotNull(spider.getLeg());
     }
 
     //TODO search() method functionality tests
