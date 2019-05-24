@@ -41,4 +41,8 @@ public class Spider {
     public int getMax_Number_Of_Pages() {
         return Max_Number_Of_Pages;
     }
+
+    public SpiderLeg getLeg() {
+        return leg;
+    }
 }
