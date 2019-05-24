@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/SpiderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/SpiderTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpiderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderTest.java" afterDir="false" />
     </list>
@@ -53,10 +54,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="289">
+              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,46 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiderTest.assertIfMaxNumberOfPagesIsSetTo20">
-    <configuration name="SpiderLegTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SpiderLegTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Web_Crawler_with_tests [compileTestJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="compileTestJava" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpiderTest.assertIdpagesVisitedIsHashSet">
     <configuration name="SpiderLegTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -256,6 +224,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderTest.assertIdpagesVisitedIsHashSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
+      <option name="METHOD_NAME" value="assertIdpagesVisitedIsHashSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -267,19 +254,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.Web_Crawler_with_tests [compileTestJava]" />
-      <item itemvalue="Gradle.SpiderLegTest" />
       <item itemvalue="JUnit.SpiderLegTest.assertIfTheTypeInstancedIsLinkedList" />
       <item itemvalue="JUnit.SpiderLegTest" />
       <item itemvalue="JUnit.SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" />
+      <item itemvalue="JUnit.SpiderTest" />
+      <item itemvalue="JUnit.SpiderTest.assertIdpagesVisitedIsHashSet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiderTest.assertIdpagesVisitedIsHashSet" />
+        <item itemvalue="JUnit.SpiderTest" />
         <item itemvalue="JUnit.SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" />
         <item itemvalue="JUnit.SpiderLegTest" />
         <item itemvalue="JUnit.SpiderLegTest.assertIfTheTypeInstancedIsLinkedList" />
-        <item itemvalue="Gradle.SpiderLegTest" />
-        <item itemvalue="Gradle.Web_Crawler_with_tests [compileTestJava]" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +287,7 @@
       <workItem from="1558010382538" duration="3825000" />
       <workItem from="1558297133319" duration="848000" />
       <workItem from="1558308996340" duration="1601000" />
-      <workItem from="1558718077542" duration="5556000" />
+      <workItem from="1558718077542" duration="6057000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -414,22 +401,17 @@
       <option name="project" value="LOCAL" />
       <updated>1558734191679</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="REFACTOR added setup for simplification in future tests, all tests succeed">
+      <created>1558734496390</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1558734496390</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 19m 22s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 35m 00s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 38m 22s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 41m 34s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="SpiderLegTest - 2019.05.16 at 15h 42m 25s.xml">
       <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -448,9 +430,21 @@
     <history-entry file="SpiderTest_assertIfMaxNumberOfPagesIsSetTo20 - 2019.05.24 at 23h 42m 06s.xml">
       <configuration name="SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpiderTest_assertIfMaxNumberOfPagesIsSetTo20 - 2019.05.24 at 23h 47m 37s.xml">
+      <configuration name="SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest - 2019.05.24 at 23h 49m 57s.xml">
+      <configuration name="SpiderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest - 2019.05.24 at 23h 50m 32s.xml">
+      <configuration name="SpiderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_assertIdpagesVisitedIsHashSet - 2019.05.24 at 23h 52m 25s.xml">
+      <configuration name="SpiderTest.assertIdpagesVisitedIsHashSet" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30426000" />
+    <option name="totallyTimeSpent" value="30927000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -522,7 +516,8 @@
     <MESSAGE value="ADD TODO to SpiderTest class for each block needed to be tested in Spider" />
     <MESSAGE value="ADD test to SpiderTest checking if Max_Number_Of_Pages is equal to 20 after object instantiated, test fails" />
     <MESSAGE value="ADD functionality to Spider constructor making Max_Number_Of_Pages integer equal to 20, test succeeds" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD functionality to Spider constructor making Max_Number_Of_Pages integer equal to 20, test succeeds" />
+    <MESSAGE value="REFACTOR added setup for simplification in future tests, all tests succeed" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR added setup for simplification in future tests, all tests succeed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -593,10 +588,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
           </folding>
         </state>
       </provider>
