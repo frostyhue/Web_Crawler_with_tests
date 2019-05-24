@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
+    <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="ADD test to class SpiderTest checking if urlFound is empty string, add SpiderLeg object as leg to Spider class, test fails">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/SpiderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/SpiderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Spider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpiderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state relative-caret-position="142">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#340#341#0" expanded="true" />
@@ -66,16 +67,18 @@
                 <element signature="e#1134#1135#0" expanded="true" />
                 <element signature="e#1179#1180#0" expanded="true" />
                 <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
+                <element signature="e#1393#1394#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="142">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#873#874#0" expanded="true" />
@@ -117,8 +120,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
       </list>
     </option>
   </component>
@@ -204,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiderTest.assertIfpagesToVisitIsLinkedList">
+  <component name="RunManager" selected="JUnit.SpiderTest.assertIfurlFoundIsEmptyString">
     <configuration name="SpiderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -219,16 +222,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SpiderTest" />
       <option name="METHOD_NAME" value="assertIdpagesVisitedIsHashSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="METHOD_NAME" value="assertIfMaxNumberOfPagesIsSetTo20" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -254,20 +247,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiderTest.assertIfurlFoundIsEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
+      <option name="METHOD_NAME" value="assertIfurlFoundIsEmptyString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" />
       <item itemvalue="JUnit.SpiderTest" />
       <item itemvalue="JUnit.SpiderTest.assertIdpagesVisitedIsHashSet" />
       <item itemvalue="JUnit.SpiderTest.assertIfpagesVisitedIsHashSet" />
       <item itemvalue="JUnit.SpiderTest.assertIfpagesToVisitIsLinkedList" />
+      <item itemvalue="JUnit.SpiderTest.assertIfurlFoundIsEmptyString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiderTest.assertIfurlFoundIsEmptyString" />
+        <item itemvalue="JUnit.SpiderTest" />
         <item itemvalue="JUnit.SpiderTest.assertIfpagesToVisitIsLinkedList" />
         <item itemvalue="JUnit.SpiderTest.assertIfpagesVisitedIsHashSet" />
         <item itemvalue="JUnit.SpiderTest.assertIdpagesVisitedIsHashSet" />
-        <item itemvalue="JUnit.SpiderTest" />
-        <item itemvalue="JUnit.SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +291,7 @@
       <workItem from="1558010382538" duration="3825000" />
       <workItem from="1558297133319" duration="848000" />
       <workItem from="1558308996340" duration="1601000" />
-      <workItem from="1558718077542" duration="6303000" />
+      <workItem from="1558718077542" duration="6611000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -423,19 +426,24 @@
       <option name="project" value="LOCAL" />
       <updated>1558734969188</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ADD test to SpiderTest class asserting if pagesToVisit is a LinkedList, test fails">
+      <created>1558735057647</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1558735057647</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ADD functionality to Spider class' constructor instancing pagesToVisit as LinkedList, all tests pass">
+      <created>1558735147720</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1558735147720</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderTest_assertIfMaxNumberOfPagesIsSetTo20 - 2019.05.24 at 23h 40m 19s.xml">
-      <configuration name="SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderLegTest - 2019.05.24 at 23h 40m 20s.xml">
-      <configuration name="SpiderLegTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_assertIfMaxNumberOfPagesIsSetTo20 - 2019.05.24 at 23h 42m 06s.xml">
-      <configuration name="SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpiderTest_assertIfMaxNumberOfPagesIsSetTo20 - 2019.05.24 at 23h 47m 37s.xml">
       <configuration name="SpiderTest.assertIfMaxNumberOfPagesIsSetTo20" configurationId="JUnit" />
     </history-entry>
@@ -457,9 +465,18 @@
     <history-entry file="SpiderTest_assertIfpagesToVisitIsLinkedList - 2019.05.24 at 23h 57m 02s.xml">
       <configuration name="SpiderTest.assertIfpagesToVisitIsLinkedList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpiderTest_assertIfpagesToVisitIsLinkedList - 2019.05.24 at 23h 58m 19s.xml">
+      <configuration name="SpiderTest.assertIfpagesToVisitIsLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest - 2019.05.24 at 23h 58m 24s.xml">
+      <configuration name="SpiderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_assertIfurlFoundIsEmptyString - 2019.05.25 at 00h 00m 37s.xml">
+      <configuration name="SpiderTest.assertIfurlFoundIsEmptyString" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31173000" />
+    <option name="totallyTimeSpent" value="31481000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -471,7 +488,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
@@ -487,13 +504,13 @@
       <window_info anchor="bottom" id="Problems" order="3" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Messages" order="6" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -534,7 +551,10 @@
     <MESSAGE value="REFACTOR added setup for simplification in future tests, all tests succeed" />
     <MESSAGE value="ADD test to SpiderTest class checking if pagesVisited is HashSet, test fails" />
     <MESSAGE value="ADD functionality to Spider class constructor instancing pagesVisited as a HashSet, test succeeds" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD functionality to Spider class constructor instancing pagesVisited as a HashSet, test succeeds" />
+    <MESSAGE value="ADD test to SpiderTest class asserting if pagesToVisit is a LinkedList, test fails" />
+    <MESSAGE value="ADD functionality to Spider class' constructor instancing pagesToVisit as LinkedList, all tests pass" />
+    <MESSAGE value="ADD test to class SpiderTest checking if urlFound is empty string, add SpiderLeg object as leg to Spider class, test fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD test to class SpiderTest checking if urlFound is empty string, add SpiderLeg object as leg to Spider class, test fails" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -583,28 +603,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="142">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
@@ -615,6 +617,26 @@
             <element signature="e#1134#1135#0" expanded="true" />
             <element signature="e#1179#1180#0" expanded="true" />
             <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
           </folding>
         </state>
       </provider>
