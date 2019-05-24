@@ -23,6 +23,7 @@ public class Spider {
         this.Max_Number_Of_Pages = 20;
         this.pagesVisited = new HashSet<>();
         this.pagesToVisit = new LinkedList<>();
+        this.urlFound = "";
     }
 
     public String getUrlFound() {
