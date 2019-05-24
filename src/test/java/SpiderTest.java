@@ -1,4 +1,5 @@
 import junitparams.JUnitParamsRunner;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -7,8 +8,14 @@ import static org.junit.Assert.assertEquals;
  * The test class for the Spider class that checks if the methods are behaving properly.
  */
 public class SpiderTest {
-//TODO constructor functionality tests
-    //1.Initialize max-number-of-pages to a reasonable number, e.g. 20.
+    Spider spider;
+    @Before
+    public void testsSetup(){
+        spider = new Spider();
+    }
+
+    //TODO constructor functionality tests
+    //1.Initialize max-number-of-pages to a reasonable number, e.g. 20. (DONE)
     //2.Instantiate pagesVisited as a HashSet<String>.
     //3.Instantiate pagesToVisit as a LinkedList<String>.
     //4.Initialize urlFound as an empty string.
@@ -16,9 +23,9 @@ public class SpiderTest {
 
     @Test
     public void assertIfMaxNumberOfPagesIsSetTo20(){
-        Spider spider = new Spider();
         assertEquals(20, spider.getMax_Number_Of_Pages());
     }
+
 
     //TODO search() method functionality tests
     //1.Populate pagesToVisit using leg.crawl() method.
