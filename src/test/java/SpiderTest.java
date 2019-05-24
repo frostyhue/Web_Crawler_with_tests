@@ -1,14 +1,21 @@
 import junitparams.JUnitParamsRunner;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import java.util.HashSet;
+
+import static org.junit.Assert.*;
 
 /**
  * The test class for the Spider class that checks if the methods are behaving properly.
  */
 public class SpiderTest {
     Spider spider;
+
+    /**
+     * Method that should be executed before each test for lessening code.
+     */
     @Before
     public void testsSetup(){
         spider = new Spider();
@@ -26,6 +33,10 @@ public class SpiderTest {
         assertEquals(20, spider.getMax_Number_Of_Pages());
     }
 
+    @Test
+    public void assertIfpagesVisitedIsHashSet(){
+        assertTrue(spider.getPagesVisited() instanceof HashSet);
+    }
 
     //TODO search() method functionality tests
     //1.Populate pagesToVisit using leg.crawl() method.
