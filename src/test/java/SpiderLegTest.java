@@ -100,7 +100,6 @@ public class SpiderLegTest {
         leg.crawl(url);
         assertTrue(leg.searchForWord(word));
     }
-
     /**
      * Test method that checks if the method searchForWord() has a block that checks for empty doc.
      */
