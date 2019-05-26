@@ -11,7 +11,6 @@ import java.util.List;
 public class SpiderLeg {
     private static final String USER_AGENT =
             "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Safari/535.1";
-    private List<String> links = new LinkedList<String>();
     private Document doc;
     private String url;
     private LinkedList<String> urls;
@@ -60,7 +59,7 @@ public class SpiderLeg {
             System.out.println("Found (" + linksOnPage.size() + ") links");
             for(Element link : linksOnPage)
             {
-                this.links.add(link.absUrl("href"));
+                this.urls.add(link.absUrl("href"));
             }
             return true;
         }

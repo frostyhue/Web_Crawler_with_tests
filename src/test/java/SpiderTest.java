@@ -93,12 +93,14 @@ public class SpiderTest {
     //2.Parameterised tests
     //3.Mock tests
 
+    /**
+     * Method testing if urls are populated after a crawl is initiated on the given link.
+     */
     @Test
     public void assertPagesToVisitPopulatedAfterSerach(){
-        
         spider.search("https://www.google.com", "google");
 
-        assertTrue(!spider.getPagesToVisit().isEmpty());
+        assertFalse(spider.getPagesToVisit().isEmpty());
     }
 
     //TODO getNextURL() method functionality tests:

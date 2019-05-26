@@ -74,6 +74,8 @@ public class Spider {
     }
 
     public String search(String url, String word){
+        leg.crawl(url);
+        this.pagesToVisit.addAll(leg.getUrls());
         return urlFound;
     }
 }
