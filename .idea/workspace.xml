@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/SpiderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/SpiderTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpiderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-594">
               <caret line="27" column="29" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="e#588#589#0" expanded="true" />
@@ -78,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+            <state relative-caret-position="290">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1427#1428#0" expanded="true" />
@@ -467,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558736201114</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ADD description of test types needed for class SpiderTest">
+      <created>1558892523340</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1558892523340</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -503,7 +508,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36045000" />
+    <option name="totallyTimeSpent" value="36561000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -558,8 +563,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD SpiderLeg empty class, SpiderLegTest class with TODOs for every method needed and the constructor, dependencies" />
-    <MESSAGE value="ADD SpiderLeg empty class, SpiderLegTest class with TODOs for every method needed and the constructor, dependencies and auto build added" />
     <MESSAGE value="ADD SpiderLegTest method checking for urls instance type, test fails" />
     <MESSAGE value="ADD SpiderLeg constructor that instantiates urls as a new LinkedList&lt;String&gt;, changed test to check if the list is empty, test successful" />
     <MESSAGE value="REFACTOR changed urls to public and added a getter, changed test to match the change" />
@@ -583,7 +586,9 @@
     <MESSAGE value="ADD functionality to class Spider's constructor setting urlFound as empty string, all tests succeed" />
     <MESSAGE value="ADD test to class SpiderTest checking if leg in class Spider is not null, test fails" />
     <MESSAGE value="ADD functionality to class Spider's constructor instancing leg as SpiderLeg, all tests succeed" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD functionality to class Spider's constructor instancing leg as SpiderLeg, all tests succeed" />
+    <MESSAGE value="ADD description of tests needed for class SpiderTest" />
+    <MESSAGE value="ADD description of test types needed for class SpiderTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD description of test types needed for class SpiderTest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -609,16 +614,6 @@
     <entry file="file://$PROJECT_DIR$/c4-model/c4-model.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -629,27 +624,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="-594">
           <caret line="27" column="29" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="e#588#589#0" expanded="true" />
             <element signature="e#635#636#0" expanded="true" />
             <element signature="e#754#755#0" expanded="true" />
             <element signature="e#781#782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
           </folding>
         </state>
       </provider>

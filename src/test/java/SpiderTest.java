@@ -38,7 +38,7 @@ public class SpiderTest {
     //5.Instantiate leg as SpiderLeg object. (DONE )
 
     //TESTSNEEDED for constructor:
-    //1.Direct in/out (DONE)
+    //1.Indirect in/out (DONE)
 
     /**
      * Method testing if the maximum number of pages is 20.
@@ -92,6 +92,14 @@ public class SpiderTest {
     //1.direct/indirect in/out
     //2.Parameterised tests
     //3.Mock tests
+
+    @Test
+    public void assertPagesToVisitPopulatedAfterSerach(){
+        
+        spider.search("https://www.google.com", "google");
+
+        assertTrue(!spider.getPagesToVisit().isEmpty());
+    }
 
     //TODO getNextURL() method functionality tests:
     //1.Return the next url in line from pagesToVisit.
