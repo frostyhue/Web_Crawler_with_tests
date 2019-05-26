@@ -72,4 +72,8 @@ public class Spider {
     public SpiderLeg getLeg() {
         return leg;
     }
+
+    public String search(String url, String word){
+        return urlFound;
+    }
 }
