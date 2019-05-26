@@ -37,6 +37,9 @@ public class SpiderTest {
     //4.Initialize urlFound as an empty string. (DONE)
     //5.Instantiate leg as SpiderLeg object. (DONE )
 
+    //TESTSNEEDED for constructor:
+    //1.Direct in/out (DONE)
+
     /**
      * Method testing if the maximum number of pages is 20.
      */
@@ -85,9 +88,18 @@ public class SpiderTest {
     //5.If not, continue checking urls.
     //6.Check if pagesToVisit is empty.
 
+    //TESTSNEEDED for search():
+    //1.direct/indirect in/out
+    //2.Parameterised tests
+    //3.Mock tests
+
     //TODO getNextURL() method functionality tests:
     //1.Return the next url in line from pagesToVisit.
     //2.Add the previous url to pagesVisited.
     //3.Check if the url has been crawled yet.
+
+    //TESTSNEEDED for getNextUrl():
+    //1.direct/indirect in/out
+    //2.Parameterised tests
 
 }
