@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpiderLeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpiderLeg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpiderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="358">
+              <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-594">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="205">
+              <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
               <folding>
                 <element signature="e#588#589#0" expanded="true" />
                 <element signature="e#635#636#0" expanded="true" />
@@ -76,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="227">
+              <caret line="96" column="89" selection-start-line="96" selection-start-column="89" selection-end-line="96" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1427#1428#0" expanded="true" />
@@ -114,9 +117,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
       </list>
     </option>
@@ -203,12 +206,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiderTest.assertIfLegIsNotNull">
-    <configuration name="SpiderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in web-crawler_test">
+    <configuration name="All in web-crawler_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -233,16 +235,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiderTest.assertIfpagesToVisitIsLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="METHOD_NAME" value="assertIfpagesToVisitIsLinkedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpiderTest.assertIfurlFoundIsEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -253,20 +245,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiderTest.assertPagesToVisitPopulatedAfterSerach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
+      <option name="METHOD_NAME" value="assertPagesToVisitPopulatedAfterSerach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.SpiderTest" />
-      <item itemvalue="JUnit.SpiderTest.assertIfpagesToVisitIsLinkedList" />
       <item itemvalue="JUnit.SpiderTest.assertIfurlFoundIsEmptyString" />
       <item itemvalue="JUnit.SpiderTest.assertIfLegIsNull" />
       <item itemvalue="JUnit.SpiderTest.assertIfLegIsNotNull" />
+      <item itemvalue="JUnit.SpiderTest.assertPagesToVisitPopulatedAfterSerach" />
+      <item itemvalue="JUnit.All in web-crawler_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in web-crawler_test" />
+        <item itemvalue="JUnit.SpiderTest.assertPagesToVisitPopulatedAfterSerach" />
         <item itemvalue="JUnit.SpiderTest.assertIfLegIsNotNull" />
         <item itemvalue="JUnit.SpiderTest.assertIfLegIsNull" />
         <item itemvalue="JUnit.SpiderTest.assertIfurlFoundIsEmptyString" />
-        <item itemvalue="JUnit.SpiderTest.assertIfpagesToVisitIsLinkedList" />
-        <item itemvalue="JUnit.SpiderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -472,22 +474,17 @@
       <option name="project" value="LOCAL" />
       <updated>1558892523340</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ADD test method to class SpiderTest checking if pagesToVisit list is populated by search() method, basic method to satisfy errors added to class Spider for search() method, test fails without breaking other tests success rate">
+      <created>1558893302508</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1558893302508</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderTest_assertIfpagesToVisitIsLinkedList - 2019.05.24 at 23h 58m 19s.xml">
-      <configuration name="SpiderTest.assertIfpagesToVisitIsLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest - 2019.05.24 at 23h 58m 24s.xml">
-      <configuration name="SpiderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_assertIfurlFoundIsEmptyString - 2019.05.25 at 00h 00m 37s.xml">
-      <configuration name="SpiderTest.assertIfurlFoundIsEmptyString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_assertIfurlFoundIsEmptyString - 2019.05.25 at 00h 02m 53s.xml">
-      <configuration name="SpiderTest.assertIfurlFoundIsEmptyString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpiderTest_assertIfLegIsNull - 2019.05.25 at 00h 05m 48s.xml">
       <configuration name="SpiderTest.assertIfLegIsNull" configurationId="JUnit" />
     </history-entry>
@@ -506,9 +503,21 @@
     <history-entry file="SpiderTest_assertIfLegIsNotNull - 2019.05.25 at 00h 15m 58s.xml">
       <configuration name="SpiderTest.assertIfLegIsNotNull" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpiderTest_assertPagesToVisitPopulatedAfterSerach - 2019.05.26 at 19h 57m 34s.xml">
+      <configuration name="SpiderTest.assertPagesToVisitPopulatedAfterSerach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_assertPagesToVisitPopulatedAfterSerach - 2019.05.26 at 19h 58m 12s.xml">
+      <configuration name="SpiderTest.assertPagesToVisitPopulatedAfterSerach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_assertPagesToVisitPopulatedAfterSerach - 2019.05.26 at 19h 58m 59s.xml">
+      <configuration name="SpiderTest.assertPagesToVisitPopulatedAfterSerach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_assertPagesToVisitPopulatedAfterSerach - 2019.05.26 at 20h 02m 20s.xml">
+      <configuration name="SpiderTest.assertPagesToVisitPopulatedAfterSerach" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36561000" />
+    <option name="totallyTimeSpent" value="37481000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -523,7 +532,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -542,7 +551,7 @@
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -563,7 +572,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD SpiderLegTest method checking for urls instance type, test fails" />
     <MESSAGE value="ADD SpiderLeg constructor that instantiates urls as a new LinkedList&lt;String&gt;, changed test to check if the list is empty, test successful" />
     <MESSAGE value="REFACTOR changed urls to public and added a getter, changed test to match the change" />
     <MESSAGE value="ADD test checking if the searchForWord() method is returning false when the word is not found, test fails" />
@@ -588,7 +596,8 @@
     <MESSAGE value="ADD functionality to class Spider's constructor instancing leg as SpiderLeg, all tests succeed" />
     <MESSAGE value="ADD description of tests needed for class SpiderTest" />
     <MESSAGE value="ADD description of test types needed for class SpiderTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD description of test types needed for class SpiderTest" />
+    <MESSAGE value="ADD test method to class SpiderTest checking if pagesToVisit list is populated by search() method, basic method to satisfy errors added to class Spider for search() method, test fails without breaking other tests success rate" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD test method to class SpiderTest checking if pagesToVisit list is populated by search() method, basic method to satisfy errors added to class Spider for search() method, test fails without breaking other tests success rate" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -624,22 +633,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="149">
+          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="358">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -648,13 +652,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="205">
+          <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
           <folding>
             <element signature="e#588#589#0" expanded="true" />
             <element signature="e#635#636#0" expanded="true" />
             <element signature="e#754#755#0" expanded="true" />
             <element signature="e#781#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="96" column="89" selection-start-line="96" selection-start-column="89" selection-end-line="96" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
           </folding>
         </state>
       </provider>
