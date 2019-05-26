@@ -14,6 +14,13 @@ import static org.mockito.Mockito.*;
  */
 @RunWith(JUnitParamsRunner.class)
 public class SpiderLegTest {
+    //OVERVIEW tests that are included into the test class:
+    //1.Indirect input
+    //2.Direct input
+    //3.Indirect output
+    //4,Direct output
+    //5.Parameterised tests
+
     //TODO SpiderLeg constructor
     //1.Instantiate a new linked list (DONE)
     //2.Set variable for the user agent (DONE)
@@ -100,7 +107,6 @@ public class SpiderLegTest {
         leg.crawl(url);
         assertTrue(leg.searchForWord(word));
     }
-
     /**
      * Test method that checks if the method searchForWord() has a block that checks for empty doc.
      */
