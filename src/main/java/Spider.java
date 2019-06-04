@@ -14,6 +14,7 @@ public class Spider {
         this.max_number_of_pages = 10;
         pagesVisited = new HashSet<>();
         pagesToVisit = new LinkedList();
+        URLFound = "www.google.com";
     }
 
 
