@@ -7,6 +7,12 @@ public class Spider {
     private List<String> pagesToVisit;
     private String URLFound;
 
+    public Spider()
+    {
+        this.max_number_of_pages = 10;
+    }
+
+
     public int getMax_number_of_pages()
     {
         return this.max_number_of_pages;

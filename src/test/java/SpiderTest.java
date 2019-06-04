@@ -10,6 +10,6 @@ public class SpiderTest {
         Spider spider = new Spider();
         //act
         //assert
-        assertEquals(20, spider.getMax_number_of_pages());
+        assertEquals(10, spider.getMax_number_of_pages());
     }
 }
