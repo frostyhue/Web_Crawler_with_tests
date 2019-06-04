@@ -41,4 +41,15 @@ public class SpiderTest {
         //assert
         assertTrue(spider.getPagesToVisit() instanceof LinkedList);
     }
+
+
+    @Test
+    public void assertIfURLFoundIsSet()
+    {
+        //arrange
+        Spider spider = new Spider();
+        //act
+        //assert
+        assertEquals("www.google.com", spider.getURLFound());
+    }
 }
