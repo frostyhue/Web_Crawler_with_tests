@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 import java.util.HashSet;
+import java.util.LinkedList;
 
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
@@ -28,5 +29,16 @@ public class SpiderTest {
         //act
         //assert
         assertTrue(spider.getPagesVisited() instanceof HashSet);
+    }
+
+
+    @Test
+    public void assertIfPagesToVisitIsALinkedList()
+    {
+        //arrange
+        Spider spider = new Spider();
+        //act
+        //assert
+        assertTrue(spider.getPagesToVisit() instanceof LinkedList);
     }
 }
