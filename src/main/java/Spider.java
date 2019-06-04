@@ -1,4 +1,4 @@
-import sun.security.provider.ConfigFile;
+
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -15,9 +15,15 @@ public class Spider {
     public Spider()
     {
         this.max_number_of_pages = 10;
-        pagesVisited = new HashSet<>();
-        pagesToVisit = new LinkedList();
-        URLFound = "www.google.com";
+        this.pagesVisited = new HashSet<>();
+        this.pagesToVisit = new LinkedList();
+        this.URLFound = "www.google.com";
+        this.leg = new SpiderLeg();
+    }
+
+    public SpiderLeg getLeg()
+    {
+        return this.leg;
     }
 
     public int getMax_number_of_pages()

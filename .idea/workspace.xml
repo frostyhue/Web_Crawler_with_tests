@@ -181,7 +181,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559683817279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559684024053" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -202,11 +202,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiderTest.assertIfURLFoundIsSet">
-    <configuration name="SpiderLegTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpiderTest.assertIfLegIsNotNull">
+    <configuration name="SpiderTest.assertIfLegIsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderLegTest" />
+      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
+      <option name="METHOD_NAME" value="assertIfLegIsNotNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -252,19 +254,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SpiderLegTest" />
       <item itemvalue="JUnit.SpiderTest.assertIfMaxNumberOfPagesIsSetTo" />
       <item itemvalue="JUnit.SpiderTest.assertIfPagesVisitedIsAHashSet" />
       <item itemvalue="JUnit.SpiderTest.assertIfPagesToVisitIsALinkedList" />
       <item itemvalue="JUnit.SpiderTest.assertIfURLFoundIsSet" />
+      <item itemvalue="JUnit.SpiderTest.assertIfLegIsNotNull" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiderTest.assertIfLegIsNotNull" />
         <item itemvalue="JUnit.SpiderTest.assertIfURLFoundIsSet" />
         <item itemvalue="JUnit.SpiderTest.assertIfPagesToVisitIsALinkedList" />
         <item itemvalue="JUnit.SpiderTest.assertIfPagesVisitedIsAHashSet" />
         <item itemvalue="JUnit.SpiderTest.assertIfMaxNumberOfPagesIsSetTo" />
-        <item itemvalue="JUnit.SpiderLegTest" />
       </list>
     </recent_temporary>
   </component>
