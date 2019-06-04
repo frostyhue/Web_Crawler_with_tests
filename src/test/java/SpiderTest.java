@@ -22,6 +22,10 @@ public class SpiderTest {
         assertEquals(10, spider.getMax_number_of_pages());
     }
 
+    /**
+     * Test to check if pagesVisited set is a Hash set
+     */
+
     @Test
     public void assertIfPagesVisitedIsAHashSet()
     {
@@ -32,7 +36,9 @@ public class SpiderTest {
         assertTrue(spider.getPagesVisited() instanceof HashSet);
     }
 
-
+    /**
+     * Test to check if the pagesToVisit list is a Linked List
+     */
     @Test
     public void assertIfPagesToVisitIsALinkedList()
     {
@@ -43,7 +49,9 @@ public class SpiderTest {
         assertTrue(spider.getPagesToVisit() instanceof LinkedList);
     }
 
-
+    /**
+     * Test to check if the URL Found has been set
+     */
     @Test
     public void assertIfURLFoundIsSet()
     {
@@ -54,6 +62,10 @@ public class SpiderTest {
         assertEquals("www.google.com", spider.getURLFound());
     }
 
+
+    /**
+     * Test to check if the SpiderLeg is not null after initializing Spider object
+     */
     @Test
     public void assertIfLegIsNotNull()
     {
@@ -62,5 +74,20 @@ public class SpiderTest {
         //act
         //assert
         assertNotNull(spider.getLeg());
+    }
+
+    /**
+     * Test to check if pages are populated after a search
+     */
+
+    @Test
+    public void assertPagesToVisitIsPopulatedAfterSearch()
+    {
+        //arrange
+        Spider spider = new Spider();
+        //act
+        spider.search("https://www.google.com", "google");
+        //assert
+        assertTrue(!spider.getPagesToVisit().isEmpty());
     }
 }
