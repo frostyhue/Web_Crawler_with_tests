@@ -27,6 +27,6 @@ public class SpiderTest {
         Spider spider = new Spider();
         //act
         //assert
-        assertTrue(spider.getPagesToVisit() instanceof HashSet);
+        assertTrue(spider.getPagesVisited() instanceof HashSet);
     }
 }
