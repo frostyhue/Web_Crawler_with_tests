@@ -60,7 +60,7 @@ public class SpiderLeg {
             System.out.println("Found (" + linksOnPage.size() + ") links");
             for(Element link : linksOnPage)
             {
-                this.links.add(link.absUrl("href"));
+                this.urls.add(link.absUrl("href"));
             }
             return true;
         }

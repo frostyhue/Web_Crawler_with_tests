@@ -17,7 +17,7 @@ public class Spider {
         this.max_number_of_pages = 10;
         this.pagesVisited = new HashSet<>();
         this.pagesToVisit = new LinkedList();
-        this.URLFound = "www.google.com";
+        this.URLFound = "";
         this.leg = new SpiderLeg();
     }
 
@@ -43,6 +43,13 @@ public class Spider {
     public List<String> getPagesToVisit()
     {
         return this.pagesToVisit;
+    }
+
+    public String search(String url, String word)
+    {
+        leg.crawl(url);
+        this.pagesToVisit.addAll(leg.getUrls());
+        return URLFound;
     }
 
 }
