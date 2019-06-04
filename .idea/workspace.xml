@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpiderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -54,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
-              <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+              <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="205">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
@@ -105,8 +104,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
       </list>
     </option>
   </component>
@@ -182,7 +181,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559683659350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559683817279" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -419,16 +418,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559683270658</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ADD Test to check if the url is set">
+      <created>1559683634783</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1559683634783</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ADD Functionality to Spider constructor so that the URLFound string is now set and test passes">
+      <created>1559683691815</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1559683691815</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 38m 22s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 41m 34s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="SpiderLegTest - 2019.05.16 at 15h 42m 25s.xml">
       <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -453,9 +460,15 @@
     <history-entry file="SpiderTest_assertIfPagesToVisitIsALinkedList - 2019.06.04 at 23h 20m 37s.xml">
       <configuration name="SpiderTest.assertIfPagesToVisitIsALinkedList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpiderTest_assertIfURLFoundIsSet - 2019.06.04 at 23h 27m 02s.xml">
+      <configuration name="SpiderTest.assertIfURLFoundIsSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_assertIfURLFoundIsSet - 2019.06.04 at 23h 27m 41s.xml">
+      <configuration name="SpiderTest.assertIfURLFoundIsSet" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25389000" />
+    <option name="totallyTimeSpent" value="25649000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -529,7 +542,9 @@
     <MESSAGE value="ADD Functionality to the Spider class in order for the test to pass" />
     <MESSAGE value="ADD Test to check if pagesToVisit is a LinkedList" />
     <MESSAGE value="ADD Functionality to Spider class instancing pagesToVisit to LinkedList - test passes" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD Functionality to Spider class instancing pagesToVisit to LinkedList - test passes" />
+    <MESSAGE value="ADD Test to check if the url is set" />
+    <MESSAGE value="ADD Functionality to Spider constructor so that the URLFound string is now set and test passes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Functionality to Spider constructor so that the URLFound string is now set and test passes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -586,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="205">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
@@ -605,7 +620,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

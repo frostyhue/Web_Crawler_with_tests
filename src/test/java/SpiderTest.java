@@ -5,6 +5,7 @@ import java.util.LinkedList;
 
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class SpiderTest {
 
@@ -51,5 +52,15 @@ public class SpiderTest {
         //act
         //assert
         assertEquals("www.google.com", spider.getURLFound());
+    }
+
+    @Test
+    public void assertIfLegIsNotNull()
+    {
+        //arrange
+        Spider spider = new Spider();
+        //act
+        //assert
+        assertNotNull(spider.getLeg());
     }
 }
