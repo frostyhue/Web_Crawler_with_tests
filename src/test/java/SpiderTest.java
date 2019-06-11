@@ -1,7 +1,9 @@
 import junitparams.JUnitParamsRunner;
+import junitparams.Parameters;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
@@ -10,11 +12,13 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 
+import static junitparams.JUnitParamsRunner.$;
 import static org.junit.Assert.*;
 
 /**
  * The test class for the Spider class that checks if the methods are behaving properly.
  */
+@RunWith(JUnitParamsRunner.class)
 public class SpiderTest {
     //OVERVIEW tests that are included into the test class:
     //1.Indirect input
@@ -130,11 +134,30 @@ public class SpiderTest {
 
     //TESTSNEEDED for getNextUrl():
     //1.direct/indirect in/out (DONE)
-    //2.Parameterised tests
+    //2.Parameterised tests (DONE)
+
+
+    /**
+     * Method that creates a set of parameters used to test if in the certain url, the given word is found.
+     */
+    private static final Object[] linksWords(){
+        String google = "https://www.google.com";
+        String w3school = "https://www.w3schools.com/";
+        String amazon = "https://www.amazon.de/";
+        return $(
+                $(google, "google"),
+                $(google, "GoOgLe"),
+                $(google, "gOogle"),
+                $(amazon, "amazon"),
+                $(amazon, "prime"),
+                $(amazon, "PrIme")
+        );
+    }
 
     @Test
-    public void assertIfMethodReturnsTheNextURL(){
-        spider.search(googleUrl, "google");
+    @Parameters(method = "linksWords")
+    public void assertIfMethodReturnsTheNextURL(String url, String word){
+        spider.search(url, word);
 
         String urlRetrieved = spider.NextURL();
 
@@ -142,8 +165,9 @@ public class SpiderTest {
     }
 
     @Test
-    public void assertIfTheURLReturnedIsAddedToPagesVisitedList(){
-        spider.search(googleUrl, "google");
+    @Parameters(method = "linksWords")
+    public void assertIfTheURLReturnedIsAddedToPagesVisitedList(String url, String word){
+        spider.search(url, word);
 
         String urlRetrieved =spider.NextURL();
 
