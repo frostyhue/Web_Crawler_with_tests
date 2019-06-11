@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpiderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -53,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+              <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3287#3288#0" expanded="true" />
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="136" column="43" selection-start-line="136" selection-start-column="43" selection-end-line="136" selection-end-column="43" />
+            <state relative-caret-position="103">
+              <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +102,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
       </list>
     </option>
   </component>
@@ -188,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiderTest.assertIfMethodReturnsTheNextURL">
+  <component name="RunManager" selected="JUnit.SpiderTest.assertIfTheURLReturnedIsAddedToPagesVisitedList">
     <configuration name="All in web-crawler_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -202,6 +203,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SpiderTest" />
       <option name="METHOD_NAME" value="assertIfMethodReturnsTheNextURL" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderTest.assertIfTheURLReturnedIsAddedToPagesVisitedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
+      <option name="METHOD_NAME" value="assertIfTheURLReturnedIsAddedToPagesVisitedList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -227,30 +238,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiderTest.whenUseMockAnnotation_thenMockIsInjected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="METHOD_NAME" value="whenUseMockAnnotation_thenMockIsInjected" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.All in web-crawler_test" />
       <item itemvalue="JUnit.SpiderTest.assertIfUrlsCheckedAreTransferredToPagesVisited" />
-      <item itemvalue="JUnit.SpiderTest.whenUseMockAnnotation_thenMockIsInjected" />
       <item itemvalue="JUnit.SpiderTest.assertPagesToVisitSameAsLegUrls" />
       <item itemvalue="JUnit.SpiderTest.assertIfMethodReturnsTheNextURL" />
+      <item itemvalue="JUnit.SpiderTest.assertIfTheURLReturnedIsAddedToPagesVisitedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiderTest.assertIfTheURLReturnedIsAddedToPagesVisitedList" />
         <item itemvalue="JUnit.SpiderTest.assertIfMethodReturnsTheNextURL" />
         <item itemvalue="JUnit.SpiderTest.assertPagesToVisitSameAsLegUrls" />
         <item itemvalue="JUnit.SpiderTest.assertIfUrlsCheckedAreTransferredToPagesVisited" />
         <item itemvalue="JUnit.All in web-crawler_test" />
-        <item itemvalue="JUnit.SpiderTest.whenUseMockAnnotation_thenMockIsInjected" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +276,7 @@
       <workItem from="1558882054165" duration="2029000" />
       <workItem from="1558957744783" duration="4056000" />
       <workItem from="1559051989881" duration="1118000" />
-      <workItem from="1560253429484" duration="1458000" />
+      <workItem from="1560253429484" duration="1822000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -487,13 +488,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560254684217</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Functionality added to NextURL() method that retrieves the proper url, test succeeds">
+      <created>1560254929743</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1560254929743</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Refactored test method checking if NextURL() method returns the proper link, change done as the previous test was not in line with the future functionality of the method, NextURL() also changed instead ot list.get to use list.remove, test succeeds">
+      <created>1560255150187</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1560255150187</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderTest_assertIfUrlsCheckedAreTransferredToPagesVisited - 2019.05.27 at 14h 48m 17s.xml">
-      <configuration name="SpiderTest.assertIfUrlsCheckedAreTransferredToPagesVisited" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_web-crawler_test - 2019.05.27 at 16h 34m 47s.xml">
       <configuration name="All in web-crawler_test" configurationId="JUnit" />
     </history-entry>
@@ -521,9 +533,12 @@
     <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 14h 06m 57s.xml">
       <configuration name="SpiderTest.assertIfMethodReturnsTheNextURL" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 14h 11m 02s.xml">
+      <configuration name="SpiderTest.assertIfMethodReturnsTheNextURL" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45403000" />
+    <option name="totallyTimeSpent" value="45767000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -578,8 +593,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD functionality to searchForWord(), url fixed by adding https:// in front of it, test passes" />
-    <MESSAGE value="REFACTOR added .toLower() to html body for more accurate results" />
     <MESSAGE value="ADD searchForWord() testing if there is a check for empty doc, test fails" />
     <MESSAGE value="ADD searchForWord() empty doc check added, test passes" />
     <MESSAGE value="ADD generated JavaDoc after merge" />
@@ -603,7 +616,9 @@
     <MESSAGE value="ADD functionality to search() from class Spider needed to do the specified action in the test, all tests succeed" />
     <MESSAGE value="comments added to methods without ones." />
     <MESSAGE value="Test added checking if NextURL() returns the first url in line, test fails" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test added checking if NextURL() returns the first url in line, test fails" />
+    <MESSAGE value="Functionality added to NextURL() method that retrieves the proper url, test succeeds" />
+    <MESSAGE value="Refactored test method checking if NextURL() method returns the proper link, change done as the previous test was not in line with the future functionality of the method, NextURL() also changed instead ot list.get to use list.remove, test succeeds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored test method checking if NextURL() method returns the proper link, change done as the previous test was not in line with the future functionality of the method, NextURL() also changed instead ot list.get to use list.remove, test succeeds" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -662,7 +677,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3287#3288#0" expanded="true" />
@@ -673,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="136" column="43" selection-start-line="136" selection-start-column="43" selection-end-line="136" selection-end-column="43" />
+        <state relative-caret-position="103">
+          <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -124,7 +124,7 @@ public class SpiderTest {
     }
 
     //TODO getNextURL() method functionality tests:
-    //1.Return the next url in line from pagesToVisit.
+    //1.Return the next url in line from pagesToVisit. (DONE)
     //2.Add the previous url to pagesVisited.
     //3.Check if the url has been crawled yet.
 
@@ -139,5 +139,14 @@ public class SpiderTest {
         String urlRetrieved = spider.NextURL();
 
         assertFalse(spider.getPagesToVisit().contains(urlRetrieved));
+    }
+
+    @Test
+    public void assertIfTheURLReturnedIsAddedToPagesVisitedList(){
+        spider.search(googleUrl, "google");
+
+        String urlRetrieved =spider.NextURL();
+
+        assertTrue(spider.getPagesVisited().contains(urlRetrieved));
     }
 }
