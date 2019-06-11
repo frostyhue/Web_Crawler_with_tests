@@ -90,7 +90,7 @@ public class SpiderTest {
     }
 
     //TODO search() method functionality tests
-    //1.Populate pagesToVisit using leg.crawl() method.
+    //1.Populate pagesToVisit using leg.crawl() method. (DONE)
     //2.Loop through each url and use leg.searchForWord() to find the sought word.
     //3.Set url that should be checked first.
     //4.If word is found, break loop and return the url.
@@ -102,7 +102,7 @@ public class SpiderTest {
     //2.Parameterised tests
     //3.Mock tests
 
-    String googleUrl = "https://www.google.com";
+    private String googleUrl = "https://www.google.com";
     /**
      * Method testing if urls are populated after a crawl is initiated on the given link.
      */
@@ -113,6 +113,9 @@ public class SpiderTest {
         assertFalse(spider.getPagesToVisit().isEmpty());
     }
 
+    /**
+     * Method testing if urlsChecked int is the same as the pagesVisited size from Spider.
+     */
     @Test
     public void assertIfUrlsCheckedAreTransferredToPagesVisited(){
         spider.search(googleUrl, "google");
@@ -129,4 +132,12 @@ public class SpiderTest {
     //1.direct/indirect in/out
     //2.Parameterised tests
 
+    @Test
+    public void assertIfMethodReturnsTheNextURL(){
+        spider.search(googleUrl, "google");
+
+        String urlRetrieved = spider.NextURL();
+
+        assertEquals(urlRetrieved, spider.getPagesToVisit().get(0));
+    }
 }
