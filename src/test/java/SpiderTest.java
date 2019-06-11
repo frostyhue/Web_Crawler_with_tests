@@ -138,6 +138,6 @@ public class SpiderTest {
 
         String urlRetrieved = spider.NextURL();
 
-        assertEquals(urlRetrieved, spider.getPagesToVisit().get(0));
+        assertFalse(spider.getPagesToVisit().contains(urlRetrieved));
     }
 }
