@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpiderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spider.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+            <state relative-caret-position="267">
+              <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3287#3288#0" expanded="true" />
@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+            <state relative-caret-position="375">
+              <caret line="149" column="65" selection-start-line="149" selection-start-column="65" selection-end-line="149" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,8 +102,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
       </list>
     </option>
   </component>
@@ -276,7 +276,7 @@
       <workItem from="1558882054165" duration="2029000" />
       <workItem from="1558957744783" duration="4056000" />
       <workItem from="1559051989881" duration="1118000" />
-      <workItem from="1560253429484" duration="1822000" />
+      <workItem from="1560253429484" duration="2065000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -502,13 +502,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560255150187</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Method testing if NextURL() adds the checked url to pagesVisited, test fails">
+      <created>1560255488717</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1560255488717</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_web-crawler_test - 2019.05.27 at 16h 34m 47s.xml">
-      <configuration name="All in web-crawler_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpiderTest_assertIfUrlsCheckedAreTransferredToPagesVisited - 2019.05.28 at 16h 26m 35s.xml">
       <configuration name="SpiderTest.assertIfUrlsCheckedAreTransferredToPagesVisited" configurationId="JUnit" />
     </history-entry>
@@ -536,9 +540,12 @@
     <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 14h 11m 02s.xml">
       <configuration name="SpiderTest.assertIfMethodReturnsTheNextURL" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpiderTest_assertIfTheURLReturnedIsAddedToPagesVisitedList - 2019.06.11 at 14h 17m 01s.xml">
+      <configuration name="SpiderTest.assertIfTheURLReturnedIsAddedToPagesVisitedList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45767000" />
+    <option name="totallyTimeSpent" value="46010000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -593,7 +600,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD searchForWord() testing if there is a check for empty doc, test fails" />
     <MESSAGE value="ADD searchForWord() empty doc check added, test passes" />
     <MESSAGE value="ADD generated JavaDoc after merge" />
     <MESSAGE value="ADD TODO for Spider class" />
@@ -618,7 +624,8 @@
     <MESSAGE value="Test added checking if NextURL() returns the first url in line, test fails" />
     <MESSAGE value="Functionality added to NextURL() method that retrieves the proper url, test succeeds" />
     <MESSAGE value="Refactored test method checking if NextURL() method returns the proper link, change done as the previous test was not in line with the future functionality of the method, NextURL() also changed instead ot list.get to use list.remove, test succeeds" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored test method checking if NextURL() method returns the proper link, change done as the previous test was not in line with the future functionality of the method, NextURL() also changed instead ot list.get to use list.remove, test succeeds" />
+    <MESSAGE value="Method testing if NextURL() adds the checked url to pagesVisited, test fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method testing if NextURL() adds the checked url to pagesVisited, test fails" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -676,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+        <state relative-caret-position="267">
+          <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3287#3288#0" expanded="true" />
@@ -688,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+        <state relative-caret-position="375">
+          <caret line="149" column="65" selection-start-line="149" selection-start-column="65" selection-end-line="149" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
