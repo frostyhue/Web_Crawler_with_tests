@@ -77,6 +77,7 @@ public class Spider {
     public String NextURL(){
         String nextUrl;
         nextUrl = this.pagesToVisit.remove(0);
+        pagesVisited.add(nextUrl);
         return nextUrl;
     }
 
