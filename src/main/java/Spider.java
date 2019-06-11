@@ -21,6 +21,7 @@ public class Spider {
     private List<String> pagesToVisit;
     private String urlFound;
     private SpiderLeg leg;
+    private int urlsChecked = 0;
 
     /**
      * Constructor of class Spider, initializing each variable that will be used in the logic for the methods in this class.
@@ -73,9 +74,23 @@ public class Spider {
         return leg;
     }
 
+    /**
+     * Method utilizing the SpiderLeg object to search for the word needed and returning the link.
+     * @param url string containing the link that should be crawled.
+     * @param word string containing the sequence of characters needed to be found so that the link can be returned.
+     * @return string containing the url that the word was found on.
+     */
     public String search(String url, String word){
         leg.crawl(url);
         this.pagesToVisit.addAll(leg.getUrls());
         return urlFound;
+    }
+
+    /**
+     * Getter method returning the number of urls that have been checked.
+     * @return urlsChecked int.
+     */
+    public int getUrlsChecked() {
+        return urlsChecked;
     }
 }

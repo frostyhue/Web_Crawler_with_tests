@@ -2,9 +2,13 @@ import junitparams.JUnitParamsRunner;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
 
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -28,6 +32,11 @@ public class SpiderTest {
     @Before
     public void testsSetup(){
         spider = new Spider();
+    }
+
+    @Before
+    public void mocksInit(){
+        MockitoAnnotations.initMocks(this);
     }
 
     //TODO constructor functionality tests
@@ -93,14 +102,22 @@ public class SpiderTest {
     //2.Parameterised tests
     //3.Mock tests
 
+    String googleUrl = "https://www.google.com";
     /**
      * Method testing if urls are populated after a crawl is initiated on the given link.
      */
     @Test
     public void assertPagesToVisitPopulatedAfterSerach(){
-        spider.search("https://www.google.com", "google");
+        spider.search(googleUrl, "google");
 
         assertFalse(spider.getPagesToVisit().isEmpty());
+    }
+
+    @Test
+    public void assertIfUrlsCheckedAreTransferredToPagesVisited(){
+        spider.search(googleUrl, "google");
+
+        assertEquals(spider.getUrlsChecked(), spider.getPagesVisited().size());
     }
 
     //TODO getNextURL() method functionality tests:
