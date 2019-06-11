@@ -125,11 +125,11 @@ public class SpiderTest {
 
     //TODO getNextURL() method functionality tests:
     //1.Return the next url in line from pagesToVisit. (DONE)
-    //2.Add the previous url to pagesVisited.
-    //3.Check if the url has been crawled yet.
+    //2.Add the previous url to pagesVisited. (DONE)
+    //3.Check if the url has been crawled yet. (DONE)
 
     //TESTSNEEDED for getNextUrl():
-    //1.direct/indirect in/out
+    //1.direct/indirect in/out (DONE)
     //2.Parameterised tests
 
     @Test
