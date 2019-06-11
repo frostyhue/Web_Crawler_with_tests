@@ -12,7 +12,7 @@ public class Spider {
     //2.Variable containing the pages already visited by the search algorithm and create a getter method for it. (DONE)
     //3.Variable containing the pages to yet be visited by the search algorithm and create a getter method for it. (DONE)
     //4.Variable containing the url that the sought word was found in and create a getter method for it. (DONE)
-    //5.Constructor declaring all of the variables.
+    //5.Constructor declaring all of the variables. (DONE)
     //6.Search method for finding the word sought.
     //7.Method retrieving the next url in line.
 
@@ -72,6 +72,10 @@ public class Spider {
      */
     public SpiderLeg getLeg() {
         return leg;
+    }
+
+    public String NextURL(){
+        return "";
     }
 
     /**
