@@ -1,2 +1,2 @@
-public class JSONBase {
+public abstract class JSONBase {
 }
