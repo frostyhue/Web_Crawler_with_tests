@@ -32,4 +32,17 @@ public class JSONBaseTest {
 
         assertEquals(testYear, mockObj.getYear());
     }
+
+    /**
+     * Checking if method accepts proper parameters.
+     */
+    @Test
+    public void assertIf_getGenre_ReturnString(){
+        JSONBase mockObj = Mockito.mock(JSONBase.class);
+        String testGenre = "fantasy";
+        Mockito.when(mockObj.getGenre()).thenReturn(testGenre);
+
+        assertEquals(testGenre, mockObj.getGenre());
+    }
+
 }
