@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpiderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,11 +54,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+            <state relative-caret-position="1343">
+              <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3648#3649#0" expanded="true" />
+                <element signature="e#4333#4334#0" expanded="true" />
+                <element signature="e#4367#4368#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,20 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="160" column="10" lean-forward="true" selection-start-line="160" selection-start-column="10" selection-end-line="160" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="276">
+              <caret line="193" column="5" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,6 +120,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,37 +133,10 @@
               <item name="Web_Crawler_with_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="web-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web_Crawler_with_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web_Crawler_with_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web_Crawler_with_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web_Crawler_with_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,12 +164,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiderTest">
-    <configuration name="SpiderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in web-crawler_test (1)">
+    <configuration name="All in web-crawler_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in web-crawler_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderTest.assertIfMethodAddsNextUrlToVisitedPagesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="assertIfMethodAddsNextUrlToVisitedPagesList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,50 +201,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiderTest.assertIfTheURLReturnedIsAddedToPagesVisitedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpiderTest.assertPagesToVisitPopulatedAfterSerach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="METHOD_NAME" value="assertIfTheURLReturnedIsAddedToPagesVisitedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpiderTest.assertIfUrlsCheckedAreTransferredToPagesVisited" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="METHOD_NAME" value="assertIfUrlsCheckedAreTransferredToPagesVisited" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpiderTest.assertPagesToVisitSameAsLegUrls" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="METHOD_NAME" value="assertPagesToVisitSameAsLegUrls" />
+      <option name="METHOD_NAME" value="assertPagesToVisitPopulatedAfterSerach" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SpiderTest.assertIfUrlsCheckedAreTransferredToPagesVisited" />
-      <item itemvalue="JUnit.SpiderTest.assertPagesToVisitSameAsLegUrls" />
       <item itemvalue="JUnit.SpiderTest.assertIfMethodReturnsTheNextURL" />
-      <item itemvalue="JUnit.SpiderTest.assertIfTheURLReturnedIsAddedToPagesVisitedList" />
-      <item itemvalue="JUnit.SpiderTest" />
+      <item itemvalue="JUnit.SpiderTest.assertPagesToVisitPopulatedAfterSerach" />
+      <item itemvalue="JUnit.SpiderTest.assertIfMethodAddsNextUrlToVisitedPagesList" />
+      <item itemvalue="JUnit.All in web-crawler_test" />
+      <item itemvalue="JUnit.All in web-crawler_test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpiderTest" />
+        <item itemvalue="JUnit.All in web-crawler_test (1)" />
+        <item itemvalue="JUnit.All in web-crawler_test" />
+        <item itemvalue="JUnit.SpiderTest.assertIfMethodAddsNextUrlToVisitedPagesList" />
         <item itemvalue="JUnit.SpiderTest.assertIfMethodReturnsTheNextURL" />
-        <item itemvalue="JUnit.SpiderTest.assertIfTheURLReturnedIsAddedToPagesVisitedList" />
-        <item itemvalue="JUnit.SpiderTest.assertPagesToVisitSameAsLegUrls" />
-        <item itemvalue="JUnit.SpiderTest.assertIfUrlsCheckedAreTransferredToPagesVisited" />
+        <item itemvalue="JUnit.SpiderTest.assertPagesToVisitPopulatedAfterSerach" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +249,8 @@
       <workItem from="1558882054165" duration="2029000" />
       <workItem from="1558957744783" duration="4056000" />
       <workItem from="1559051989881" duration="1118000" />
-      <workItem from="1560253429484" duration="2697000" />
+      <workItem from="1560253429484" duration="6182000" />
+      <workItem from="1560337306663" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -535,43 +497,50 @@
       <option name="project" value="LOCAL" />
       <updated>1560255953013</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Spider NextURL() tests refactored to parameterised tests, all tests succeed">
+      <created>1560256383968</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1560256383968</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderTest_assertIfUrlsCheckedAreTransferredToPagesVisited - 2019.05.28 at 16h 29m 54s.xml">
-      <configuration name="SpiderTest.assertIfUrlsCheckedAreTransferredToPagesVisited" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_assertIfUrlsCheckedAreTransferredToPagesVisited - 2019.05.28 at 16h 31m 23s.xml">
-      <configuration name="SpiderTest.assertIfUrlsCheckedAreTransferredToPagesVisited" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_assertPagesToVisitSameAsLegUrls - 2019.06.11 at 13h 54m 42s.xml">
-      <configuration name="SpiderTest.assertPagesToVisitSameAsLegUrls" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 14h 03m 18s.xml">
+    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 15h 24m 45s.xml">
       <configuration name="SpiderTest.assertIfMethodReturnsTheNextURL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 14h 03m 47s.xml">
+    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 15h 25m 51s.xml">
       <configuration name="SpiderTest.assertIfMethodReturnsTheNextURL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 14h 06m 57s.xml">
+    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 15h 26m 08s.xml">
       <configuration name="SpiderTest.assertIfMethodReturnsTheNextURL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 14h 11m 02s.xml">
+    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 15h 26m 49s.xml">
       <configuration name="SpiderTest.assertIfMethodReturnsTheNextURL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderTest_assertIfTheURLReturnedIsAddedToPagesVisitedList - 2019.06.11 at 14h 17m 01s.xml">
-      <configuration name="SpiderTest.assertIfTheURLReturnedIsAddedToPagesVisitedList" configurationId="JUnit" />
+    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.11 at 15h 27m 20s.xml">
+      <configuration name="SpiderTest.assertIfMethodReturnsTheNextURL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderTest_assertIfTheURLReturnedIsAddedToPagesVisitedList - 2019.06.11 at 14h 18m 31s.xml">
-      <configuration name="SpiderTest.assertIfTheURLReturnedIsAddedToPagesVisitedList" configurationId="JUnit" />
+    <history-entry file="SpiderTest_assertIfMethodReturnsTheNextURL - 2019.06.12 at 13h 07m 23s.xml">
+      <configuration name="SpiderTest.assertIfMethodReturnsTheNextURL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderTest - 2019.06.11 at 14h 26m 17s.xml">
-      <configuration name="SpiderTest" configurationId="JUnit" />
+    <history-entry file="SpiderTest_assertIfMethodAddsNextUrlToVisitedPagesList - 2019.06.12 at 13h 14m 51s.xml">
+      <configuration name="SpiderTest.assertIfMethodAddsNextUrlToVisitedPagesList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_assertIfMethodAddsNextUrlToVisitedPagesList - 2019.06.12 at 13h 19m 40s.xml">
+      <configuration name="SpiderTest.assertIfMethodAddsNextUrlToVisitedPagesList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiderTest_assertIfMethodAddsNextUrlToVisitedPagesList - 2019.06.12 at 13h 20m 00s.xml">
+      <configuration name="SpiderTest.assertIfMethodAddsNextUrlToVisitedPagesList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_web-crawler_test - 2019.06.12 at 13h 22m 01s.xml">
+      <configuration name="All in web-crawler_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46642000" />
+    <option name="totallyTimeSpent" value="51353000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -586,7 +555,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29127517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -626,7 +595,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD TODO for Spider class" />
     <MESSAGE value="ADD variables needed for Spider to function properly and respective getters, TODO half-way complete" />
     <MESSAGE value="ADD TODO to SpiderTest class for each block needed to be tested in Spider" />
     <MESSAGE value="ADD test to SpiderTest checking if Max_Number_Of_Pages is equal to 20 after object instantiated, test fails" />
@@ -651,9 +619,12 @@
     <MESSAGE value="Method testing if NextURL() adds the checked url to pagesVisited, test fails" />
     <MESSAGE value="NextURL() adds the url to pagesVisited, test succeeds" />
     <MESSAGE value="NextURL() refactored so that if the link is not checked yet, is returned" />
-    <option name="LAST_COMMIT_MESSAGE" value="NextURL() refactored so that if the link is not checked yet, is returned" />
+    <MESSAGE value="Spider NextURL() tests refactored to parameterised tests, all tests succeed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spider NextURL() tests refactored to parameterised tests, all tests succeed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test.ic" NAME="All in web-crawler_test Coverage Results" MODIFIED="1560338466068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test__1_.ic" NAME="All in web-crawler_test (1) Coverage Results" MODIFIED="1560338616797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
@@ -697,20 +668,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3648#3649#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="-1393">
           <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -718,10 +678,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4333#4334#0" expanded="true" />
+            <element signature="e#4367#4368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="160" column="10" lean-forward="true" selection-start-line="160" selection-start-column="10" selection-end-line="160" selection-end-column="10" />
+        <state relative-caret-position="276">
+          <caret line="193" column="5" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
