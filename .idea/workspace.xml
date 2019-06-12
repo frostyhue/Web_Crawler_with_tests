@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MusicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/SpiderLeg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,9 +20,6 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/web_crawler$___and_1_more.ic" NAME=".* and 1 more Coverage Results" MODIFIED="1557084068089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="74" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -55,11 +51,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="143" column="72" selection-start-line="143" selection-start-column="72" selection-end-line="143" selection-end-column="72" />
+            <state relative-caret-position="393">
+              <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1427#1428#0" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1651#1652#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
+                <element signature="e#1901#1902#0" expanded="true" />
+                <element signature="e#1955#1956#0" expanded="true" />
+                <element signature="e#2084#2085#0" expanded="true" />
+                <element signature="e#2130#2131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-103">
+              <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,10 +100,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <folding>
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+              <folding>
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state relative-caret-position="918">
+              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+              <folding>
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,14 +160,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>doc</find>
-      <find>20</find>
-      <find>word</find>
-      <find>search</find>
-    </findStrings>
-  </component>
   <component name="Git.Rebase.Settings">
     <option name="ONTO" value="refs/remotes/origin/SpiderLegDevelopment" />
   </component>
@@ -100,7 +167,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Music-Books-Development" />
       </map>
     </option>
   </component>
@@ -108,14 +175,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JSONBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MusicTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Music.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Book.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
@@ -128,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,18 +247,16 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557326857000" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560370369547" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -200,78 +274,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in web-crawler_test (2)">
-    <configuration name="All in web-crawler_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BookTest.testCheckIfBookTitleIsInstantiated">
+    <configuration name="BookTest.testCheckIfBookTitleIsInstantiated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in web-crawler_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in web-crawler_test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSONBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JSONBaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpiderLegTest.assertIf_crawl_AddsUrls" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderLegTest" />
-      <option name="METHOD_NAME" value="assertIf_crawl_AddsUrls" />
+      <option name="MAIN_CLASS_NAME" value="BookTest" />
+      <option name="METHOD_NAME" value="testCheckIfBookTitleIsInstantiated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MusicTest.testGetArtist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderLegTest" />
-      <option name="METHOD_NAME" value="assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" />
+      <option name="MAIN_CLASS_NAME" value="MusicTest" />
+      <option name="METHOD_NAME" value="testGetArtist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicTest.testGetterArtist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MusicTest" />
+      <option name="METHOD_NAME" value="testGetterArtist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicTest.testJSONMethodReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MusicTest" />
+      <option name="METHOD_NAME" value="testJSONMethodReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiderTest.assertIfLegIsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
+      <option name="METHOD_NAME" value="assertIfLegIsNotNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in web-crawler_test" />
-      <item itemvalue="JUnit.JSONBaseTest" />
-      <item itemvalue="JUnit.All in web-crawler_test (1)" />
-      <item itemvalue="JUnit.SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" />
-      <item itemvalue="JUnit.SpiderLegTest.assertIf_crawl_AddsUrls" />
-      <item itemvalue="JUnit.All in web-crawler_test (2)" />
+      <item itemvalue="JUnit.SpiderTest.assertIfLegIsNotNull" />
+      <item itemvalue="JUnit.MusicTest.testGetArtist" />
+      <item itemvalue="JUnit.MusicTest.testGetterArtist" />
+      <item itemvalue="JUnit.MusicTest.testJSONMethodReturn" />
+      <item itemvalue="JUnit.BookTest.testCheckIfBookTitleIsInstantiated" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in web-crawler_test (2)" />
-        <item itemvalue="JUnit.SpiderLegTest.assertIf_crawl_AddsUrls" />
-        <item itemvalue="JUnit.SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" />
-        <item itemvalue="JUnit.All in web-crawler_test (1)" />
-        <item itemvalue="JUnit.JSONBaseTest" />
+        <item itemvalue="JUnit.BookTest.testCheckIfBookTitleIsInstantiated" />
+        <item itemvalue="JUnit.MusicTest.testJSONMethodReturn" />
+        <item itemvalue="JUnit.MusicTest.testGetterArtist" />
+        <item itemvalue="JUnit.MusicTest.testGetArtist" />
+        <item itemvalue="JUnit.SpiderTest.assertIfLegIsNotNull" />
       </list>
     </recent_temporary>
   </component>
@@ -294,12 +361,13 @@
       <workItem from="1558308996340" duration="1601000" />
       <workItem from="1558718077542" duration="8681000" />
       <workItem from="1558882054165" duration="2029000" />
-      <workItem from="1558957744783" duration="4056000" />
-      <workItem from="1559051989881" duration="1118000" />
-      <workItem from="1560253429484" duration="6182000" />
-      <workItem from="1560337306663" duration="4101000" />
-      <workItem from="1560344651060" duration="9910000" />
-      <workItem from="1560370544459" duration="45000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial empty project">
+      <created>1557071413756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557071413756</updated>
     </task>
     <task id="LOCAL-00002" summary="ADD SpiderLeg empty class, SpiderLegTest class with TODOs for every method needed and the constructor, dependencies and auto build added">
       <created>1557081736803</created>
@@ -469,218 +537,120 @@
       <option name="project" value="LOCAL" />
       <updated>1558736201114</updated>
     </task>
-    <task id="LOCAL-00026" summary="ADD description of test types needed for class SpiderTest">
-      <created>1558892523340</created>
+    <task id="LOCAL-00026" summary="ADD TODO for the Music class and MusicTest class.">
+      <created>1560333903405</created>
       <option name="number" value="00026" />
       <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1558892523340</updated>
+      <updated>1560333903405</updated>
     </task>
-    <task id="LOCAL-00027" summary="ADD test method to class SpiderTest checking if pagesToVisit list is populated by search() method, basic method to satisfy errors added to class Spider for search() method, test fails without breaking other tests success rate">
-      <created>1558893302508</created>
+    <task id="LOCAL-00027" summary="ADD TODO for the Music class and MusicTest class.">
+      <created>1560334346361</created>
       <option name="number" value="00027" />
       <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1558893302508</updated>
+      <updated>1560334346361</updated>
     </task>
-    <task id="LOCAL-00028" summary="ADD functionality to search() from class Spider needed to do the specified action in the test, all tests succeed">
-      <created>1558893996877</created>
+    <task id="LOCAL-00028" summary="ADD TODO for the Music class and MusicTest class.">
+      <created>1560334430681</created>
       <option name="number" value="00028" />
       <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1558893996877</updated>
+      <updated>1560334430681</updated>
     </task>
-    <task id="LOCAL-00029" summary="comments added to methods without ones.">
-      <created>1560253756584</created>
+    <task id="LOCAL-00029" summary="ADD Test to check if the title of the music is being initialized correctly. Test Fails.">
+      <created>1560334805502</created>
       <option name="number" value="00029" />
       <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1560253756584</updated>
+      <updated>1560334805502</updated>
     </task>
-    <task id="LOCAL-00030" summary="Test added checking if NextURL() returns the first url in line, test fails">
-      <created>1560254684217</created>
+    <task id="LOCAL-00030" summary="ADD Test to check if the title of the music is being initialized correctly. Test Succeeds but the test for the getter fails.">
+      <created>1560335044147</created>
       <option name="number" value="00030" />
       <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1560254684217</updated>
+      <updated>1560335044147</updated>
     </task>
-    <task id="LOCAL-00031" summary="Functionality added to NextURL() method that retrieves the proper url, test succeeds">
-      <created>1560254929743</created>
+    <task id="LOCAL-00031" summary="ADD Test to check if the getter for the artist works. Test succeeds">
+      <created>1560335268265</created>
       <option name="number" value="00031" />
       <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1560254929743</updated>
+      <updated>1560335268265</updated>
     </task>
-    <task id="LOCAL-00032" summary="Refactored test method checking if NextURL() method returns the proper link, change done as the previous test was not in line with the future functionality of the method, NextURL() also changed instead ot list.get to use list.remove, test succeeds">
-      <created>1560255150187</created>
+    <task id="LOCAL-00032" summary="ADD Test to check if the getter for the artist works. Test succeeds. Now refactored including all the variables.">
+      <created>1560335513774</created>
       <option name="number" value="00032" />
       <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1560255150187</updated>
+      <updated>1560335513774</updated>
     </task>
-    <task id="LOCAL-00033" summary="Method testing if NextURL() adds the checked url to pagesVisited, test fails">
-      <created>1560255488717</created>
+    <task id="LOCAL-00033" summary="ADD Test to check if the method to transform the object to JSON is working properly. Test fails.">
+      <created>1560335849653</created>
       <option name="number" value="00033" />
       <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1560255488717</updated>
+      <updated>1560335849653</updated>
     </task>
-    <task id="LOCAL-00034" summary="NextURL() adds the url to pagesVisited, test succeeds">
-      <created>1560255547569</created>
+    <task id="LOCAL-00034" summary="ADD Test to check if the method to transform the object to JSON is working properly. Test succeeds.">
+      <created>1560336159465</created>
       <option name="number" value="00034" />
       <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1560255547569</updated>
+      <updated>1560336159465</updated>
     </task>
-    <task id="LOCAL-00035" summary="NextURL() refactored so that if the link is not checked yet, is returned">
-      <created>1560255953013</created>
+    <task id="LOCAL-00035" summary="ADD Test for checking if book title is instantiated. Test Fails.">
+      <created>1560369803641</created>
       <option name="number" value="00035" />
       <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1560255953013</updated>
+      <updated>1560369803641</updated>
     </task>
-    <task id="LOCAL-00036" summary="Spider NextURL() tests refactored to parameterised tests, all tests succeed">
-      <created>1560256383968</created>
+    <task id="LOCAL-00036" summary="ADD Test for checking if book title is instantiated. Test Succeeds">
+      <created>1560370211579</created>
       <option name="number" value="00036" />
       <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1560256383968</updated>
+      <updated>1560370211579</updated>
     </task>
-    <task id="LOCAL-00037" summary="Refactored a method in SpiderTest class such that it is mocked as the unit under test is something unpredictable and mock tests are better, functionality completely added to Spider class, all tests pass and code test coverage is 100%">
-      <created>1560338870886</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1560338870886</updated>
-    </task>
-    <task id="LOCAL-00038" summary="ADD empty JSONBase class and JSONBaseTest class">
-      <created>1560357818785</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1560357818785</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Test method added checking if JSONBase class is abstract, test fails">
-      <created>1560358478440</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1560358478440</updated>
-    </task>
-    <task id="LOCAL-00040" summary="JSONBase class changed to abstract, test passes">
-      <created>1560358512560</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1560358512560</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Test method added to JSONBaseTest class that uses a mock to test if the object of type JSONBase has method getYear and returns string, mock used as this is an abstract class, test fails">
-      <created>1560359288082</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1560359288082</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Method getYear and String parameter year added to JSONBase class, all tests pass">
-      <created>1560359339436</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1560359339436</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Test method added to JSONBaseTest class that checks if method getGenre exists and return string, mock used, test fails">
-      <created>1560360141384</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1560360141384</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Genre parameter and getter added to JSONBase class, tests pass">
-      <created>1560360777037</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1560360777037</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Test method added checking if getFormat method is implemented in JSONBase, test fails">
-      <created>1560361001779</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1560361001779</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Format parameter and getFormat method added to JSONBase class, refactored test as getGenre was used instead of getFormat, all tests pass">
-      <created>1560361123369</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1560361123369</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Test method added that checks if the method getJSONObject returns a JSONObject, test fails">
-      <created>1560361397313</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1560361397313</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Method getJSONObject() added to JSONBase class that returns a JSONObject with the data from the object, all tests pass">
-      <created>1560361585180</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1560361585180</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Test method added to JSONBaste test class that checks if the object returned by getJSONObject method is not null, all tests pass">
-      <created>1560361708681</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1560361708681</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Constructor added to JSONBase, all tests pass">
-      <created>1560362137732</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1560362137733</updated>
-    </task>
-    <option name="localTasksCounter" value="51" />
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_web-crawler_test_(1) - 2019.06.12 at 19h 54m 32s.xml">
-      <configuration name="All in web-crawler_test (1)" configurationId="JUnit" />
+    <history-entry file="SpiderTest_assertIfLegIsNull - 2019.05.25 at 00h 06m 21s.xml">
+      <configuration name="SpiderTest.assertIfLegIsNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderLegTest_assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist - 2019.06.12 at 20h 01m 02s.xml">
-      <configuration name="SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" configurationId="JUnit" />
+    <history-entry file="SpiderTest - 2019.05.25 at 00h 11m 43s.xml">
+      <configuration name="SpiderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderLegTest_assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist - 2019.06.12 at 20h 04m 21s.xml">
-      <configuration name="SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" configurationId="JUnit" />
+    <history-entry file="SpiderTest_assertIfLegIsNotNull - 2019.05.25 at 00h 14m 44s.xml">
+      <configuration name="SpiderTest.assertIfLegIsNotNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderLegTest_assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist - 2019.06.12 at 20h 04m 46s.xml">
-      <configuration name="SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" configurationId="JUnit" />
+    <history-entry file="SpiderTest_assertIfLegIsNotNull - 2019.05.25 at 00h 15m 00s.xml">
+      <configuration name="SpiderTest.assertIfLegIsNotNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_web-crawler_test - 2019.06.12 at 20h 05m 46s.xml">
-      <configuration name="All in web-crawler_test" configurationId="JUnit" />
+    <history-entry file="SpiderTest_assertIfLegIsNotNull - 2019.05.25 at 00h 15m 58s.xml">
+      <configuration name="SpiderTest.assertIfLegIsNotNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_web-crawler_test - 2019.06.12 at 20h 44m 59s.xml">
-      <configuration name="All in web-crawler_test" configurationId="JUnit" />
+    <history-entry file="MusicTest_testGetArtist - 2019.06.12 at 12h 22m 30s.xml">
+      <configuration name="MusicTest.testGetArtist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderLegTest_assertIf_crawl_AddsUrls - 2019.06.12 at 20h 49m 11s.xml">
-      <configuration name="SpiderLegTest.assertIf_crawl_AddsUrls" configurationId="JUnit" />
+    <history-entry file="MusicTest_testGetterArtist - 2019.06.12 at 12h 25m 18s.xml">
+      <configuration name="MusicTest.testGetterArtist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderLegTest_assertIf_crawl_AddsUrls - 2019.06.12 at 20h 54m 48s.xml">
-      <configuration name="SpiderLegTest.assertIf_crawl_AddsUrls" configurationId="JUnit" />
+    <history-entry file="MusicTest_testJSONMethodReturn - 2019.06.12 at 12h 41m 13s.xml">
+      <configuration name="MusicTest.testJSONMethodReturn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiderLegTest_assertIf_crawl_AddsUrls - 2019.06.12 at 20h 55m 10s.xml">
-      <configuration name="SpiderLegTest.assertIf_crawl_AddsUrls" configurationId="JUnit" />
+    <history-entry file="MusicTest_testJSONMethodReturn - 2019.06.12 at 12h 42m 28s.xml">
+      <configuration name="MusicTest.testJSONMethodReturn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_web-crawler_test_(2) - 2019.06.12 at 20h 56m 00s.xml">
-      <configuration name="All in web-crawler_test (2)" configurationId="JUnit" />
+    <history-entry file="BookTest_testCheckIfBookTitleIsInstantiated - 2019.06.12 at 22h 09m 51s.xml">
+      <configuration name="BookTest.testCheckIfBookTitleIsInstantiated" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64183000" />
+    <option name="totallyTimeSpent" value="40295000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -692,9 +662,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3033557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1465587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -702,25 +673,25 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Problems" order="3" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.21140939" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.21140939" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Gradle" order="7" weight="0.3295302" />
@@ -734,40 +705,35 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD description of test types needed for class SpiderTest" />
-    <MESSAGE value="ADD test method to class SpiderTest checking if pagesToVisit list is populated by search() method, basic method to satisfy errors added to class Spider for search() method, test fails without breaking other tests success rate" />
-    <MESSAGE value="ADD functionality to search() from class Spider needed to do the specified action in the test, all tests succeed" />
-    <MESSAGE value="comments added to methods without ones." />
-    <MESSAGE value="Test added checking if NextURL() returns the first url in line, test fails" />
-    <MESSAGE value="Functionality added to NextURL() method that retrieves the proper url, test succeeds" />
-    <MESSAGE value="Refactored test method checking if NextURL() method returns the proper link, change done as the previous test was not in line with the future functionality of the method, NextURL() also changed instead ot list.get to use list.remove, test succeeds" />
-    <MESSAGE value="Method testing if NextURL() adds the checked url to pagesVisited, test fails" />
-    <MESSAGE value="NextURL() adds the url to pagesVisited, test succeeds" />
-    <MESSAGE value="NextURL() refactored so that if the link is not checked yet, is returned" />
-    <MESSAGE value="Spider NextURL() tests refactored to parameterised tests, all tests succeed" />
-    <MESSAGE value="Refactored a method in SpiderTest class such that it is mocked as the unit under test is something unpredictable and mock tests are better, functionality completely added to Spider class, all tests pass and code test coverage is 100%" />
-    <MESSAGE value="ADD empty JSONBase class and JSONBaseTest class" />
-    <MESSAGE value="Test method added checking if JSONBase class is abstract, test fails" />
-    <MESSAGE value="JSONBase class changed to abstract, test passes" />
-    <MESSAGE value="Test method added to JSONBaseTest class that uses a mock to test if the object of type JSONBase has method getYear and returns string, mock used as this is an abstract class, test fails" />
-    <MESSAGE value="Method getYear and String parameter year added to JSONBase class, all tests pass" />
-    <MESSAGE value="Test method added to JSONBaseTest class that checks if method getGenre exists and return string, mock used, test fails" />
-    <MESSAGE value="Genre parameter and getter added to JSONBase class, tests pass" />
-    <MESSAGE value="Test method added checking if getFormat method is implemented in JSONBase, test fails" />
-    <MESSAGE value="Format parameter and getFormat method added to JSONBase class, refactored test as getGenre was used instead of getFormat, all tests pass" />
-    <MESSAGE value="Test method added that checks if the method getJSONObject returns a JSONObject, test fails" />
-    <MESSAGE value="Method getJSONObject() added to JSONBase class that returns a JSONObject with the data from the object, all tests pass" />
-    <MESSAGE value="Test method added to JSONBaste test class that checks if the object returned by getJSONObject method is not null, all tests pass" />
-    <MESSAGE value="Constructor added to JSONBase, all tests pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructor added to JSONBase, all tests pass" />
+    <MESSAGE value="ADD searchForWord() empty doc check added, test passes" />
+    <MESSAGE value="ADD generated JavaDoc after merge" />
+    <MESSAGE value="ADD TODO for Spider class" />
+    <MESSAGE value="ADD variables needed for Spider to function properly and respective getters, TODO half-way complete" />
+    <MESSAGE value="ADD TODO to SpiderTest class for each block needed to be tested in Spider" />
+    <MESSAGE value="ADD test to SpiderTest checking if Max_Number_Of_Pages is equal to 20 after object instantiated, test fails" />
+    <MESSAGE value="ADD functionality to Spider constructor making Max_Number_Of_Pages integer equal to 20, test succeeds" />
+    <MESSAGE value="REFACTOR added setup for simplification in future tests, all tests succeed" />
+    <MESSAGE value="ADD test to SpiderTest class checking if pagesVisited is HashSet, test fails" />
+    <MESSAGE value="ADD functionality to Spider class constructor instancing pagesVisited as a HashSet, test succeeds" />
+    <MESSAGE value="ADD test to SpiderTest class asserting if pagesToVisit is a LinkedList, test fails" />
+    <MESSAGE value="ADD functionality to Spider class' constructor instancing pagesToVisit as LinkedList, all tests pass" />
+    <MESSAGE value="ADD test to class SpiderTest checking if urlFound is empty string, add SpiderLeg object as leg to Spider class, test fails" />
+    <MESSAGE value="ADD functionality to class Spider's constructor setting urlFound as empty string, all tests succeed" />
+    <MESSAGE value="ADD test to class SpiderTest checking if leg in class Spider is not null, test fails" />
+    <MESSAGE value="ADD functionality to class Spider's constructor instancing leg as SpiderLeg, all tests succeed" />
+    <MESSAGE value="ADD TODO for the Music class and MusicTest class." />
+    <MESSAGE value="ADD Test to check if the title of the music is being initialized correctly. Test Fails." />
+    <MESSAGE value="ADD Test to check if the title of the music is being initialized correctly. Test Succeeds but the test for the getter fails." />
+    <MESSAGE value="ADD Test to check if the getter for the artist works. Test succeeds" />
+    <MESSAGE value="ADD Test to check if the getter for the artist works. Test succeeds. Now refactored including all the variables." />
+    <MESSAGE value="ADD Test to check if the method to transform the object to JSON is working properly. Test fails." />
+    <MESSAGE value="ADD Test to check if the method to transform the object to JSON is working properly. Test succeeds." />
+    <MESSAGE value="ADD Test for checking if book title is instantiated. Test Fails." />
+    <MESSAGE value="ADD Test for checking if book title is instantiated. Test Succeeds" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Test for checking if book title is instantiated. Test Succeeds" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test.ic" NAME="All in web-crawler_test Coverage Results" MODIFIED="1560365066920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/web_crawler$JSONBaseTest.ic" NAME="JSONBaseTest Coverage Results" MODIFIED="1560361850386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test__1_.ic" NAME="All in web-crawler_test (1) Coverage Results" MODIFIED="1560362020187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test__3_.ic" NAME="All in web-crawler_test (3) Coverage Results" MODIFIED="1560341512205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test__2_.ic" NAME="All in web-crawler_test (2) Coverage Results" MODIFIED="1560365719653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -790,64 +756,32 @@
     <entry file="file://$PROJECT_DIR$/c4-model/c4-model.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1679">
-          <caret line="140" column="28" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="28" />
+        <state relative-caret-position="393">
+          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4333#4334#0" expanded="true" />
-            <element signature="e#4367#4368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#2084#2085#0" expanded="true" />
+            <element signature="e#2130#2131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" column="72" selection-start-line="143" selection-start-column="72" selection-end-line="143" selection-end-column="72" />
+        <state relative-caret-position="-855">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -856,8 +790,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        <state relative-caret-position="918">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding>
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
