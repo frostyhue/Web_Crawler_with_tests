@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
                 <element signature="e#87#88#0" expanded="true" />
                 <element signature="e#114#115#0" expanded="true" />
@@ -81,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="69" column="66" selection-start-line="69" selection-start-column="66" selection-end-line="69" selection-end-column="66" />
+            <state relative-caret-position="273">
+              <caret line="78" column="45" lean-forward="true" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JSONBaseTest">
+  <component name="RunManager" selected="JUnit.JSONBaseTest.assertIf_getJSONObject_IsNotNull">
     <configuration name="All in web-crawler_test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -254,6 +255,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JSONBaseTest.assertIf_getJSONObject_IsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JSONBaseTest" />
+      <option name="METHOD_NAME" value="assertIf_getJSONObject_IsNotNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JSONBaseTest.assertIf_getJSONObject_IsReturningJSONObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -264,31 +275,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSONBaseTest.assertIf_getYear_ReturnString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JSONBaseTest" />
-      <option name="METHOD_NAME" value="assertIf_getYear_ReturnString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.All in web-crawler_test" />
-      <item itemvalue="JUnit.JSONBaseTest.assertIf_getYear_ReturnString" />
       <item itemvalue="JUnit.JSONBaseTest" />
       <item itemvalue="JUnit.JSONBaseTest.assertIf_getGenre_ReturnString" />
       <item itemvalue="JUnit.JSONBaseTest.assertIf_getFormat_ReturnString" />
       <item itemvalue="JUnit.JSONBaseTest.assertIf_getJSONObject_IsReturningJSONObject" />
+      <item itemvalue="JUnit.JSONBaseTest.assertIf_getJSONObject_IsNotNull" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONBaseTest.assertIf_getJSONObject_IsNotNull" />
         <item itemvalue="JUnit.JSONBaseTest" />
         <item itemvalue="JUnit.JSONBaseTest.assertIf_getJSONObject_IsReturningJSONObject" />
         <item itemvalue="JUnit.JSONBaseTest.assertIf_getFormat_ReturnString" />
         <item itemvalue="JUnit.JSONBaseTest.assertIf_getGenre_ReturnString" />
-        <item itemvalue="JUnit.JSONBaseTest.assertIf_getYear_ReturnString" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +316,7 @@
       <workItem from="1559051989881" duration="1118000" />
       <workItem from="1560253429484" duration="6182000" />
       <workItem from="1560337306663" duration="4101000" />
-      <workItem from="1560344651060" duration="6137000" />
+      <workItem from="1560344651060" duration="6470000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -639,16 +640,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560361123369</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Test method added that checks if the method getJSONObject returns a JSONObject, test fails">
+      <created>1560361397313</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1560361397313</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Method getJSONObject() added to JSONBase class that returns a JSONObject with the data from the object, all tests pass">
+      <created>1560361585180</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1560361585180</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_web-crawler_test_(2) - 2019.06.12 at 14h 02m 21s.xml">
-      <configuration name="All in web-crawler_test (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_web-crawler_test_(4) - 2019.06.12 at 15h 04m 43s.xml">
-      <configuration name="All in web-crawler_test (4)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JSONBaseTest_assertJSONBase_IsAbstractClass - 2019.06.12 at 18h 53m 13s.xml">
       <configuration name="JSONBaseTest.assertJSONBase_IsAbstractClass" configurationId="JUnit" />
     </history-entry>
@@ -673,9 +682,15 @@
     <history-entry file="JSONBaseTest - 2019.06.12 at 19h 37m 39s.xml">
       <configuration name="JSONBaseTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JSONBaseTest_assertIf_getJSONObject_IsReturningJSONObject - 2019.06.12 at 19h 45m 14s.xml">
+      <configuration name="JSONBaseTest.assertIf_getJSONObject_IsReturningJSONObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JSONBaseTest - 2019.06.12 at 19h 45m 21s.xml">
+      <configuration name="JSONBaseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60365000" />
+    <option name="totallyTimeSpent" value="60698000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -730,8 +745,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD functionality to class Spider's constructor setting urlFound as empty string, all tests succeed" />
-    <MESSAGE value="ADD test to class SpiderTest checking if leg in class Spider is not null, test fails" />
     <MESSAGE value="ADD functionality to class Spider's constructor instancing leg as SpiderLeg, all tests succeed" />
     <MESSAGE value="ADD description of tests needed for class SpiderTest" />
     <MESSAGE value="ADD description of test types needed for class SpiderTest" />
@@ -755,7 +768,9 @@
     <MESSAGE value="Genre parameter and getter added to JSONBase class, tests pass" />
     <MESSAGE value="Test method added checking if getFormat method is implemented in JSONBase, test fails" />
     <MESSAGE value="Format parameter and getFormat method added to JSONBase class, refactored test as getGenre was used instead of getFormat, all tests pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Format parameter and getFormat method added to JSONBase class, refactored test as getGenre was used instead of getFormat, all tests pass" />
+    <MESSAGE value="Test method added that checks if the method getJSONObject returns a JSONObject, test fails" />
+    <MESSAGE value="Method getJSONObject() added to JSONBase class that returns a JSONObject with the data from the object, all tests pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method getJSONObject() added to JSONBase class that returns a JSONObject with the data from the object, all tests pass" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test.ic" NAME="All in web-crawler_test Coverage Results" MODIFIED="1560338466068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -829,8 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="391">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
             <element signature="e#87#88#0" expanded="true" />
             <element signature="e#114#115#0" expanded="true" />
@@ -844,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="69" column="66" selection-start-line="69" selection-start-column="66" selection-end-line="69" selection-end-column="66" />
+        <state relative-caret-position="273">
+          <caret line="78" column="45" lean-forward="true" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

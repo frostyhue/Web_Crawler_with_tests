@@ -70,5 +70,12 @@ public class JSONBaseTest {
         assertTrue(mockObj.getJSONObject() instanceof JSONObject);
     }
 
-    
+    @Test
+    public void assertIf_getJSONObject_IsNotNull(){
+        JSONBase mockObj = Mockito.mock(JSONBase.class);
+        JSONObject testJson= new JSONObject();
+        Mockito.when(mockObj.getJSONObject()).thenReturn(testJson);
+
+        assertNotNull(mockObj.getJSONObject());
+    }
 }
