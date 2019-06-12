@@ -1,6 +1,6 @@
 public class Book {
     /** TODO:
-     * 1. Variable for book title
+     * 1. Variable for book title - done
      * 2. Variable for book category
      * 3. Variable for book genre
      * 4. Variable for format
@@ -12,10 +12,21 @@ public class Book {
      * 10. Method for transforming to JSON
      */
 
-   public String title;
+   private String title;
+   private String category;
+   private String genre;
+   private String format;
+   private String year;
+   private String author;
+   private String publisher;
+   private String isbn;
 
-   public Book(String title)
+   public Book(String title, String category, String genre, String format, String year, String author, String publisher, String isbn)
    {
        this.title = title;
    }
+
+    public String getTitle() {
+        return title;
+    }
 }
