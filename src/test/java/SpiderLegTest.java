@@ -3,6 +3,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import junitparams.Parameters;
 
+import java.io.IOException;
 import java.util.LinkedList;
 
 import static junitparams.JUnitParamsRunner.$;
@@ -76,6 +77,13 @@ public class SpiderLegTest {
         assertFalse(leg.searchForWord(word));
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist(){
+        SpiderLeg leg = new SpiderLeg();
+        String badUrl = "google.com";
+        leg.crawl(badUrl);
+    }
+
     /**
      * Method that creates a set of parameters used to test if in the certain url, the given word is not found.
      */
@@ -132,6 +140,19 @@ public class SpiderLegTest {
     //5.Retrieve all of the links on the webpage
     //6.Add each link to a list
 
+    /**
+     * Test method assuring that when a bad url is given, returns false.
+     */
+    @Test
+    public void assertIf_crawl_AddsUrls(){
+        SpiderLeg s = new SpiderLeg();
+
+        String url = "http://i358097.hera.fhict.nl/catalog";
+
+        boolean result = s.crawl(url);
+
+        assertFalse(result);
+    }
     /**
      * This test method checks the crawl method.
      * It asserts that the method returns true
