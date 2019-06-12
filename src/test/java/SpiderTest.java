@@ -30,6 +30,7 @@ public class SpiderTest {
 
     /**
      * Method that creates a set of parameters used to test if in the certain url, the given word is found.
+     * @return test parameters
      */
     private static final Object[] linksWords(){
         String google = "https://www.google.com";
@@ -44,6 +45,10 @@ public class SpiderTest {
         );
     }
 
+    /**
+     * Method used for parameterised test to lessen code lines
+     * @return test parameters
+     */
     private static final Object[] linksWordsMore(){
         String catalog = "http://i358097.hera.fhict.nl/";
         return $(
@@ -62,6 +67,9 @@ public class SpiderTest {
         spider = new Spider();
     }
 
+    /**
+     * Setting up the Mockito frameword
+     */
     @Before
     public void mocksInit(){
         MockitoAnnotations.initMocks(this);
@@ -119,16 +127,16 @@ public class SpiderTest {
 
     //TODO search() method functionality tests
     //1.Populate pagesToVisit using leg.crawl() method. (DONE)
-    //2.Loop through each url and use leg.searchForWord() to find the sought word.
-    //3.Set url that should be checked first.
-    //4.If word is found, break loop and return the url.
-    //5.If not, continue checking urls.
-    //6.Check if pagesToVisit is empty.
+    //2.Loop through each url and use leg.searchForWord() to find the sought word. (DONE)
+    //3.Set url that should be checked first. (DONE)
+    //4.If word is found, break loop and return the url. (DONE)
+    //5.If not, continue checking urls. (DONE)
+    //6.Check if pagesToVisit is empty. (DONE)
 
     //TESTSNEEDED for search():
-    //1.direct/indirect in/out
-    //2.Parameterised tests
-    //3.Mock tests
+    //1.direct/indirect in/out (DONE)
+    //2.Parameterised tests (DONE)
+    //3.Mock tests (DONE)
 
     private String googleUrl = "https://www.google.com";
     /**
@@ -144,6 +152,54 @@ public class SpiderTest {
     }
 
     /**
+     * Method used for parameterised test to lessen code lines
+     * @return test parameters
+     */
+    private static final Object[] urlWordFoundUrl(){
+        String crawledUrl = "http://i358097.hera.fhict.nl/";
+        return $(
+                $(crawledUrl, "Refactoring", "http://i358097.hera.fhict.nl/details.php?id=103"),
+                $(crawledUrl, "A Design Patterns", "http://i358097.hera.fhict.nl/details.php?id=101"),
+                $(crawledUrl, "Forrest Gump", "http://i358097.hera.fhict.nl/details.php?id=201"),
+                $(crawledUrl, "Lord of The Rings", "http://i358097.hera.fhict.nl/details.php?id=203"),
+                $(crawledUrl, "Princess", "http://i358097.hera.fhict.nl/details.php?id=204"),
+                $(crawledUrl, "Clean Code: A Handbook of Agile Software Craftsmanship", "http://i358097.hera.fhict.nl/details.php?id=102")
+        );
+    }
+
+
+    /**
+     * Test method checking if the url found from the crawl matches the expected one.
+     * @param url String containing the link to be checked.
+     * @param word String of characters that should be found.
+     * @param returnedUrl String containing the link that the word String was found at.
+     */
+    @Test
+    @Parameters(method = "urlWordFoundUrl")
+    public void assertIfUrlFoundMatches(String url, String word, String returnedUrl){
+        spider.search(url, word);
+
+        assertEquals(returnedUrl, spider.getUrlFound());
+    }
+
+    /**
+     * Mocked test method checking if the url found from the crawl matches the expected one.
+     * @param url String containing the link to be checked.
+     * @param word String of characters that should be found.
+     * @param returnedUrl String containing the link that the word String was found at.
+     */
+    @Test
+    @Parameters(method = "urlWordFoundUrl")
+    public void assertMockedIfUrlFoundMatches(String url, String word, String returnedUrl){
+        Spider s = Mockito.mock(Spider.class);
+        s.search(url, word);
+
+        Mockito.when(s.getUrlFound()).thenReturn(returnedUrl);
+
+        assertTrue(s.getUrlFound() == returnedUrl);
+    }
+
+    /**
      * Method testing if urlsChecked int is the same as the pagesVisited size from Spider.
      */
     @Test
@@ -153,6 +209,12 @@ public class SpiderTest {
         assertEquals(spider.getUrlsChecked(), spider.getPagesVisited().size());
     }
 
+    /**
+     * Test method checking if the url found from the crawl matches the expected one.
+     * @param url String containing the link to be checked.
+     * @param word String of characters that should be found.
+     * @param found String containing the link that the word String was found at.
+     */
     @Test
     @Parameters(method = "linksWordsMore")
     public void assertIfSearchReturnsProperURL(String url, String word, String found) {
@@ -169,6 +231,10 @@ public class SpiderTest {
     //1.direct/indirect in/out (DONE)
     //2.Parameterised tests (DONE)
 
+    /**
+     * Method used for parameterised test to lessen code lines
+     * @return test parameters
+     */
     private static final Object[] urlsFound(){
         return $(
                 $("http://i358097.hera.fhict.nl/details.php?id=102", "Refactoring"),
@@ -180,6 +246,11 @@ public class SpiderTest {
         );
     }
 
+    /**
+     * Mocked test method that checks if the processed link is found in the pagesVisited parameter.
+     * @param url String containing the link that should be contained in the list.
+     * @param word String of characters that should be found at the url.
+     */
     @Test
     @Parameters(method = "urlsFound")
     public void assertIfMethodAddsNextUrlToVisitedPagesList(String url, String word){
