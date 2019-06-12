@@ -44,21 +44,22 @@ public class SpiderLegTest {
      * Method that creates a set of parameters used to test if in the certain url, the given word is found.
      */
     private static final Object[] getUrlWordTrue(){
-        String google = "https://www.google.com";
-        String w3school = "https://www.w3schools.com/";
-        String amazon = "https://www.amazon.de/";
+        String crawledUrl = "http://i358097.hera.fhict.nl/";
+        String noFences = "http://i358097.hera.fhict.nl/details.php?id=303";
+        String cc = "http://i358097.hera.fhict.nl/details.php?id=102";
+        String lotr = "http://i358097.hera.fhict.nl/details.php?id=203";
         return $(
-                $(google, "google"),
-                $(google, "GoOgLe"),
-                $(google, "gOogle"),
-                $(w3school, "html and css"),
-                $(w3school, "HTML and CSS"),
-                $(w3school, "Learn SQL"),
-                $(w3school, "Learn SQL"),
-                $(w3school, "LeArN SqL"),
-                $(amazon, "amazon"),
-                $(amazon, "prime"),
-                $(amazon, "PrIme")
+                $(cc, "Clean Code: A Handbook of Agile Software Craftsmanship"),
+                $(crawledUrl, "Books"),
+                $("http://i358097.hera.fhict.nl/catalog.php?cat=books", "catalog"),
+                $(crawledUrl, "movies"),
+                $(crawledUrl, "music"),
+                $(crawledUrl, "suggest"),
+                $(crawledUrl, "view details"),
+                $(noFences, "no fences"),
+                $(lotr, "lord"),
+                $(lotr, "rings"),
+                $(noFences, "1990")
         );
     }
     /**
@@ -79,19 +80,22 @@ public class SpiderLegTest {
      * Method that creates a set of parameters used to test if in the certain url, the given word is not found.
      */
     private static final Object[] getUrlWordFalse(){
-        String google = "https://www.google.com";
-        String w3school = "https://www.w3schools.com/";
-        String amazon = "https://www.amazon.de/";
+        String crawledUrl = "http://i358097.hera.fhict.nl/";
+        String noFences = "http://i358097.hera.fhict.nl/details.php?id=303";
+        String cc = "http://i358097.hera.fhict.nl/details.php?id=102";
+        String lotr = "http://i358097.hera.fhict.nl/details.php?id=203";
         return $(
-                $(google, "<html"),
-                $(google, "<style"),
-                $(google, "<script"),
-                $(w3school, "cars"),
-                $(w3school, "Fontys"),
-                $(w3school, "hard drive"),
-                $(amazon, "<html"),
-                $(amazon, "<style"),
-                $(amazon, "<script")
+                $(lotr, "Clean Code: A Handbook of Agile Software Craftsmanship"),
+                $(lotr, "Design Patterns"),
+                $("http://i358097.hera.fhict.nl/catalog.php?cat=books", "Forrest Gump"),
+                $(crawledUrl, "google"),
+                $(crawledUrl, "masterpiece"),
+                $(crawledUrl, "fontys"),
+                $(crawledUrl, "view dettails"),
+                $(cc, "no fences"),
+                $(cc, "lord"),
+                $(noFences, "rings"),
+                $(cc, "1990")
         );
     }
 
