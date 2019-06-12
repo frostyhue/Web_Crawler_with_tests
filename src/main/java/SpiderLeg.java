@@ -5,6 +5,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -56,8 +57,20 @@ public class SpiderLeg {
             }
 
             Elements linksOnPage = doc.select("a[href]");
-            System.out.println("Found (" + linksOnPage.size() + ") links");
-            for(Element link : linksOnPage)
+//            for (Iterator<Element> iterator = linksOnPage.iterator(); iterator.hasNext(); ) {
+//                Element element = iterator.next();
+//                if(element.text().toLowerCase().contains("twitter") || element.text().toLowerCase().contains("facebook")){
+//                    linksOnPage.remove(element);
+//                }
+//            }
+            Elements modifiedLinksOnPage = new Elements();
+            for (Element element : linksOnPage){
+                if(!element.text().toLowerCase().contains("twitter") || !element.text().toLowerCase().contains("facebook")){
+                    modifiedLinksOnPage.add(element);
+                }
+            }
+            System.out.println("Found (" + modifiedLinksOnPage.size() + ") links");
+            for(Element link : modifiedLinksOnPage)
             {
                 this.urls.add(link.absUrl("href"));
             }
