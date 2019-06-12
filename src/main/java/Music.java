@@ -9,7 +9,7 @@ public class Music {
      * 4. Variable containing artist - done
      * 5. Variable containing the category - done
      * 6. Constructor for declaring all the variables - done
-     * 7. Method for making the object into JSONObject
+     * 7. Method for making the object into JSONObject - done
      */
 
     private String title;

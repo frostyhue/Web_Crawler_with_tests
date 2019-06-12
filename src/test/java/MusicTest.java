@@ -6,7 +6,7 @@ public class MusicTest {
     /**
      * TODO:
      * 1. Test to check if the initialization (i.e. of the song name) is successful - done
-     * 2. Test to check if the method to transform into JSON object works
+     * 2. Test to check if the method to transform into JSON object works - done
      */
 
     /**
