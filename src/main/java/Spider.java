@@ -12,7 +12,7 @@ public class Spider {
     //2.Variable containing the pages already visited by the search algorithm and create a getter method for it. (DONE)
     //3.Variable containing the pages to yet be visited by the search algorithm and create a getter method for it. (DONE)
     //4.Variable containing the url that the sought word was found in and create a getter method for it. (DONE)
-    //5.Constructor declaring all of the variables.
+    //5.Constructor declaring all of the variables. (DONE)
     //6.Search method for finding the word sought.
     //7.Method retrieving the next url in line.
 
@@ -21,6 +21,7 @@ public class Spider {
     private List<String> pagesToVisit;
     private String urlFound;
     private SpiderLeg leg;
+    private int urlsChecked = 0;
 
     /**
      * Constructor of class Spider, initializing each variable that will be used in the logic for the methods in this class.
@@ -71,5 +72,55 @@ public class Spider {
      */
     public SpiderLeg getLeg() {
         return leg;
+    }
+
+    /**
+     * Method returning the next url in line for a check.
+     * @return nextUrl string.
+     */
+    public String NextURL(){
+        String nextUrl;
+        do{
+            nextUrl = this.pagesToVisit.remove(0);
+        } while(this.pagesVisited.contains(nextUrl));
+        this.pagesVisited.add(nextUrl);
+        return nextUrl;
+    }
+
+    /**
+     * Method utilizing the SpiderLeg object to search for the word needed and returning the link.
+     * @param url string containing the link that should be crawled.
+     * @param word string containing the sequence of characters needed to be found so that the link can be returned.
+     * @return string containing the url that the word was found on.
+     */
+    public String search(String url, String word){
+        while(this.pagesVisited.size() < this.getMax_Number_Of_Pages()){
+            this.urlsChecked++;
+            String currentUrl;
+            SpiderLeg leg = new SpiderLeg();
+            if(this.pagesToVisit.isEmpty()){
+                currentUrl = url;
+                this.pagesVisited.add(url);
+            }
+            else {
+                currentUrl = this.NextURL();
+            }
+            leg.crawl(currentUrl);
+            boolean successfulResponse = leg.searchForWord(word);
+            if (successfulResponse){
+                this.urlFound = currentUrl;
+                break;
+            }
+            this.pagesToVisit.addAll(leg.getUrls());
+        }
+        return this.urlFound;
+    }
+
+    /**
+     * Getter method returning the number of urls that have been checked.
+     * @return urlsChecked int.
+     */
+    public int getUrlsChecked() {
+        return urlsChecked;
     }
 }
