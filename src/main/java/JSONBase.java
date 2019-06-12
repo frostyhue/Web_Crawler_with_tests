@@ -5,6 +5,12 @@ public abstract class JSONBase {
     private String genre;
     private String format;
 
+    JSONBase(String genre, String format, String year){
+        this.year = year;
+        this.format = format;
+        this.genre = genre;
+    }
+
     public String getYear() {
         return year;
     }
