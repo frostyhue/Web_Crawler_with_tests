@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="Constructor added to JSONBase">
+    <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JSONBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JSONBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,7 +21,7 @@
     <SUITE FILE_PATH="coverage/web_crawler$___and_1_more.ic" NAME=".* and 1 more Coverage Results" MODIFIED="1557084068089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="129" />
+    <option name="myElementSize" value="74" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -53,28 +53,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="182">
+              <caret line="143" column="72" selection-start-line="143" selection-start-column="72" selection-end-line="143" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="25" />
-              <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-353">
+              <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -93,6 +88,7 @@
       <find>doc</find>
       <find>20</find>
       <find>word</find>
+      <find>search</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -110,12 +106,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JSONBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JSONBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" />
       </list>
     </option>
   </component>
@@ -202,8 +198,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in web-crawler_test (1)">
+  <component name="RunManager" selected="JUnit.All in web-crawler_test (2)">
     <configuration name="All in web-crawler_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in web-crawler_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -231,31 +235,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSONBaseTest.assertIf_getFormat_ReturnString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpiderLegTest.assertIf_crawl_AddsUrls" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JSONBaseTest" />
-      <option name="METHOD_NAME" value="assertIf_getFormat_ReturnString" />
+      <option name="MAIN_CLASS_NAME" value="SpiderLegTest" />
+      <option name="METHOD_NAME" value="assertIf_crawl_AddsUrls" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSONBaseTest.assertIf_getJSONObject_IsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JSONBaseTest" />
-      <option name="METHOD_NAME" value="assertIf_getJSONObject_IsNotNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSONBaseTest.assertIf_getJSONObject_IsReturningJSONObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JSONBaseTest" />
-      <option name="METHOD_NAME" value="assertIf_getJSONObject_IsReturningJSONObject" />
+      <option name="MAIN_CLASS_NAME" value="SpiderLegTest" />
+      <option name="METHOD_NAME" value="assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -264,18 +258,18 @@
     <list>
       <item itemvalue="JUnit.All in web-crawler_test" />
       <item itemvalue="JUnit.JSONBaseTest" />
-      <item itemvalue="JUnit.JSONBaseTest.assertIf_getFormat_ReturnString" />
-      <item itemvalue="JUnit.JSONBaseTest.assertIf_getJSONObject_IsReturningJSONObject" />
-      <item itemvalue="JUnit.JSONBaseTest.assertIf_getJSONObject_IsNotNull" />
       <item itemvalue="JUnit.All in web-crawler_test (1)" />
+      <item itemvalue="JUnit.SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" />
+      <item itemvalue="JUnit.SpiderLegTest.assertIf_crawl_AddsUrls" />
+      <item itemvalue="JUnit.All in web-crawler_test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in web-crawler_test (2)" />
+        <item itemvalue="JUnit.SpiderLegTest.assertIf_crawl_AddsUrls" />
+        <item itemvalue="JUnit.SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" />
         <item itemvalue="JUnit.All in web-crawler_test (1)" />
         <item itemvalue="JUnit.JSONBaseTest" />
-        <item itemvalue="JUnit.JSONBaseTest.assertIf_getJSONObject_IsNotNull" />
-        <item itemvalue="JUnit.JSONBaseTest.assertIf_getJSONObject_IsReturningJSONObject" />
-        <item itemvalue="JUnit.JSONBaseTest.assertIf_getFormat_ReturnString" />
       </list>
     </recent_temporary>
   </component>
@@ -302,14 +296,7 @@
       <workItem from="1559051989881" duration="1118000" />
       <workItem from="1560253429484" duration="6182000" />
       <workItem from="1560337306663" duration="4101000" />
-      <workItem from="1560344651060" duration="6790000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial empty project">
-      <created>1557071413756</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1557071413756</updated>
+      <workItem from="1560344651060" duration="9910000" />
     </task>
     <task id="LOCAL-00002" summary="ADD SpiderLeg empty class, SpiderLegTest class with TODOs for every method needed and the constructor, dependencies and auto build added">
       <created>1557081736803</created>
@@ -647,43 +634,50 @@
       <option name="project" value="LOCAL" />
       <updated>1560361708681</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Constructor added to JSONBase, all tests pass">
+      <created>1560362137732</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1560362137733</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JSONBaseTest_assertIf_getYear_ReturnString - 2019.06.12 at 19h 06m 39s.xml">
-      <configuration name="JSONBaseTest.assertIf_getYear_ReturnString" configurationId="JUnit" />
+    <history-entry file="All_in_web-crawler_test_(1) - 2019.06.12 at 19h 54m 32s.xml">
+      <configuration name="All in web-crawler_test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JSONBaseTest - 2019.06.12 at 19h 08m 28s.xml">
-      <configuration name="JSONBaseTest" configurationId="JUnit" />
+    <history-entry file="SpiderLegTest_assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist - 2019.06.12 at 20h 01m 02s.xml">
+      <configuration name="SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JSONBaseTest_assertIf_getGenre_ReturnString - 2019.06.12 at 19h 33m 01s.xml">
-      <configuration name="JSONBaseTest.assertIf_getGenre_ReturnString" configurationId="JUnit" />
+    <history-entry file="SpiderLegTest_assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist - 2019.06.12 at 20h 04m 21s.xml">
+      <configuration name="SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JSONBaseTest - 2019.06.12 at 19h 37m 11s.xml">
-      <configuration name="JSONBaseTest" configurationId="JUnit" />
+    <history-entry file="SpiderLegTest_assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist - 2019.06.12 at 20h 04m 46s.xml">
+      <configuration name="SpiderLegTest.assertIf_crawl_ThrowsExceptionWhenUrlDoesntExist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JSONBaseTest_assertIf_getFormat_ReturnString - 2019.06.12 at 19h 37m 32s.xml">
-      <configuration name="JSONBaseTest.assertIf_getFormat_ReturnString" configurationId="JUnit" />
+    <history-entry file="All_in_web-crawler_test - 2019.06.12 at 20h 05m 46s.xml">
+      <configuration name="All in web-crawler_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JSONBaseTest - 2019.06.12 at 19h 37m 39s.xml">
-      <configuration name="JSONBaseTest" configurationId="JUnit" />
+    <history-entry file="All_in_web-crawler_test - 2019.06.12 at 20h 44m 59s.xml">
+      <configuration name="All in web-crawler_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JSONBaseTest_assertIf_getJSONObject_IsReturningJSONObject - 2019.06.12 at 19h 45m 14s.xml">
-      <configuration name="JSONBaseTest.assertIf_getJSONObject_IsReturningJSONObject" configurationId="JUnit" />
+    <history-entry file="SpiderLegTest_assertIf_crawl_AddsUrls - 2019.06.12 at 20h 49m 11s.xml">
+      <configuration name="SpiderLegTest.assertIf_crawl_AddsUrls" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JSONBaseTest - 2019.06.12 at 19h 45m 21s.xml">
-      <configuration name="JSONBaseTest" configurationId="JUnit" />
+    <history-entry file="SpiderLegTest_assertIf_crawl_AddsUrls - 2019.06.12 at 20h 54m 48s.xml">
+      <configuration name="SpiderLegTest.assertIf_crawl_AddsUrls" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JSONBaseTest_assertIf_getJSONObject_IsNotNull - 2019.06.12 at 19h 47m 45s.xml">
-      <configuration name="JSONBaseTest.assertIf_getJSONObject_IsNotNull" configurationId="JUnit" />
+    <history-entry file="SpiderLegTest_assertIf_crawl_AddsUrls - 2019.06.12 at 20h 55m 10s.xml">
+      <configuration name="SpiderLegTest.assertIf_crawl_AddsUrls" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JSONBaseTest - 2019.06.12 at 19h 51m 27s.xml">
-      <configuration name="JSONBaseTest" configurationId="JUnit" />
+    <history-entry file="All_in_web-crawler_test_(2) - 2019.06.12 at 20h 56m 00s.xml">
+      <configuration name="All in web-crawler_test (2)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61018000" />
+    <option name="totallyTimeSpent" value="64138000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -697,7 +691,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29932886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29932886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -723,7 +717,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.21140939" />
+      <window_info active="true" anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.21140939" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Gradle" order="7" weight="0.3295302" />
@@ -737,7 +731,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD description of tests needed for class SpiderTest" />
     <MESSAGE value="ADD description of test types needed for class SpiderTest" />
     <MESSAGE value="ADD test method to class SpiderTest checking if pagesToVisit list is populated by search() method, basic method to satisfy errors added to class Spider for search() method, test fails without breaking other tests success rate" />
     <MESSAGE value="ADD functionality to search() from class Spider needed to do the specified action in the test, all tests succeed" />
@@ -762,14 +755,16 @@
     <MESSAGE value="Test method added that checks if the method getJSONObject returns a JSONObject, test fails" />
     <MESSAGE value="Method getJSONObject() added to JSONBase class that returns a JSONObject with the data from the object, all tests pass" />
     <MESSAGE value="Test method added to JSONBaste test class that checks if the object returned by getJSONObject method is not null, all tests pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test method added to JSONBaste test class that checks if the object returned by getJSONObject method is not null, all tests pass" />
+    <MESSAGE value="Constructor added to JSONBase, all tests pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructor added to JSONBase, all tests pass" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test.ic" NAME="All in web-crawler_test Coverage Results" MODIFIED="1560338466068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test.ic" NAME="All in web-crawler_test Coverage Results" MODIFIED="1560365066920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/web_crawler$JSONBaseTest.ic" NAME="JSONBaseTest Coverage Results" MODIFIED="1560361850386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test__1_.ic" NAME="All in web-crawler_test (1) Coverage Results" MODIFIED="1560362020187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test__3_.ic" NAME="All in web-crawler_test (3) Coverage Results" MODIFIED="1560341512205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test__2_.ic" NAME="All in web-crawler_test (2) Coverage Results" MODIFIED="1560365719653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -821,20 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -848,7 +829,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="25" />
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#87#88#0" expanded="true" />
             <element signature="e#114#115#0" expanded="true" />
@@ -856,6 +837,23 @@
             <element signature="e#200#201#0" expanded="true" />
             <element signature="e#260#261#0" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpiderLeg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="143" column="72" selection-start-line="143" selection-start-column="72" selection-end-line="143" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
