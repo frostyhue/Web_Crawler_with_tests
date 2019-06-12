@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/web-crawler_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/web-crawler_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/web-crawler_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/web-crawler_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,11 +53,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
+            <state relative-caret-position="119">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="8" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +118,8 @@
         <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JSONBase.java" />
       </list>
     </option>
   </component>
@@ -141,7 +156,21 @@
               <item name="web-crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web_Crawler_with_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Crawler_with_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Crawler_with_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,15 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in web-crawler_test">
-    <configuration name="All in web-crawler_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JSONBaseTest.assertJSONBase_IsAbstractClass">
     <configuration name="All in web-crawler_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -221,6 +242,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JSONBaseTest.assertJSONBase_IsAbstractClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JSONBaseTest" />
+      <option name="METHOD_NAME" value="assertJSONBase_IsAbstractClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpiderTest.assertIfUrlFoundMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -232,20 +263,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in web-crawler_test (1)" />
       <item itemvalue="JUnit.SpiderTest.assertIfUrlFoundMatches" />
       <item itemvalue="JUnit.All in web-crawler_test (2)" />
       <item itemvalue="JUnit.All in web-crawler_test (3)" />
       <item itemvalue="JUnit.All in web-crawler_test (4)" />
       <item itemvalue="JUnit.All in web-crawler_test" />
+      <item itemvalue="JUnit.JSONBaseTest.assertJSONBase_IsAbstractClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONBaseTest.assertJSONBase_IsAbstractClass" />
         <item itemvalue="JUnit.All in web-crawler_test (4)" />
         <item itemvalue="JUnit.All in web-crawler_test (3)" />
         <item itemvalue="JUnit.All in web-crawler_test (2)" />
         <item itemvalue="JUnit.SpiderTest.assertIfUrlFoundMatches" />
-        <item itemvalue="JUnit.All in web-crawler_test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +303,7 @@
       <workItem from="1559051989881" duration="1118000" />
       <workItem from="1560253429484" duration="6182000" />
       <workItem from="1560337306663" duration="4101000" />
-      <workItem from="1560344651060" duration="2403000" />
+      <workItem from="1560344651060" duration="3210000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -533,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560338870886</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="ADD empty JSONBase class and JSONBaseTest class">
+      <created>1560357818785</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1560357818785</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -569,7 +607,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56631000" />
+    <option name="totallyTimeSpent" value="57438000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -582,6 +620,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29932886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -623,7 +662,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD TODO to SpiderTest class for each block needed to be tested in Spider" />
     <MESSAGE value="ADD test to SpiderTest checking if Max_Number_Of_Pages is equal to 20 after object instantiated, test fails" />
     <MESSAGE value="ADD functionality to Spider constructor making Max_Number_Of_Pages integer equal to 20, test succeeds" />
     <MESSAGE value="REFACTOR added setup for simplification in future tests, all tests succeed" />
@@ -648,7 +686,8 @@
     <MESSAGE value="NextURL() refactored so that if the link is not checked yet, is returned" />
     <MESSAGE value="Spider NextURL() tests refactored to parameterised tests, all tests succeed" />
     <MESSAGE value="Refactored a method in SpiderTest class such that it is mocked as the unit under test is something unpredictable and mock tests are better, functionality completely added to Spider class, all tests pass and code test coverage is 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored a method in SpiderTest class such that it is mocked as the unit under test is something unpredictable and mock tests are better, functionality completely added to Spider class, all tests pass and code test coverage is 100%" />
+    <MESSAGE value="ADD empty JSONBase class and JSONBaseTest class" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD empty JSONBase class and JSONBaseTest class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test.ic" NAME="All in web-crawler_test Coverage Results" MODIFIED="1560338466068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -715,8 +754,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpiderLegTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
