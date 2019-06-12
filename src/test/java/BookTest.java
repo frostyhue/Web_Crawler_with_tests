@@ -27,7 +27,7 @@ public class BookTest {
         //arrange
         String title = "some title";
         //act
-        Book book = new Book(title);
+        Book book = new Book(title, "", "", "", "", "", "", "");
         //assert
         assertEquals(title, book.getTitle());
     }
