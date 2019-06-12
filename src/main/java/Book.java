@@ -1,4 +1,6 @@
-public class Book {
+import org.json.simple.JSONObject;
+
+public class Book extends JSONBase{
     /** TODO:
      * 1. Variable for book title - done
      * 2. Variable for book category
@@ -14,19 +16,22 @@ public class Book {
 
    private String title;
    private String category;
-   private String genre;
-   private String format;
-   private String year;
    private String author;
    private String publisher;
    private String isbn;
 
    public Book(String title, String category, String genre, String format, String year, String author, String publisher, String isbn)
    {
+       super(genre, format, year);
        this.title = title;
+       this.author = author;
+       this.publisher = publisher;
+       this.isbn = isbn;
    }
 
     public String getTitle() {
         return title;
     }
+
+
 }

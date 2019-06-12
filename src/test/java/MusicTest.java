@@ -53,7 +53,7 @@ public class MusicTest {
         //act
 
         //assert
-        assertEquals("{\"artist\":\"artist\",\"year\":\"year\",\"format\":\"format\",\"title\":\"title\",\"category\":\"category\"}", music.getJSONFile().toJSONString());
+        assertEquals("{\"artist\":\"artist\",\"year\":\"year\",\"format\":\"format\",\"title\":\"title\",\"category\":\"category\"}", music.getJSONObject().toJSONString());
 
     }
 

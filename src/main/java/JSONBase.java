@@ -1,9 +1,9 @@
 import org.json.simple.JSONObject;
 
 public abstract class JSONBase {
-    private String year;
-    private String genre;
-    private String format;
+     String year;
+     String genre;
+     String format;
 
     JSONBase(String genre, String format, String year){
         this.year = year;
