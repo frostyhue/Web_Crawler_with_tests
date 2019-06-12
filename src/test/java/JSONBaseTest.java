@@ -45,4 +45,15 @@ public class JSONBaseTest {
         assertEquals(testGenre, mockObj.getGenre());
     }
 
+    /**
+     * Checking if method accepts proper parameters.
+     */
+    @Test
+    public void assertIf_getFormat_ReturnString(){
+        JSONBase mockObj = Mockito.mock(JSONBase.class);
+        String testFormat = "DVD";
+        Mockito.when(mockObj.getFormat()).thenReturn(testFormat);
+
+        assertEquals(testFormat, mockObj.getGenre());
+    }
 }
