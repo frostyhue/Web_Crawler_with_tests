@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JSONBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JSONBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding>
                 <element signature="e#87#88#0" expanded="true" />
                 <element signature="e#114#115#0" expanded="true" />
@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+            <state relative-caret-position="239">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +124,8 @@
         <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JSONBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" />
       </list>
     </option>
   </component>
@@ -212,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JSONBaseTest.assertIf_getFormat_ReturnString">
+  <component name="RunManager" selected="JUnit.JSONBaseTest">
     <configuration name="All in web-crawler_test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -283,9 +283,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONBaseTest" />
         <item itemvalue="JUnit.JSONBaseTest.assertIf_getFormat_ReturnString" />
         <item itemvalue="JUnit.JSONBaseTest.assertIf_getGenre_ReturnString" />
-        <item itemvalue="JUnit.JSONBaseTest" />
         <item itemvalue="JUnit.JSONBaseTest.assertIf_getYear_ReturnString" />
         <item itemvalue="JUnit.JSONBaseTest.assertJSONBase_IsAbstractClass" />
       </list>
@@ -314,7 +314,7 @@
       <workItem from="1559051989881" duration="1118000" />
       <workItem from="1560253429484" duration="6182000" />
       <workItem from="1560337306663" duration="4101000" />
-      <workItem from="1560344651060" duration="5565000" />
+      <workItem from="1560344651060" duration="5811000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -617,13 +617,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560360141384</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Genre parameter and getter added to JSONBase class, tests pass">
+      <created>1560360777037</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1560360777037</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderTest_assertIfUrlFoundMatches - 2019.06.12 at 13h 59m 25s.xml">
-      <configuration name="SpiderTest.assertIfUrlFoundMatches" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpiderTest_assertIfUrlFoundMatches - 2019.06.12 at 14h 00m 55s.xml">
       <configuration name="SpiderTest.assertIfUrlFoundMatches" configurationId="JUnit" />
     </history-entry>
@@ -651,9 +655,12 @@
     <history-entry file="JSONBaseTest - 2019.06.12 at 19h 08m 28s.xml">
       <configuration name="JSONBaseTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JSONBaseTest_assertIf_getGenre_ReturnString - 2019.06.12 at 19h 33m 01s.xml">
+      <configuration name="JSONBaseTest.assertIf_getGenre_ReturnString" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59793000" />
+    <option name="totallyTimeSpent" value="60039000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -708,8 +715,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD test to SpiderTest class asserting if pagesToVisit is a LinkedList, test fails" />
-    <MESSAGE value="ADD functionality to Spider class' constructor instancing pagesToVisit as LinkedList, all tests pass" />
     <MESSAGE value="ADD test to class SpiderTest checking if urlFound is empty string, add SpiderLeg object as leg to Spider class, test fails" />
     <MESSAGE value="ADD functionality to class Spider's constructor setting urlFound as empty string, all tests succeed" />
     <MESSAGE value="ADD test to class SpiderTest checking if leg in class Spider is not null, test fails" />
@@ -733,7 +738,9 @@
     <MESSAGE value="Test method added to JSONBaseTest class that uses a mock to test if the object of type JSONBase has method getYear and returns string, mock used as this is an abstract class, test fails" />
     <MESSAGE value="Method getYear and String parameter year added to JSONBase class, all tests pass" />
     <MESSAGE value="Test method added to JSONBaseTest class that checks if method getGenre exists and return string, mock used, test fails" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test method added to JSONBaseTest class that checks if method getGenre exists and return string, mock used, test fails" />
+    <MESSAGE value="Genre parameter and getter added to JSONBase class, tests pass" />
+    <MESSAGE value="Test method added checking if getFormat method is implemented in JSONBase, test fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test method added checking if getFormat method is implemented in JSONBase, test fails" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test.ic" NAME="All in web-crawler_test Coverage Results" MODIFIED="1560338466068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -808,7 +815,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding>
             <element signature="e#87#88#0" expanded="true" />
             <element signature="e#114#115#0" expanded="true" />
@@ -820,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="239">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
