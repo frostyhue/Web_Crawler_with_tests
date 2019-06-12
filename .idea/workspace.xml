@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="222">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -131,7 +131,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="SpiderDevelopment-TeodorGenov" />
+        <entry key="$PROJECT_DIR$" value="Music-Books-Development" />
       </map>
     </option>
   </component>
@@ -215,7 +215,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560334360842" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560334721530" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -236,7 +236,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiderTest.assertIfLegIsNotNull">
+  <component name="RunManager" selected="JUnit.MusicTest.testGetArtist">
+    <configuration name="MusicTest.testGetArtist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MusicTest" />
+      <option name="METHOD_NAME" value="testGetArtist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpiderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -265,16 +275,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiderTest.assertIfpagesToVisitIsLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="METHOD_NAME" value="assertIfpagesToVisitIsLinkedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpiderTest.assertIfurlFoundIsEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -287,18 +287,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SpiderTest" />
-      <item itemvalue="JUnit.SpiderTest.assertIfpagesToVisitIsLinkedList" />
       <item itemvalue="JUnit.SpiderTest.assertIfurlFoundIsEmptyString" />
       <item itemvalue="JUnit.SpiderTest.assertIfLegIsNull" />
       <item itemvalue="JUnit.SpiderTest.assertIfLegIsNotNull" />
+      <item itemvalue="JUnit.MusicTest.testGetArtist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MusicTest.testGetArtist" />
         <item itemvalue="JUnit.SpiderTest.assertIfLegIsNotNull" />
         <item itemvalue="JUnit.SpiderTest" />
         <item itemvalue="JUnit.SpiderTest.assertIfLegIsNull" />
         <item itemvalue="JUnit.SpiderTest.assertIfurlFoundIsEmptyString" />
-        <item itemvalue="JUnit.SpiderTest.assertIfpagesToVisitIsLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +504,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560333903405</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ADD TODO for the Music class and MusicTest class.">
+      <created>1560334346361</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1560334346361</updated>
+    </task>
+    <task id="LOCAL-00028" summary="ADD TODO for the Music class and MusicTest class.">
+      <created>1560334430681</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1560334430681</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -540,7 +554,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36405000" />
+    <option name="totallyTimeSpent" value="36650000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -691,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -705,10 +712,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
