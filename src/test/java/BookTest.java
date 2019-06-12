@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class BookTest {
     /**
      * 1. Test to check if the book's title is instantiated.
@@ -16,4 +18,5 @@ public class BookTest {
         //assert
         assertEquals(title, book.title);
     }
+
 }
