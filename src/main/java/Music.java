@@ -16,11 +16,11 @@ public class Music extends JSONBase {
     private String artist;
     private String category;
 
-    public Music(String title, String artist, String format, String year, String category)
+    public Music(String title, String artist, String format, String year, String category, String genre)
     {
-        super(year, title, format);
-        this.artist = artist;
+        super(genre, format, year);
         this.title = title;
+        this.artist = artist;
         this.category = category;
     }
 
