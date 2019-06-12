@@ -8,9 +8,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 import static junitparams.JUnitParamsRunner.$;
 import static org.junit.Assert.*;
@@ -29,6 +27,32 @@ public class SpiderTest {
     //6.Parameterised tests
 
     Spider spider;
+
+    /**
+     * Method that creates a set of parameters used to test if in the certain url, the given word is found.
+     */
+    private static final Object[] linksWords(){
+        String google = "https://www.google.com";
+        String amazon = "https://www.amazon.de/";
+        return $(
+                $(google, "google"),
+                $(google, "GoOgLe"),
+                $(google, "gOogle"),
+                $(amazon, "amazon"),
+                $(amazon, "prime"),
+                $(amazon, "PrIme")
+        );
+    }
+
+    private static final Object[] linksWordsMore(){
+        String catalog = "http://i358097.hera.fhict.nl/";
+        return $(
+                $(catalog, "Clean Code: A Handbook of Agile Software Craftsmanship", "http://i358097.hera.fhict.nl/details.php?id=102"),
+                $(catalog, "The Princess Bride", "http://i358097.hera.fhict.nl/details.php?id=204"),
+                $(catalog, "Lord", "http://i358097.hera.fhict.nl/details.php?id=203"),
+                $(catalog, "office space", "http://i358097.hera.fhict.nl/details.php?id=202")
+        );
+    }
 
     /**
      * Method that should be executed before each test for lessening code.
@@ -112,9 +136,11 @@ public class SpiderTest {
      */
     @Test
     public void assertPagesToVisitPopulatedAfterSerach(){
-        spider.search(googleUrl, "google");
-
-        assertFalse(spider.getPagesToVisit().isEmpty());
+        Spider s = Mockito.mock(Spider.class);
+        s.search(googleUrl, "google");
+        LinkedList<String> emptyList = new LinkedList<>();
+        Mockito.when(s.getPagesToVisit()).thenReturn(emptyList);
+        assertTrue(s.getPagesToVisit().isEmpty());
     }
 
     /**
@@ -127,6 +153,13 @@ public class SpiderTest {
         assertEquals(spider.getUrlsChecked(), spider.getPagesVisited().size());
     }
 
+    @Test
+    @Parameters(method = "linksWordsMore")
+    public void assertIfSearchReturnsProperURL(String url, String word, String found) {
+        String foundUrl = spider.search(url, word);
+
+        assertEquals(foundUrl, found);
+    }
     //TODO getNextURL() method functionality tests:
     //1.Return the next url in line from pagesToVisit. (DONE)
     //2.Add the previous url to pagesVisited. (DONE)
@@ -136,41 +169,27 @@ public class SpiderTest {
     //1.direct/indirect in/out (DONE)
     //2.Parameterised tests (DONE)
 
-
-    /**
-     * Method that creates a set of parameters used to test if in the certain url, the given word is found.
-     */
-    private static final Object[] linksWords(){
-        String google = "https://www.google.com";
-        String w3school = "https://www.w3schools.com/";
-        String amazon = "https://www.amazon.de/";
+    private static final Object[] urlsFound(){
         return $(
-                $(google, "google"),
-                $(google, "GoOgLe"),
-                $(google, "gOogle"),
-                $(amazon, "amazon"),
-                $(amazon, "prime"),
-                $(amazon, "PrIme")
+                $("http://i358097.hera.fhict.nl/details.php?id=102", "Refactoring"),
+                $("http://i358097.hera.fhict.nl/details.php?id=204", "A Design Patterns"),
+                $("http://i358097.hera.fhict.nl/details.php?id=203", "Forest Gump"),
+                $("http://i358097.hera.fhict.nl/details.php?id=202", "Lord of The Rings"),
+                $("http://i358097.hera.fhict.nl/catalog.php?cat=movies", "Princess"),
+                $("http://i358097.hera.fhict.nl/details.php?id=104", "Clean coder")
         );
     }
 
     @Test
-    @Parameters(method = "linksWords")
-    public void assertIfMethodReturnsTheNextURL(String url, String word){
-        spider.search(url, word);
+    @Parameters(method = "urlsFound")
+    public void assertIfMethodAddsNextUrlToVisitedPagesList(String url, String word){
+        Set<String> testList = new HashSet<>();
+        testList.add(url);
+        Spider s = Mockito.mock(Spider.class);
 
-        String urlRetrieved = spider.NextURL();
+        Mockito.when(s.getPagesVisited()).thenReturn(testList);
+        s.search("http://i358097.hera.fhict.nl/", word);
 
-        assertFalse(spider.getPagesToVisit().contains(urlRetrieved));
-    }
-
-    @Test
-    @Parameters(method = "linksWords")
-    public void assertIfTheURLReturnedIsAddedToPagesVisitedList(String url, String word){
-        spider.search(url, word);
-
-        String urlRetrieved =spider.NextURL();
-
-        assertTrue(spider.getPagesVisited().contains(urlRetrieved));
+        assertTrue(s.getPagesVisited().contains(url));
     }
 }

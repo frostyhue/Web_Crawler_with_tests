@@ -74,12 +74,16 @@ public class Spider {
         return leg;
     }
 
+    /**
+     * Method returning the next url in line for a check.
+     * @return nextUrl string.
+     */
     public String NextURL(){
         String nextUrl;
-        do {
+        do{
             nextUrl = this.pagesToVisit.remove(0);
-        }while (this.pagesVisited.contains(nextUrl));
-        pagesVisited.add(nextUrl);
+        } while(this.pagesVisited.contains(nextUrl));
+        this.pagesVisited.add(nextUrl);
         return nextUrl;
     }
 
@@ -90,9 +94,26 @@ public class Spider {
      * @return string containing the url that the word was found on.
      */
     public String search(String url, String word){
-        leg.crawl(url);
-        this.pagesToVisit.addAll(leg.getUrls());
-        return urlFound;
+        while(this.pagesVisited.size() < this.getMax_Number_Of_Pages()){
+            this.urlsChecked++;
+            String currentUrl;
+            SpiderLeg leg = new SpiderLeg();
+            if(this.pagesToVisit.isEmpty()){
+                currentUrl = url;
+                this.pagesVisited.add(url);
+            }
+            else {
+                currentUrl = this.NextURL();
+            }
+            leg.crawl(currentUrl);
+            boolean successfulResponse = leg.searchForWord(word);
+            if (successfulResponse){
+                this.urlFound = currentUrl;
+                break;
+            }
+            this.pagesToVisit.addAll(leg.getUrls());
+        }
+        return this.urlFound;
     }
 
     /**
