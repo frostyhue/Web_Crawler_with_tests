@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
+    <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="ADD Test to check if the method to transform the object to JSON is working properly. Test fails.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MusicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MusicTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -77,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state relative-caret-position="325">
+              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="-15">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="e#506#507#0" expanded="true" />
                 <element signature="e#539#540#0" expanded="true" />
@@ -151,8 +152,8 @@
         <option value="$PROJECT_DIR$/src/test/java/SpiderLegTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Music.java" />
         <option value="$PROJECT_DIR$/src/test/java/MusicTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Music.java" />
       </list>
     </option>
   </component>
@@ -223,7 +224,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560335386441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560336145444" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -244,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MusicTest.testGetterArtist">
+  <component name="RunManager" selected="JUnit.MusicTest.testJSONMethodReturn">
     <configuration name="MusicTest.testGetArtist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -260,6 +261,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MusicTest" />
       <option name="METHOD_NAME" value="testGetterArtist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicTest.testJSONMethodReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MusicTest" />
+      <option name="METHOD_NAME" value="testJSONMethodReturn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -283,30 +294,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiderTest.assertIfLegIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="METHOD_NAME" value="assertIfLegIsNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.SpiderTest" />
-      <item itemvalue="JUnit.SpiderTest.assertIfLegIsNull" />
       <item itemvalue="JUnit.SpiderTest.assertIfLegIsNotNull" />
       <item itemvalue="JUnit.MusicTest.testGetArtist" />
       <item itemvalue="JUnit.MusicTest.testGetterArtist" />
+      <item itemvalue="JUnit.MusicTest.testJSONMethodReturn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MusicTest.testJSONMethodReturn" />
         <item itemvalue="JUnit.MusicTest.testGetterArtist" />
         <item itemvalue="JUnit.MusicTest.testGetArtist" />
         <item itemvalue="JUnit.SpiderTest.assertIfLegIsNotNull" />
         <item itemvalue="JUnit.SpiderTest" />
-        <item itemvalue="JUnit.SpiderTest.assertIfLegIsNull" />
       </list>
     </recent_temporary>
   </component>
@@ -547,7 +548,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560335268265</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="ADD Test to check if the getter for the artist works. Test succeeds. Now refactored including all the variables.">
+      <created>1560335513774</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1560335513774</updated>
+    </task>
+    <task id="LOCAL-00033" summary="ADD Test to check if the method to transform the object to JSON is working properly. Test fails.">
+      <created>1560335849653</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1560335849653</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -583,7 +598,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37601000" />
+    <option name="totallyTimeSpent" value="38157000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -606,7 +621,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Problems" order="3" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
@@ -617,7 +632,7 @@
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.3285968" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -638,8 +653,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="REFACTOR changed urls to public and added a getter, changed test to match the change" />
-    <MESSAGE value="ADD test checking if the searchForWord() method is returning false when the word is not found, test fails" />
     <MESSAGE value="ADD functionality to searchForWord(), url fixed by adding https:// in front of it, test passes" />
     <MESSAGE value="REFACTOR added .toLower() to html body for more accurate results" />
     <MESSAGE value="ADD searchForWord() testing if there is a check for empty doc, test fails" />
@@ -663,7 +676,9 @@
     <MESSAGE value="ADD Test to check if the title of the music is being initialized correctly. Test Fails." />
     <MESSAGE value="ADD Test to check if the title of the music is being initialized correctly. Test Succeeds but the test for the getter fails." />
     <MESSAGE value="ADD Test to check if the getter for the artist works. Test succeeds" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD Test to check if the getter for the artist works. Test succeeds" />
+    <MESSAGE value="ADD Test to check if the getter for the artist works. Test succeeds. Now refactored including all the variables." />
+    <MESSAGE value="ADD Test to check if the method to transform the object to JSON is working properly. Test fails." />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Test to check if the method to transform the object to JSON is working properly. Test fails." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -743,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        <state relative-caret-position="-15">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="e#506#507#0" expanded="true" />
             <element signature="e#539#540#0" expanded="true" />
@@ -754,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state relative-caret-position="325">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
