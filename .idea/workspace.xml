@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
+    <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="JSONBase class changed to abstract, test passes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" afterDir="false" />
     </list>
@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -74,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="324">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JSONBaseTest.assertJSONBase_IsAbstractClass">
+  <component name="RunManager" selected="JUnit.JSONBaseTest.assertIf_getYear_ReturnString">
     <configuration name="All in web-crawler_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -242,6 +242,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JSONBaseTest.assertIf_getYear_ReturnString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JSONBaseTest" />
+      <option name="METHOD_NAME" value="assertIf_getYear_ReturnString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JSONBaseTest.assertJSONBase_IsAbstractClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -252,31 +262,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiderTest.assertIfUrlFoundMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiderTest" />
-      <option name="METHOD_NAME" value="assertIfUrlFoundMatches" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.SpiderTest.assertIfUrlFoundMatches" />
       <item itemvalue="JUnit.All in web-crawler_test (2)" />
       <item itemvalue="JUnit.All in web-crawler_test (3)" />
       <item itemvalue="JUnit.All in web-crawler_test (4)" />
       <item itemvalue="JUnit.All in web-crawler_test" />
       <item itemvalue="JUnit.JSONBaseTest.assertJSONBase_IsAbstractClass" />
+      <item itemvalue="JUnit.JSONBaseTest.assertIf_getYear_ReturnString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONBaseTest.assertIf_getYear_ReturnString" />
         <item itemvalue="JUnit.JSONBaseTest.assertJSONBase_IsAbstractClass" />
         <item itemvalue="JUnit.All in web-crawler_test (4)" />
         <item itemvalue="JUnit.All in web-crawler_test (3)" />
         <item itemvalue="JUnit.All in web-crawler_test (2)" />
-        <item itemvalue="JUnit.SpiderTest.assertIfUrlFoundMatches" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +303,7 @@
       <workItem from="1559051989881" duration="1118000" />
       <workItem from="1560253429484" duration="6182000" />
       <workItem from="1560337306663" duration="4101000" />
-      <workItem from="1560344651060" duration="3210000" />
+      <workItem from="1560344651060" duration="4044000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -571,19 +571,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560357818785</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Test method added checking if JSONBase class is abstract, test fails">
+      <created>1560358478440</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1560358478440</updated>
+    </task>
+    <task id="LOCAL-00040" summary="JSONBase class changed to abstract, test passes">
+      <created>1560358512560</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1560358512560</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderTest_assertIfUrlFoundMatches - 2019.06.12 at 13h 51m 27s.xml">
-      <configuration name="SpiderTest.assertIfUrlFoundMatches" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_assertIfUrlFoundMatches - 2019.06.12 at 13h 52m 23s.xml">
-      <configuration name="SpiderTest.assertIfUrlFoundMatches" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpiderTest_assertIfUrlFoundMatches - 2019.06.12 at 13h 54m 36s.xml">
-      <configuration name="SpiderTest.assertIfUrlFoundMatches" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpiderTest_assertIfUrlFoundMatches - 2019.06.12 at 13h 56m 09s.xml">
       <configuration name="SpiderTest.assertIfUrlFoundMatches" configurationId="JUnit" />
     </history-entry>
@@ -605,9 +610,18 @@
     <history-entry file="All_in_web-crawler_test_(4) - 2019.06.12 at 15h 04m 43s.xml">
       <configuration name="All in web-crawler_test (4)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JSONBaseTest_assertJSONBase_IsAbstractClass - 2019.06.12 at 18h 53m 13s.xml">
+      <configuration name="JSONBaseTest.assertJSONBase_IsAbstractClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JSONBaseTest_assertJSONBase_IsAbstractClass - 2019.06.12 at 18h 54m 51s.xml">
+      <configuration name="JSONBaseTest.assertJSONBase_IsAbstractClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JSONBaseTest_assertIf_getYear_ReturnString - 2019.06.12 at 19h 06m 39s.xml">
+      <configuration name="JSONBaseTest.assertIf_getYear_ReturnString" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57438000" />
+    <option name="totallyTimeSpent" value="58272000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -622,7 +636,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29932886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29932886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -635,13 +649,13 @@
       <window_info anchor="bottom" id="Problems" order="3" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Messages" order="6" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -662,8 +676,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD test to SpiderTest checking if Max_Number_Of_Pages is equal to 20 after object instantiated, test fails" />
-    <MESSAGE value="ADD functionality to Spider constructor making Max_Number_Of_Pages integer equal to 20, test succeeds" />
     <MESSAGE value="REFACTOR added setup for simplification in future tests, all tests succeed" />
     <MESSAGE value="ADD test to SpiderTest class checking if pagesVisited is HashSet, test fails" />
     <MESSAGE value="ADD functionality to Spider class constructor instancing pagesVisited as a HashSet, test succeeds" />
@@ -687,7 +699,9 @@
     <MESSAGE value="Spider NextURL() tests refactored to parameterised tests, all tests succeed" />
     <MESSAGE value="Refactored a method in SpiderTest class such that it is mocked as the unit under test is something unpredictable and mock tests are better, functionality completely added to Spider class, all tests pass and code test coverage is 100%" />
     <MESSAGE value="ADD empty JSONBase class and JSONBaseTest class" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD empty JSONBase class and JSONBaseTest class" />
+    <MESSAGE value="Test method added checking if JSONBase class is abstract, test fails" />
+    <MESSAGE value="JSONBase class changed to abstract, test passes" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSONBase class changed to abstract, test passes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test.ic" NAME="All in web-crawler_test Coverage Results" MODIFIED="1560338466068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -762,14 +776,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="324">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

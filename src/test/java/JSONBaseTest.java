@@ -2,6 +2,8 @@ import junitparams.JUnitParamsRunner;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import junitparams.Parameters;
+import org.mockito.Mock;
+import org.mockito.Mockito;
 
 import java.lang.reflect.Modifier;
 
@@ -17,5 +19,17 @@ public class JSONBaseTest {
         boolean isAbstract = Modifier.isAbstract(JSONBase.class.getModifiers());
 
         assertTrue(isAbstract);
+    }
+
+    /**
+     * Checking if method accepts proper parameters.
+     */
+    @Test
+    public void assertIf_getYear_ReturnString(){
+        JSONBase mockObj = Mockito.mock(JSONBase.class);
+        String testYear = "1990";
+        Mockito.when(mockObj.getYear()).thenReturn(testYear);
+
+        assertEquals(testYear, mockObj.getYear());
     }
 }
