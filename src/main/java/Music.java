@@ -10,5 +10,12 @@ public class Music {
      * 7. Method for making the object into JSONObject
      */
 
+    public String artist;
+
+    public Music(String artist)
+    {
+        this.artist = artist;
+    }
+
 
 }
