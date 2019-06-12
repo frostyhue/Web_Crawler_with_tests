@@ -54,6 +54,6 @@ public class JSONBaseTest {
         String testFormat = "DVD";
         Mockito.when(mockObj.getFormat()).thenReturn(testFormat);
 
-        assertEquals(testFormat, mockObj.getGenre());
+        assertEquals(testFormat, mockObj.getFormat());
     }
 }
