@@ -1,3 +1,5 @@
+import org.json.simple.JSONObject;
+
 public abstract class JSONBase {
     private String year;
     private String genre;
@@ -13,5 +15,13 @@ public abstract class JSONBase {
 
     public String getFormat() {
         return format;
+    }
+
+    public JSONObject getJSONObject(){
+        JSONObject obj = new JSONObject();
+        obj.put("genre", this.getGenre());
+        obj.put("format", this.getFormat());
+        obj.put("year", this.getYear());
+        return obj;
     }
 }
