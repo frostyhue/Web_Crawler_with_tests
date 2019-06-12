@@ -1,4 +1,5 @@
 import junitparams.JUnitParamsRunner;
+import org.json.simple.JSONObject;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import junitparams.Parameters;
@@ -55,5 +56,17 @@ public class JSONBaseTest {
         Mockito.when(mockObj.getFormat()).thenReturn(testFormat);
 
         assertEquals(testFormat, mockObj.getFormat());
+    }
+
+    /**
+     * Checking if the method exists and returns a JSONObject.
+     */
+    @Test
+    public void assertIf_getJSONObject_IsReturningJSONObject(){
+        JSONBase mockObj = Mockito.mock(JSONBase.class);
+        JSONObject testJson= new JSONObject();
+        Mockito.when(mockObj.getJSONObject()).thenReturn(testJson);
+
+        assertTrue(mockObj.getJSONObject() instanceof JSONObject);
     }
 }
