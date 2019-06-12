@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JSONBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JSONBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,11 +65,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="34">
+              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding>
                 <element signature="e#87#88#0" expanded="true" />
                 <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,7 +80,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="222">
               <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,8 +124,8 @@
         <option value="$PROJECT_DIR$/src/main/java/SpiderLeg.java" />
         <option value="$PROJECT_DIR$/src/main/java/Spider.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpiderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JSONBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/JSONBaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JSONBase.java" />
       </list>
     </option>
   </component>
@@ -310,7 +312,7 @@
       <workItem from="1559051989881" duration="1118000" />
       <workItem from="1560253429484" duration="6182000" />
       <workItem from="1560337306663" duration="4101000" />
-      <workItem from="1560344651060" duration="4334000" />
+      <workItem from="1560344651060" duration="5565000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -606,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560359339436</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Test method added to JSONBaseTest class that checks if method getGenre exists and return string, mock used, test fails">
+      <created>1560360141384</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1560360141384</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -642,7 +651,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58562000" />
+    <option name="totallyTimeSpent" value="59793000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -670,13 +679,13 @@
       <window_info anchor="bottom" id="Problems" order="3" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Messages" order="6" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -697,7 +706,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD functionality to Spider class constructor instancing pagesVisited as a HashSet, test succeeds" />
     <MESSAGE value="ADD test to SpiderTest class asserting if pagesToVisit is a LinkedList, test fails" />
     <MESSAGE value="ADD functionality to Spider class' constructor instancing pagesToVisit as LinkedList, all tests pass" />
     <MESSAGE value="ADD test to class SpiderTest checking if urlFound is empty string, add SpiderLeg object as leg to Spider class, test fails" />
@@ -722,7 +730,8 @@
     <MESSAGE value="JSONBase class changed to abstract, test passes" />
     <MESSAGE value="Test method added to JSONBaseTest class that uses a mock to test if the object of type JSONBase has method getYear and returns string, mock used as this is an abstract class, test fails" />
     <MESSAGE value="Method getYear and String parameter year added to JSONBase class, all tests pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method getYear and String parameter year added to JSONBase class, all tests pass" />
+    <MESSAGE value="Test method added to JSONBaseTest class that checks if method getGenre exists and return string, mock used, test fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test method added to JSONBaseTest class that checks if method getGenre exists and return string, mock used, test fails" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$All_in_web_crawler_test.ic" NAME="All in web-crawler_test Coverage Results" MODIFIED="1560338466068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -796,18 +805,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JSONBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding>
             <element signature="e#87#88#0" expanded="true" />
             <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JSONBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="222">
           <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
