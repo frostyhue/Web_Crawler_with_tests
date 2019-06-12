@@ -1,3 +1,5 @@
+import org.json.simple.JSONObject;
+
 public class Music {
     /**
      * TODO:
@@ -28,6 +30,18 @@ public class Music {
     public String getArtist()
     {
         return this.artist;
+    }
+
+    public JSONObject getJSONFile()
+    {
+        JSONObject obj = new JSONObject();
+        obj.put("title", this.title);
+        obj.put("artist", this.artist);
+        obj.put("year", this.year);
+        obj.put("format", this.format);
+        obj.put("category", this.category);
+
+        return obj;
     }
 
 
