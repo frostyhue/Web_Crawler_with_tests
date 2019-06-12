@@ -206,15 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JSONBaseTest.assertIf_getYear_ReturnString">
-    <configuration name="All in web-crawler_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web-crawler_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JSONBaseTest">
     <configuration name="All in web-crawler_test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -242,6 +234,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JSONBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-crawler_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JSONBaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JSONBaseTest.assertIf_getYear_ReturnString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-crawler_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -263,20 +264,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in web-crawler_test (2)" />
       <item itemvalue="JUnit.All in web-crawler_test (3)" />
       <item itemvalue="JUnit.All in web-crawler_test (4)" />
       <item itemvalue="JUnit.All in web-crawler_test" />
       <item itemvalue="JUnit.JSONBaseTest.assertJSONBase_IsAbstractClass" />
       <item itemvalue="JUnit.JSONBaseTest.assertIf_getYear_ReturnString" />
+      <item itemvalue="JUnit.JSONBaseTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONBaseTest" />
         <item itemvalue="JUnit.JSONBaseTest.assertIf_getYear_ReturnString" />
         <item itemvalue="JUnit.JSONBaseTest.assertJSONBase_IsAbstractClass" />
         <item itemvalue="JUnit.All in web-crawler_test (4)" />
         <item itemvalue="JUnit.All in web-crawler_test (3)" />
-        <item itemvalue="JUnit.All in web-crawler_test (2)" />
       </list>
     </recent_temporary>
   </component>
