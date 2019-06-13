@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/JSONBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/JSONBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Music.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/MusicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/MusicTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MusicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MusicTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,7 +52,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
+            <state relative-caret-position="311">
               <caret line="55" column="80" selection-start-line="55" selection-start-column="80" selection-end-line="55" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="48">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -151,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/main/java/JSONBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Music.java" />
         <option value="$PROJECT_DIR$/src/test/java/MusicTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Music.java" />
       </list>
     </option>
   </component>
@@ -223,7 +216,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560374994569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560414234387" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -337,7 +330,7 @@
       <workItem from="1558718077542" duration="8681000" />
       <workItem from="1558882054165" duration="2029000" />
       <workItem from="1560370930407" duration="267000" />
-      <workItem from="1560371542173" duration="3390000" />
+      <workItem from="1560371542173" duration="3595000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -598,16 +591,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560372703667</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="ADD Test for checking the JSONObject method for Book. Test succeeds. Closes #3">
+      <created>1560375035163</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1560375035163</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookTest_testBookJSONReturn - 2019.06.12 at 23h 05m 51s.xml">
-      <configuration name="BookTest.testBookJSONReturn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookTest_testBookJSONReturn - 2019.06.12 at 23h 06m 29s.xml">
-      <configuration name="BookTest.testBookJSONReturn" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MusicTest_testJSONMethodReturn - 2019.06.12 at 23h 06m 57s.xml">
       <configuration name="MusicTest.testJSONMethodReturn" configurationId="JUnit" />
     </history-entry>
@@ -632,9 +626,15 @@
     <history-entry file="MusicTest_testJSONMethodReturn - 2019.06.12 at 23h 28m 02s.xml">
       <configuration name="MusicTest.testJSONMethodReturn" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MusicTest_testJSONMethodReturn - 2019.06.12 at 23h 29m 02s.xml">
+      <configuration name="MusicTest.testJSONMethodReturn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MusicTest_testJSONMethodReturn - 2019.06.12 at 23h 29m 56s.xml">
+      <configuration name="MusicTest.testJSONMethodReturn" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43952000" />
+    <option name="totallyTimeSpent" value="44157000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -730,7 +730,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD generated JavaDoc after merge" />
     <MESSAGE value="ADD TODO for Spider class" />
     <MESSAGE value="ADD variables needed for Spider to function properly and respective getters, TODO half-way complete" />
     <MESSAGE value="ADD TODO to SpiderTest class for each block needed to be tested in Spider" />
@@ -755,7 +754,8 @@
     <MESSAGE value="ADD Test for checking if book title is instantiated. Test Fails." />
     <MESSAGE value="ADD Test for checking if book title is instantiated. Test Succeeds" />
     <MESSAGE value="ADD Test for checking the JSONObject method for Book. Test fails." />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD Test for checking the JSONObject method for Book. Test fails." />
+    <MESSAGE value="ADD Test for checking the JSONObject method for Book. Test succeeds. Closes #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Test for checking the JSONObject method for Book. Test succeeds. Closes #3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -842,14 +842,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="48">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="311">
           <caret line="55" column="80" selection-start-line="55" selection-start-column="80" selection-end-line="55" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
