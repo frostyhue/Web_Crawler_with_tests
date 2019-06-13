@@ -1,6 +1,7 @@
 import org.json.simple.JSONObject;
 import org.junit.Test;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +21,7 @@ public class ScraperTest {
     }
 
     @Test
-    public void assertIf_getResultAsJSON_ReturnsMovieAsProperJSONObject(){
+    public void assertIf_getResultAsJSON_ReturnsMovieAsProperJSONObject() throws IOException {
         String url = "http://i358097.hera.fhict.nl/";
         String word = "Lord of The Rings";
         Scraper scraper = new Scraper(url, word);
@@ -32,14 +33,14 @@ public class ScraperTest {
         writers.add("Peter Jackson");
 
         List<String> stars = new ArrayList<>();
-        writers.add("Ron Livingston");
-        writers.add("Jennifer Aniston");
-        writers.add("David Herman");
-        writers.add("Ajay Naidu");
-        writers.add("Diedrich Bader");
-        writers.add("Stephen Root");
+        stars.add("Ron Livingston");
+        stars.add("Jennifer Aniston");
+        stars.add("David Herman");
+        stars.add("Ajay Naidu");
+        stars.add("Diedrich Bader");
+        stars.add("Stephen Root");
 
-        Movie movieObj = new Movie("Drama","Blu-ray","2001","The Lord of the Rings: The Fellowship of the Ring", "Peter Jackson", "Movie",writers, stars);
+        Movie movieObj = new Movie("Drama","Blu-ray","2001","The Lord of the Rings: The Fellowship of the Ring", "Peter Jackson", "Movies",writers, stars);
         JSONObject expected = movieObj.getJSONObject();
 
         assertEquals(expected, scraper.getResultAsJSON());
