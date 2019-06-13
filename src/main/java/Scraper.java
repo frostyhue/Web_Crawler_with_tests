@@ -41,10 +41,18 @@ public class Scraper {
         String genre = data.get(1);
         String format = data.get(2);
         String year = data.get(3);
-        String director = data.get(4);
-        List<String> writers = Arrays.asList(data.get(5).split(", "));
-        List<String> stars = Arrays.asList(data.get(6).split(", "));
-        Movie movie = new Movie(genre, format, year, title, director, type, writers, stars);
-        return movie.getJSONObject();
+        if(type.equals("Movies")){
+            String director = data.get(4);
+            List<String> writers = Arrays.asList(data.get(5).split(", "));
+            List<String> stars = Arrays.asList(data.get(6).split(", "));
+            Movie movie = new Movie(genre, format, year, title, director, type, writers, stars);
+            return movie.getJSONObject();
+        }
+        else if(type.equals("Music")){
+            String artist = data.get(4);
+            Music music = new Music(title, artist, format, year, type);
+            return music.getJSONFile();
+        }
+        return null;
     }
 }
