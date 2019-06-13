@@ -7,6 +7,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 
 import java.lang.reflect.Modifier;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -16,9 +18,14 @@ public class MovieTest {
      */
     @Test
     public void asserIf_MovieObject_inheritsFromJSONBase(){
-        Movie movieObj = new Movie("fantasy", "DVD", "2019");
+        List<String> starsList = new ArrayList<>();
+        List<String> writersList = new ArrayList<>();
+        starsList.add("asd");
+        writersList.add("Writer");
+        Movie movieObj = new Movie("fantasy", "DVD", "2019", "Lord Of The Rings", "John Wick", "Fantasy", writersList, starsList );
 
         assertTrue(movieObj instanceof JSONBase);
     }
+
 
 }
