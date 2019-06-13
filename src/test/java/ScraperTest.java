@@ -1,5 +1,6 @@
 import org.json.simple.JSONObject;
 import org.junit.Test;
+import org.mockito.Mockito;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -56,5 +57,31 @@ public class ScraperTest {
         JSONObject expected = musicObj.getJSONFile();
 
         assertEquals(expected, scraper.getResultAsJSON());
+    }
+
+    @Test
+    public void assertIf_getResultAsJSON_ReturnsBookAsProperJSONObject() throws IOException {
+        String url = "http://i358097.hera.fhict.nl/";
+        String word = "A Design Patterns: Elements of Reusable Object-Oriented Software";
+        Scraper scraper = new Scraper(url, word);
+
+        List<String> authors = new ArrayList<>();
+        authors.add("Erich Gamma");
+        authors.add("Richard Helm");
+        authors.add("Ralph Johnson");
+        authors.add("John Vlissides");
+
+        JSONObject obj = new JSONObject();
+        obj.put("title", "A Design Patterns: Elements of Reusable Object-Oriented Software");
+        obj.put("category", "Books");
+        obj.put("genre", "Tech");
+        obj.put("format", "Paperback");
+        obj.put("year", "1994");
+        obj.put("authors", authors);
+        obj.put("publisher", "Prentice Hall");
+        obj.put("ISBN", "978-0201633610");
+
+
+        assertEquals(obj, scraper.getResultAsJSON());
     }
 }
