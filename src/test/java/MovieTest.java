@@ -16,7 +16,7 @@ public class MovieTest {
      */
     @Test
     public void asserIf_MovieObject_inheritsFromJSONBase(){
-        Movie movieObj = new Movie();
+        Movie movieObj = new Movie("fantasy", "DVD", "2019");
 
         assertTrue(movieObj instanceof JSONBase);
     }
