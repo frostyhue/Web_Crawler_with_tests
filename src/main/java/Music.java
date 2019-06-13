@@ -1,6 +1,6 @@
 import org.json.simple.JSONObject;
 
-public class Music {
+public class Music extends JSONBase {
     /**
      * TODO:
      * 1. Variable containing name of music - done
@@ -14,16 +14,13 @@ public class Music {
 
     private String title;
     private String artist;
-    private String format;
-    private String year;
     private String category;
 
-    public Music(String title, String artist, String format, String year, String category)
+    public Music(String title, String artist, String format, String year, String category, String genre)
     {
+        super(genre, format, year);
         this.title = title;
         this.artist = artist;
-        this.format = format;
-        this.year = year;
         this.category = category;
     }
 
@@ -32,13 +29,15 @@ public class Music {
         return this.artist;
     }
 
-    public JSONObject getJSONFile()
+    @Override
+    public JSONObject getJSONObject()
     {
         JSONObject obj = new JSONObject();
         obj.put("title", this.title);
         obj.put("artist", this.artist);
-        obj.put("year", this.year);
-        obj.put("format", this.format);
+        obj.put("genre", super.genre);
+        obj.put("year", super.year);
+        obj.put("format", super.format);
         obj.put("category", this.category);
 
         return obj;

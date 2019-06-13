@@ -35,7 +35,7 @@ public class MusicTest {
         String artist = "Some artist";
 
         //act
-        Music music = new Music("title", artist, "format", "year", "category");
+        Music music = new Music("title", artist, "format", "year", "category", "genre");
 
         //assert
         assertEquals(artist, music.getArtist());
@@ -48,12 +48,12 @@ public class MusicTest {
     public void testJSONMethodReturn()
     {
         //arrange
-        Music music = new Music("title", "artist", "format", "year", "category");
+        Music music = new Music("title", "artist", "format", "year", "category", "genre");
 
         //act
 
         //assert
-        assertEquals("{\"artist\":\"artist\",\"year\":\"year\",\"format\":\"format\",\"title\":\"title\",\"category\":\"category\"}", music.getJSONFile().toJSONString());
+        assertEquals("{\"artist\":\"artist\",\"year\":\"year\",\"genre\":\"genre\",\"format\":\"format\",\"title\":\"title\",\"category\":\"category\"}", music.getJSONObject().toJSONString());
 
     }
 

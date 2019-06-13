@@ -31,4 +31,16 @@ public class BookTest {
         //assert
         assertEquals(title, book.getTitle());
     }
+
+
+    @Test
+    public void testBookJSONReturn()
+    {
+        //arrange
+        Book book = new Book("title", "category", "genre", "format", "year", "author", "publisher", "isbn");
+        //act
+
+        //assert
+        assertEquals("{\"year\":\"year\",\"isbn\":\"isbn\",\"genre\":\"genre\",\"format\":\"format\",\"publisher\":\"publisher\",\"title\":\"title\",\"category\":\"category\",\"authors\":\"author\"}", book.getJSONObject().toJSONString());
+    }
 }
