@@ -1,5 +1,7 @@
 import org.json.simple.JSONObject;
 
+import java.util.List;
+
 public class Book extends JSONBase{
     /** TODO:
      * 1. Variable for book title - done
@@ -16,15 +18,15 @@ public class Book extends JSONBase{
 
    private String title;
    private String category;
-   private String author;
+   private List<String> authors;
    private String publisher;
    private String isbn;
 
-   public Book(String title, String category, String genre, String format, String year, String author, String publisher, String isbn)
+   public Book(String title, String category, String genre, String format, String year, List<String> authors, String publisher, String isbn)
    {
        super(genre, format, year);
        this.title = title;
-       this.author = author;
+       this.authors = authors;
        this.publisher = publisher;
        this.category = category;
        this.isbn = isbn;
@@ -42,7 +44,7 @@ public class Book extends JSONBase{
         obj.put("genre", super.genre);
         obj.put("format", super.format);
         obj.put("year", super.year);
-        obj.put("authors", this.author);
+        obj.put("authors", this.authors);
         obj.put("publisher", this.publisher);
         obj.put("isbn", this.isbn);
         return obj;

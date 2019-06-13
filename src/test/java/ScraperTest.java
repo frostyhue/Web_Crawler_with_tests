@@ -71,16 +71,8 @@ public class ScraperTest {
         authors.add("Ralph Johnson");
         authors.add("John Vlissides");
 
-        JSONObject obj = new JSONObject();
-        obj.put("title", "A Design Patterns: Elements of Reusable Object-Oriented Software");
-        obj.put("category", "Books");
-        obj.put("genre", "Tech");
-        obj.put("format", "Paperback");
-        obj.put("year", "1994");
-        obj.put("authors", authors);
-        obj.put("publisher", "Prentice Hall");
-        obj.put("ISBN", "978-0201633610");
+        Book bookObj = new Book("A Design Patterns: Elements of Reusable Object-Oriented Software","Books", "Tech", "Paperback", "1994", authors, "Prentice Hall", "978-0201633610");;
 
-        assertEquals(obj, scraper.getResultAsJSON());
+        assertEquals(bookObj.getJSONObject(), scraper.getResultAsJSON());
     }
 }

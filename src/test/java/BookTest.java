@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
@@ -27,7 +29,7 @@ public class BookTest {
         //arrange
         String title = "some title";
         //act
-        Book book = new Book(title, "", "", "", "", "", "", "");
+        Book book = new Book(title, "", "", "", "", new ArrayList<>(), "", "");
         //assert
         assertEquals(title, book.getTitle());
     }
@@ -37,10 +39,10 @@ public class BookTest {
     public void testBookJSONReturn()
     {
         //arrange
-        Book book = new Book("title", "category", "genre", "format", "year", "author", "publisher", "isbn");
+        Book book = new Book("title", "category", "genre", "format", "year", new ArrayList<>(), "publisher", "isbn");
         //act
 
         //assert
-        assertEquals("{\"year\":\"year\",\"isbn\":\"isbn\",\"genre\":\"genre\",\"format\":\"format\",\"publisher\":\"publisher\",\"title\":\"title\",\"category\":\"category\",\"authors\":\"author\"}", book.getJSONObject().toJSONString());
+        assertEquals("{\"year\":\"year\",\"isbn\":\"isbn\",\"genre\":\"genre\",\"format\":\"format\",\"publisher\":\"publisher\",\"title\":\"title\",\"category\":\"category\",\"authors\":[]}", book.getJSONObject().toJSONString());
     }
 }

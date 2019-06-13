@@ -57,17 +57,8 @@ public class Scraper {
             List<String> authors = Arrays.asList(data.get(4).split(", "));
             String publisher = data.get(5);
             String ISBN = data.get(6);
-            //Refactor needed when Book is complete!
-            JSONObject obj = new JSONObject();
-            obj.put("title", title);
-            obj.put("category", type);
-            obj.put("genre", genre);
-            obj.put("format", format);
-            obj.put("year", year);
-            obj.put("authors", authors);
-            obj.put("publisher", publisher);
-            obj.put("ISBN", ISBN);
-            return obj;
+            Book book = new Book(title,type, genre, format, year, authors, publisher, ISBN);
+            return book.getJSONObject();
         }
         return null;
     }
