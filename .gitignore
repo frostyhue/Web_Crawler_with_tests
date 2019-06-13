@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+build/classes/java/main/Book.class
+build/classes/java/main/JSONBase.class
+build/classes/java/main/Movie.class
+build/classes/java/main/Music.class
+build/classes/java/main/Scraper.class
+build/classes/java/test/
+build/reports/
+build/test-results/
+out/production/classes/Scraper.class
+out/test/classes/ScraperTest.class
