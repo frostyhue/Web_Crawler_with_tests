@@ -81,7 +81,6 @@ public class ScraperTest {
         obj.put("publisher", "Prentice Hall");
         obj.put("ISBN", "978-0201633610");
 
-
         assertEquals(obj, scraper.getResultAsJSON());
     }
 }
