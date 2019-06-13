@@ -7,6 +7,10 @@ public class Scraper {
         this.url = spider.search(url, word);
     }
 
+    /**
+     * Getter method.
+     * @return String url.
+     */
     public String getUrl() {
         return url;
     }
