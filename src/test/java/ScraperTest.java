@@ -45,4 +45,16 @@ public class ScraperTest {
 
         assertEquals(expected, scraper.getResultAsJSON());
     }
+
+    @Test
+    public void assertIf_getResultAsJSON_ReturnsMusicAsProperJSONObject() throws IOException {
+        String url = "http://i358097.hera.fhict.nl/";
+        String word = "Elvis Forever";
+        Scraper scraper = new Scraper(url, word);
+
+        Music musicObj = new Music("Elvis Forever", "Elvis Presley", "Vinyl", "2015", "Music");
+        JSONObject expected = musicObj.getJSONFile();
+
+        assertEquals(expected, scraper.getResultAsJSON());
+    }
 }
