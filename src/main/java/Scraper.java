@@ -50,8 +50,8 @@ public class Scraper {
         }
         else if(type.equals("Music")){
             String artist = data.get(4);
-            Music music = new Music(title, artist, format, year, type);
-            return music.getJSONFile();
+            Music music = new Music(title, artist, format, year, type, genre);
+            return music.getJSONObject();
         }
         else if(type.equals("Books")){
             List<String> authors = Arrays.asList(data.get(4).split(", "));

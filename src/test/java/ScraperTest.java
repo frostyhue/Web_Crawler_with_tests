@@ -53,8 +53,8 @@ public class ScraperTest {
         String word = "Elvis Forever";
         Scraper scraper = new Scraper(url, word);
 
-        Music musicObj = new Music("Elvis Forever", "Elvis Presley", "Vinyl", "2015", "Music");
-        JSONObject expected = musicObj.getJSONFile();
+        Music musicObj = new Music("Elvis Forever", "Elvis Presley", "Vinyl", "2015", "Music", "Rock");
+        JSONObject expected = musicObj.getJSONObject();
 
         assertEquals(expected, scraper.getResultAsJSON());
     }
