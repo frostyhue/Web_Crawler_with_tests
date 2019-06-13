@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="117ce1db-a74e-4ce9-b7f8-40d347dbcb62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MovieTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="374">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#344#345#0" expanded="true" />
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MovieTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+            <state relative-caret-position="599">
+              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -289,7 +289,7 @@
       <workItem from="1557344373449" duration="1196000" />
       <workItem from="1558010382538" duration="3825000" />
       <workItem from="1558297133319" duration="848000" />
-      <workItem from="1560422640840" duration="1215000" />
+      <workItem from="1560422640840" duration="1729000" />
     </task>
     <task id="LOCAL-00001" summary="Initial empty project">
       <created>1557071413756</created>
@@ -396,19 +396,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560423390846</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Test added checking if the JSONObject returned is in the correct format and the correct parameters are returned, test fails">
+      <created>1560424057914</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560424057914</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 11m 54s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 17m 44s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpiderLegTest - 2019.05.16 at 15h 19m 22s.xml">
-      <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="SpiderLegTest - 2019.05.16 at 15h 35m 00s.xml">
       <configuration name="SpiderLegTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -430,9 +428,18 @@
     <history-entry file="MovieTest_asserIf_MovieObject_inheritsFromJSONBase - 2019.06.13 at 12h 48m 08s.xml">
       <configuration name="MovieTest.asserIf_MovieObject_inheritsFromJSONBase" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MovieTest_assertIf_MovieObject_getJSONObjectReturnsProperJson - 2019.06.13 at 13h 05m 09s.xml">
+      <configuration name="MovieTest.assertIf_MovieObject_getJSONObjectReturnsProperJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieTest_assertIf_MovieObject_getJSONObjectReturnsProperJson - 2019.06.13 at 13h 06m 24s.xml">
+      <configuration name="MovieTest.assertIf_MovieObject_getJSONObjectReturnsProperJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieTest_assertIf_MovieObject_getJSONObjectReturnsProperJson - 2019.06.13 at 13h 06m 47s.xml">
+      <configuration name="MovieTest.assertIf_MovieObject_getJSONObjectReturnsProperJson" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26739000" />
+    <option name="totallyTimeSpent" value="27253000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -466,7 +473,7 @@
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -503,7 +510,8 @@
     <MESSAGE value="Test method added to MovieTest that checks if Movie object is instance of JSONBase, test fails" />
     <MESSAGE value="Functionality added to Movie class, test passes" />
     <MESSAGE value="Added more parameters to Movie, constructor extended, added getters for each parameter, test refactored to match these changes, tests pass." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more parameters to Movie, constructor extended, added getters for each parameter, test refactored to match these changes, tests pass." />
+    <MESSAGE value="Test added checking if the JSONObject returned is in the correct format and the correct parameters are returned, test fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test added checking if the JSONObject returned is in the correct format and the correct parameters are returned, test fails" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_crawler$SpiderLegTest.ic" NAME="SpiderLegTest Coverage Results" MODIFIED="1558010593162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -589,20 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MovieTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="374">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
@@ -615,6 +613,16 @@
             <element signature="e#574#575#0" expanded="true" />
             <element signature="e#606#607#0" expanded="true" />
             <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MovieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
