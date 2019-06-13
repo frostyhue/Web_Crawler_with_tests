@@ -1,3 +1,5 @@
+import org.json.simple.JSONObject;
+
 import java.util.List;
 
 public class Movie extends JSONBase {
