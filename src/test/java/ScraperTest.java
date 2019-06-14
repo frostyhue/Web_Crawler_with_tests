@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertEquals;
 
 public class ScraperTest {
@@ -19,7 +21,7 @@ public class ScraperTest {
         String word = "Lord of The Rings";
         Scraper scraper = new Scraper(url, word);
 
-        assertEquals(scraper.getUrl(), "http://i358097.hera.fhict.nl/details.php?id=203");
+        assertThat("URL returned by the scraper where the word was found is the same as the expected one!",scraper.getUrl(), equalTo("http://i358097.hera.fhict.nl/details.php?id=203"));
     }
 
     @Test
@@ -74,6 +76,6 @@ public class ScraperTest {
 
         Book bookObj = new Book("A Design Patterns: Elements of Reusable Object-Oriented Software","Books", "Tech", "Paperback", "1994", authors, "Prentice Hall", "978-0201633610");;
 
-        assertEquals(bookObj.getAsJSONObject(), scraper.getResultAsJSON());
+        assertThat("Both JSONObjects are the same!",bookObj.getAsJSONObject(), equalTo(scraper.getResultAsJSON()));
     }
 }

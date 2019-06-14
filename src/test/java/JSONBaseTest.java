@@ -18,7 +18,6 @@ public class JSONBaseTest {
     @Test
     public void assertJSONBase_IsAbstractClass(){
         boolean isAbstract = Modifier.isAbstract(JSONBase.class.getModifiers());
-
         assertTrue(isAbstract);
     }
 
