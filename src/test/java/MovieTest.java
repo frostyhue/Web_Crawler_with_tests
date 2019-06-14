@@ -33,7 +33,7 @@ public class MovieTest {
      * Test if JSON object returned matches parameters
      */
     @Test
-    public void assertIf_MovieObject_getJSONObjectReturnsProperJson(){
+    public void assertIf_MovieObject_getAsJSONObjectReturnsProperJson(){
         String genre = "fantasy";
         String format = "DVD";
         String year = "2019";
@@ -47,7 +47,7 @@ public class MovieTest {
 
         Movie movieObj = new Movie(genre,format,year,title,director,category, writersList, starsList);
 
-        JSONObject result = movieObj.getJSONObject();
+        JSONObject result = movieObj.getAsJSONObject();
 
         assertEquals(result.get("genre"), genre);
         assertEquals(result.get("format"), format);
@@ -82,14 +82,14 @@ public class MovieTest {
     }
 
     /**
-     * Parameterised test method checking if getJSONObject return proper parameters.
+     * Parameterised test method checking if getAsJSONObject return proper parameters.
      */
     @Test()
     @Parameters(method = "getMovieParams")
-    public void assertIf_MovieObject_getJSONObjectReturnsProperJsonParameterisedTests(String genre, String format, String year, String title, String director, String category, List<String> starsList, List<String> writersList){
+    public void assertIf_MovieObject_getAsJSONObjectReturnsProperJsonParameterisedTests(String genre, String format, String year, String title, String director, String category, List<String> starsList, List<String> writersList){
         Movie movieObj = new Movie(genre,format,year,title,director,category, writersList, starsList);
 
-        JSONObject result = movieObj.getJSONObject();
+        JSONObject result = movieObj.getAsJSONObject();
 
         assertEquals(result.get("genre"), genre);
         assertEquals(result.get("format"), format);

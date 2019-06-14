@@ -62,20 +62,20 @@ public class JSONBaseTest {
      * Checking if the method exists and returns a JSONObject.
      */
     @Test
-    public void assertIf_getJSONObject_IsReturningJSONObject(){
+    public void assertIf_getAsJSONObject_IsReturningJSONObject(){
         JSONBase mockObj = Mockito.mock(JSONBase.class);
         JSONObject testJson= new JSONObject();
-        Mockito.when(mockObj.getJSONObject()).thenReturn(testJson);
+        Mockito.when(mockObj.getAsJSONObject()).thenReturn(testJson);
 
-        assertTrue(mockObj.getJSONObject() instanceof JSONObject);
+        assertTrue(mockObj.getAsJSONObject() instanceof JSONObject);
     }
 
     @Test
-    public void assertIf_getJSONObject_IsNotNull(){
+    public void assertIf_getAsJSONObject_IsNotNull(){
         JSONBase mockObj = Mockito.mock(JSONBase.class);
         JSONObject testJson= new JSONObject();
-        Mockito.when(mockObj.getJSONObject()).thenReturn(testJson);
+        Mockito.when(mockObj.getAsJSONObject()).thenReturn(testJson);
 
-        assertNotNull(mockObj.getJSONObject());
+        assertNotNull(mockObj.getAsJSONObject());
     }
 }

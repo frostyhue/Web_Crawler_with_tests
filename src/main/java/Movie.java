@@ -38,7 +38,7 @@ public class Movie extends JSONBase {
     }
 
     @Override
-    public JSONObject getJSONObject(){
+    public JSONObject getAsJSONObject(){
         JSONObject obj = new JSONObject();
         obj.put("genre", getGenre());
         obj.put("title", getTitle());

@@ -43,6 +43,6 @@ public class BookTest {
         //act
 
         //assert
-        assertEquals("{\"year\":\"year\",\"isbn\":\"isbn\",\"genre\":\"genre\",\"format\":\"format\",\"publisher\":\"publisher\",\"title\":\"title\",\"category\":\"category\",\"authors\":[]}", book.getJSONObject().toJSONString());
+        assertEquals("{\"year\":\"year\",\"isbn\":\"isbn\",\"genre\":\"genre\",\"format\":\"format\",\"publisher\":\"publisher\",\"title\":\"title\",\"category\":\"category\",\"authors\":[]}", book.getAsJSONObject().toJSONString());
     }
 }

@@ -46,19 +46,19 @@ public class Scraper {
             List<String> writers = Arrays.asList(data.get(5).split(", "));
             List<String> stars = Arrays.asList(data.get(6).split(", "));
             Movie movie = new Movie(genre, format, year, title, director, type, writers, stars);
-            return movie.getJSONObject();
+            return movie.getAsJSONObject();
         }
         else if(type.equals("Music")){
             String artist = data.get(4);
             Music music = new Music(title, artist, format, year, type, genre);
-            return music.getJSONObject();
+            return music.getAsJSONObject();
         }
         else if(type.equals("Books")){
             List<String> authors = Arrays.asList(data.get(4).split(", "));
             String publisher = data.get(5);
             String ISBN = data.get(6);
             Book book = new Book(title,type, genre, format, year, authors, publisher, ISBN);
-            return book.getJSONObject();
+            return book.getAsJSONObject();
         }
         return null;
     }
