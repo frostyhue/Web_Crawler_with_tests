@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static junitparams.JUnitParamsRunner.$;
+import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.*;
 
 @RunWith(JUnitParamsRunner.class)
@@ -26,7 +27,7 @@ public class MovieTest {
         writersList.add("Writer");
         Movie movieObj = new Movie("fantasy", "DVD", "2019", "Lord Of The Rings", "John Wick", "Fantasy", writersList, starsList );
 
-        assertTrue(movieObj instanceof JSONBase);
+        assertThat("The movieObj extends class JSONBase.", movieObj instanceof JSONBase, equalTo(true));
     }
 
     /**
@@ -49,14 +50,14 @@ public class MovieTest {
 
         JSONObject result = movieObj.returnAsObj();
 
-        assertEquals(result.get("genre"), genre);
-        assertEquals(result.get("format"), format);
-        assertEquals(result.get("year"), year);
-        assertEquals(result.get("title"), title);
-        assertEquals(result.get("director"), director);
-        assertEquals(result.get("category"), category);
-        assertEquals(result.get("writers"), writersList);
-        assertEquals(result.get("stars"), starsList);
+        assertThat("Genre parameter from JSONObject returns expected value.",result.get("genre"), equalTo(genre));
+        assertThat("Format parameter from JSONObject returns expected value.",result.get("format"), equalTo(format));
+        assertThat("Year parameter from JSONObject returns expected value.",result.get("year"), equalTo(year));
+        assertThat("Title parameter from JSONObject returns expected value.",result.get("title"), equalTo(title));
+        assertThat("Director parameter from JSONObject returns expected value.",result.get("director"), equalTo(director));
+        assertThat("Category parameter from JSONObject returns expected value.",result.get("category"), equalTo(category));
+        assertThat("Writers parameter from JSONObject returns expected value.",result.get("writers"), equalTo(writersList));
+        assertThat("Stars parameter from JSONObject returns expected value.",result.get("stars"), equalTo(starsList));
     }
 
     /**
@@ -91,13 +92,13 @@ public class MovieTest {
 
         JSONObject result = movieObj.returnAsObj();
 
-        assertEquals(result.get("genre"), genre);
-        assertEquals(result.get("format"), format);
-        assertEquals(result.get("year"), year);
-        assertEquals(result.get("title"), title);
-        assertEquals(result.get("director"), director);
-        assertEquals(result.get("category"), category);
-        assertEquals(result.get("writers"), writersList);
-        assertEquals(result.get("stars"), starsList);
+        assertEquals("Genre parameter from JSONObject returns expected value.",result.get("genre"), genre);
+        assertEquals("Format parameter from JSONObject returns expected value.",result.get("format"), format);
+        assertEquals("Year parameter from JSONObject returns expected value.", result.get("year"), year);
+        assertEquals("Title parameter from JSONObject returns expected value.",result.get("title"), title);
+        assertEquals("Director parameter from JSONObject returns expected value.",result.get("director"), director);
+        assertEquals("Category parameter from JSONObject returns expected value.", result.get("category"), category);
+        assertEquals("Writers parameter from JSONObject returns expected value.", result.get("writers"), writersList);
+        assertEquals("Stars parameter from JSONObject returns expected value." ,result.get("stars"), starsList);
     }
 }
