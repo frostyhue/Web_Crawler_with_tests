@@ -37,7 +37,7 @@ public class Book extends JSONBase{
     }
 
     @Override
-    public JSONObject getAsJSONObject(){
+    public JSONObject returnAsObj(){
         JSONObject obj = new JSONObject();
         obj.put("title", this.title);
         obj.put("category", this.category);

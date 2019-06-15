@@ -30,7 +30,7 @@ public class Music extends JSONBase {
     }
 
     @Override
-    public JSONObject getAsJSONObject()
+    public JSONObject returnAsObj()
     {
         JSONObject obj = new JSONObject();
         obj.put("title", this.title);

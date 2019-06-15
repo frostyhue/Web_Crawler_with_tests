@@ -23,7 +23,7 @@ public abstract class JSONBase {
         return format;
     }
 
-    public JSONObject getAsJSONObject(){
+    public JSONObject returnAsObj(){
         JSONObject obj = new JSONObject();
 //        obj.put("genre", this.getGenre());
 //        obj.put("format", this.getFormat());

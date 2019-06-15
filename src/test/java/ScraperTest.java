@@ -43,7 +43,7 @@ public class ScraperTest {
         stars.add("Stephen Root");
 
         Movie movieObj = new Movie("Drama","Blu-ray","2001","The Lord of the Rings: The Fellowship of the Ring", "Peter Jackson", "Movies",writers, stars);
-        JSONObject expected = movieObj.getAsJSONObject();
+        JSONObject expected = movieObj.returnAsObj();
 
         assertEquals(expected, scraper.getResultAsJSON());
     }
@@ -55,7 +55,7 @@ public class ScraperTest {
         Scraper scraper = new Scraper(url, word);
 
         Music musicObj = new Music("Elvis Forever", "Elvis Presley", "Vinyl", "2015", "Music", "Rock");
-        JSONObject expected = musicObj.getAsJSONObject();
+        JSONObject expected = musicObj.returnAsObj();
 
         assertEquals(expected, scraper.getResultAsJSON());
     }
@@ -74,6 +74,6 @@ public class ScraperTest {
 
         Book bookObj = new Book("A Design Patterns: Elements of Reusable Object-Oriented Software","Books", "Tech", "Paperback", "1994", authors, "Prentice Hall", "978-0201633610");;
 
-        assertEquals(bookObj.getAsJSONObject(), scraper.getResultAsJSON());
+        assertEquals(bookObj.returnAsObj(), scraper.getResultAsJSON());
     }
 }
