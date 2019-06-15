@@ -1,5 +1,8 @@
+import com.anarsoft.vmlens.concurrent.junit.ConcurrentTestRunner;
+import com.anarsoft.vmlens.concurrent.junit.ThreadCount;
 import org.json.simple.JSONObject;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 
@@ -11,11 +14,15 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertEquals;
 
+@RunWith(ConcurrentTestRunner.class)
 public class ScraperTest {
+
+    private final static int THREAD_COUNT = 5;
     /**
      * Method asserts if when an obj of type Scraper is instantiated, the url of the object is returned by the Spider.
      */
     @Test
+    @ThreadCount(THREAD_COUNT)
     public void assertIf_WhenScraperObjInstantiated_UrlIsSet(){
         String url = "http://i358097.hera.fhict.nl/";
         String word = "Lord of The Rings";
@@ -25,6 +32,7 @@ public class ScraperTest {
     }
 
     @Test
+    @ThreadCount(THREAD_COUNT)
     public void assertIf_getResultAsJSON_ReturnsMovieAsProperJSONObject() throws IOException {
         String url = "http://i358097.hera.fhict.nl/";
         String word = "Lord of The Rings";
@@ -47,10 +55,11 @@ public class ScraperTest {
         Movie movieObj = new Movie("Drama","Blu-ray","2001","The Lord of the Rings: The Fellowship of the Ring", "Peter Jackson", "Movies",writers, stars);
         JSONObject expected = movieObj.returnAsObj();
 
-        assertEquals(expected, scraper.getResultAsJSON());
+        assertThat("Both JSONObjects are the same!", expected, equalTo(scraper.getResultAsJSON()));
     }
 
     @Test
+    @ThreadCount(THREAD_COUNT)
     public void assertIf_getResultAsJSON_ReturnsMusicAsProperJSONObject() throws IOException {
         String url = "http://i358097.hera.fhict.nl/";
         String word = "Elvis Forever";
@@ -59,10 +68,11 @@ public class ScraperTest {
         Music musicObj = new Music("Elvis Forever", "Elvis Presley", "Vinyl", "2015", "Music", "Rock");
         JSONObject expected = musicObj.returnAsObj();
 
-        assertEquals(expected, scraper.getResultAsJSON());
+        assertThat("Both JSONObjects are the same!", expected, equalTo(scraper.getResultAsJSON()));
     }
 
     @Test
+    @ThreadCount(THREAD_COUNT)
     public void assertIf_getResultAsJSON_ReturnsBookAsProperJSONObject() throws IOException {
         String url = "http://i358097.hera.fhict.nl/";
         String word = "A Design Patterns: Elements of Reusable Object-Oriented Software";
@@ -76,6 +86,6 @@ public class ScraperTest {
 
         Book bookObj = new Book("A Design Patterns: Elements of Reusable Object-Oriented Software","Books", "Tech", "Paperback", "1994", authors, "Prentice Hall", "978-0201633610");;
 
-        assertEquals(bookObj.returnAsObj(), scraper.getResultAsJSON());
+        assertThat("Both JSONObjects are the same!", bookObj.returnAsObj(), equalTo(scraper.getResultAsJSON()));
     }
 }

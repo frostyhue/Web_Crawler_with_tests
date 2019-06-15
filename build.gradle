@@ -37,4 +37,7 @@ dependencies {
     compile group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.1.1'
 
     implementation fileTree(dir: 'lib/jersey', include: ['*.jar'])
+
+    // https://mvnrepository.com/artifact/com.vmlens/concurrent-junit
+    testCompile group: 'com.vmlens', name: 'concurrent-junit', version: '1.0.2'
 }
