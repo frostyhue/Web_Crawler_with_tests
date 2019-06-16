@@ -15,8 +15,11 @@ dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     implementation 'com.google.guava:guava:26.0-jre'
 
+    implementation fileTree(dir: 'lib/jersey', include: ['*.jar'])
+    
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+
 
     compile 'org.hamcrest:hamcrest-core:2.1-rc3'
 

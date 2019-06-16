@@ -25,9 +25,9 @@ public abstract class JSONBase {
 
     public JSONObject returnAsObj(){
         JSONObject obj = new JSONObject();
-//        obj.put("genre", this.getGenre());
-//        obj.put("format", this.getFormat());
-//        obj.put("year", this.getYear());
+        obj.put("genre", this.getGenre());
+        obj.put("format", this.getFormat());
+        obj.put("year", this.getYear());
         return obj;
     }
 }

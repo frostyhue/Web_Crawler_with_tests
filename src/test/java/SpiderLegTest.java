@@ -158,12 +158,24 @@ public class SpiderLegTest {
      * It asserts that the method returns true
      * when the url is provided to it.
      */
+
+    private static final Object[] crawMethod()
+    {
+        return $(
+                $("https://www.google.com"),
+                $("https://www.facebook.com"),
+                $("https://www.amazon.com")
+        );
+    }
+
     @Test
-    public void testCrawlMethod() {
+    @Parameters(method = "crawMethod")
+    public void testCrawlMethod(String url) {
         //arrange
         SpiderLeg leg = new SpiderLeg();
         //act
-        String url = "https://www.google.com";
+           //Url is now a parameter.
+           //String url = "https://www.google.com";
         //assert
         assertEquals(true, leg.crawl(url));
     }

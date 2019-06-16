@@ -9,7 +9,7 @@ public class Publisher {
     {
         int port = 1010;
         URI baseUri = UriBuilder.fromUri("http://localhost/").port(port).build();
-        ResourceConfig resourceConfig = new ResourceConfig(MovieResources.class);
+        ResourceConfig resourceConfig = new ResourceConfig(JSONResources.class);
         JdkHttpServerFactory.createHttpServer(baseUri, resourceConfig, true);
         System.out.println("Hosting at " + baseUri.toString());
     }
