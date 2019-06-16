@@ -16,7 +16,7 @@ public class JSONResources {
     @GET
     @Path("searchCatalog/{title}")
     @Produces({MediaType.APPLICATION_JSON})
-    public JSONObject getMovieJson(@PathParam("title") String title)
+    public JSONObject getTitleJson(@PathParam("title") String title)
     {
         JSONObject result;
         Scraper scraper = new Scraper("http://i358097.hera.fhict.nl/", title);
@@ -29,9 +29,7 @@ public class JSONResources {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        JSONObject errorObject = new JSONObject();
-        errorObject.put("response", "ERROR TITLE NOT FOUND!");
-        return errorObject;
+        return null;
     }
 
 }
