@@ -21,12 +21,14 @@ public class MovieTest {
      */
     @Test
     public void asserIf_MovieObject_inheritsFromJSONBase(){
+        //arrange
         List<String> starsList = new ArrayList<>();
         List<String> writersList = new ArrayList<>();
+        //act
         starsList.add("asd");
         writersList.add("Writer");
         Movie movieObj = new Movie("fantasy", "DVD", "2019", "Lord Of The Rings", "John Wick", "Fantasy", writersList, starsList );
-
+        //assert
         assertThat("The movieObj extends class JSONBase.", movieObj instanceof JSONBase, equalTo(true));
     }
 
@@ -35,6 +37,7 @@ public class MovieTest {
      */
     @Test
     public void assertIf_MovieObject_returnAsObjReturnsProperJson(){
+        //arrange
         String genre = "fantasy";
         String format = "DVD";
         String year = "2019";
@@ -43,13 +46,14 @@ public class MovieTest {
         String category = "fantasy";
         List<String> starsList = new ArrayList<>();
         List<String> writersList = new ArrayList<>();
+        //act
         starsList.add("star");
         writersList.add("writer");
 
         Movie movieObj = new Movie(genre,format,year,title,director,category, writersList, starsList);
 
         JSONObject result = movieObj.returnAsObj();
-
+        //assert
         assertThat("Genre parameter from JSONObject returns expected value.",result.get("genre"), equalTo(genre));
         assertThat("Format parameter from JSONObject returns expected value.",result.get("format"), equalTo(format));
         assertThat("Year parameter from JSONObject returns expected value.",result.get("year"), equalTo(year));
@@ -88,10 +92,13 @@ public class MovieTest {
     @Test()
     @Parameters(method = "getMovieParams")
     public void assertIf_MovieObject_returnAsObjReturnsProperJsonParameterisedTests(String genre, String format, String year, String title, String director, String category, List<String> starsList, List<String> writersList){
+        //arrange
+        //act
+            //url and word are the parameters that are for the act step ase parameters are used!
         Movie movieObj = new Movie(genre,format,year,title,director,category, writersList, starsList);
 
         JSONObject result = movieObj.returnAsObj();
-
+        //assert
         assertEquals("Genre parameter from JSONObject returns expected value.",result.get("genre"), genre);
         assertEquals("Format parameter from JSONObject returns expected value.",result.get("format"), format);
         assertEquals("Year parameter from JSONObject returns expected value.", result.get("year"), year);

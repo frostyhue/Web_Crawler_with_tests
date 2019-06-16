@@ -31,7 +31,9 @@ public class SpiderLegTest {
      */
     @Test
     public void assertIfTheTypeInstancedIsLinkedList() {
+        //arrange
         SpiderLeg leg = new SpiderLeg();
+        //assert
         assertTrue(leg.getUrls().isEmpty());
     }
 
@@ -71,9 +73,12 @@ public class SpiderLegTest {
     @Test
     @Parameters(method = "getUrlWordFalse")
     public void assertSearchForWordReturnsFalseWhenWordNotFound(String url, String word){
-
+        //arrange
         SpiderLeg leg = new SpiderLeg();
         leg.crawl(url);
+        //act
+            //url and word are the parameters that are for the act step ase parameters are used!
+        //assert
         assertFalse(leg.searchForWord(word));
     }
 
@@ -115,8 +120,12 @@ public class SpiderLegTest {
     @Test
     @Parameters(method = "getUrlWordTrue")
     public void assertSearchForWordReturnsTrueWhenWordFound(String url, String word){
+        //arrange
         SpiderLeg leg = new SpiderLeg();
         leg.crawl(url);
+        //act
+        //url and word are the parameters that are for the act step ase parameters are used!
+        //assert
         assertTrue(leg.searchForWord(word));
     }
     /**
@@ -124,8 +133,11 @@ public class SpiderLegTest {
      */
     @Test
     public void assertSearchForWordIfChecksForEmptyDoc(){
+        //arrange
         SpiderLeg leg = new SpiderLeg();
+        //act
         String word = "any word";
+        //assert
         assertFalse(leg.searchForWord(word));
     }
 
@@ -145,12 +157,13 @@ public class SpiderLegTest {
      */
     @Test
     public void assertIf_crawl_AddsUrls(){
+        //arrange
         SpiderLeg s = new SpiderLeg();
 
         String url = "http://i358097.hera.fhict.nl/catalog";
-
+        //act
         boolean result = s.crawl(url);
-
+        //assert
         assertFalse(result);
     }
     /**

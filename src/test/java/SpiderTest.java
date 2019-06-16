@@ -177,8 +177,11 @@ public class SpiderTest {
     @Test
     @Parameters(method = "urlWordFoundUrl")
     public void assertIfUrlFoundMatches(String url, String word, String returnedUrl){
+        //arrange
+        //act
+        //url and word are the parameters that are for the act step ase parameters are used!
         spider.search(url, word);
-
+        //assert
         assertEquals(returnedUrl, spider.getUrlFound());
     }
 
@@ -191,11 +194,14 @@ public class SpiderTest {
     @Test
     @Parameters(method = "urlWordFoundUrl")
     public void assertMockedIfUrlFoundMatches(String url, String word, String returnedUrl){
+        //arrange
+        //act
+            //url and word are the parameters that are for the act step ase parameters are used!
         Spider s = Mockito.mock(Spider.class);
         s.search(url, word);
 
         Mockito.when(s.getUrlFound()).thenReturn(returnedUrl);
-
+        //assert
         assertTrue(s.getUrlFound() == returnedUrl);
     }
 

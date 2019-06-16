@@ -34,6 +34,7 @@ public class ScraperTest {
     @Test
     @ThreadCount(THREAD_COUNT)
     public void assertIf_getResultAsJSON_ReturnsMovieAsProperJSONObject() throws IOException {
+        //arrange
         String url = "http://i358097.hera.fhict.nl/";
         String word = "Lord of The Rings";
         Scraper scraper = new Scraper(url, word);
@@ -51,29 +52,31 @@ public class ScraperTest {
         stars.add("Ajay Naidu");
         stars.add("Diedrich Bader");
         stars.add("Stephen Root");
-
+        //act
         Movie movieObj = new Movie("Drama","Blu-ray","2001","The Lord of the Rings: The Fellowship of the Ring", "Peter Jackson", "Movies",writers, stars);
         JSONObject expected = movieObj.returnAsObj();
-
+        //assert
         assertThat("Both JSONObjects are the same!", expected, equalTo(scraper.getResultAsJSON()));
     }
 
     @Test
     @ThreadCount(THREAD_COUNT)
     public void assertIf_getResultAsJSON_ReturnsMusicAsProperJSONObject() throws IOException {
+        //arrange
         String url = "http://i358097.hera.fhict.nl/";
         String word = "Elvis Forever";
         Scraper scraper = new Scraper(url, word);
-
+        //act
         Music musicObj = new Music("Elvis Forever", "Elvis Presley", "Vinyl", "2015", "Music", "Rock");
         JSONObject expected = musicObj.returnAsObj();
-
+        //assert
         assertThat("Both JSONObjects are the same!", expected, equalTo(scraper.getResultAsJSON()));
     }
 
     @Test
     @ThreadCount(THREAD_COUNT)
     public void assertIf_getResultAsJSON_ReturnsBookAsProperJSONObject() throws IOException {
+        //arrange
         String url = "http://i358097.hera.fhict.nl/";
         String word = "A Design Patterns: Elements of Reusable Object-Oriented Software";
         Scraper scraper = new Scraper(url, word);
@@ -83,9 +86,9 @@ public class ScraperTest {
         authors.add("Richard Helm");
         authors.add("Ralph Johnson");
         authors.add("John Vlissides");
-
+        //act
         Book bookObj = new Book("A Design Patterns: Elements of Reusable Object-Oriented Software","Books", "Tech", "Paperback", "1994", authors, "Prentice Hall", "978-0201633610");;
-
+        //assert
         assertThat("Both JSONObjects are the same!", bookObj.returnAsObj(), equalTo(scraper.getResultAsJSON()));
     }
 }
